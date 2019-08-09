@@ -1,7 +1,7 @@
 
-1.  **Start developing.**
+## **Start developing.**
 
-Run the app ```npm start```
+Run the app: ```npm start```
 
 ## 🧐 What's inside?
 

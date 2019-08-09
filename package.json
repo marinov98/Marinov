@@ -23,8 +23,7 @@
         "develop": "gatsby develop",
         "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
         "start": "npm run develop",
-        "serve": "gatsby serve",
-        "lint": "eslint --ignore-path .gitignore **/*.js*"
+        "serve": "gatsby serve"
     },
     "repository": {
         "type": "git"

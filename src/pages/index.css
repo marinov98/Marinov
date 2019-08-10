@@ -30,7 +30,7 @@ h3 {
             to(rgba(0, 0, 0, 0.7))
         ),
         url('../images/homepic.jpeg');
-    background-image: linear-gradient(rgba(51, 51, 51, 0.7), rgba(31, 30, 30, 0.7)),
+    background-image: linear-gradient(rgba(49, 49, 49, 0.7), rgba(31, 30, 30, 0.7)),
         url('../images/homepic.jpeg');
     background-size: cover;
     background-position: center;

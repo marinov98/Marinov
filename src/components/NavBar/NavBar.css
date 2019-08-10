@@ -1,0 +1,67 @@
+/*  Main - nav*/
+.navName {
+    color: black;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 80px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 6px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid;
+    transition: border-bottom 0.8s, color 0.5s, font-size 0.5s;
+}
+
+.main-nav li a:active,
+.main-nav li a:hover {
+    border-bottom: 2px solid #f51e30;
+    font-size: 20px;
+}
+
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(224, 221, 221, 0.98);
+    box-shadow: 0 2px 2px #acaaaa;
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+    transition: border-bottom 0.8s, color 0.5s;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: rgb(49, 49, 49);
+}
+
+.sticky .main-nav li a:active,
+.sticky .main-nav li a:hover {
+    color: #75131b;
+}
+
+/* ICONS */
+.connectIcons {
+    margin-left: 80px;
+}

@@ -10,6 +10,7 @@ const IndexPage = () => (
         </div>
         <h1 style={{ marginTop: '70px' }}>Hello and Welcome to my Website!</h1>
         <h3>My name is 🅜🅐🅡🅘🅝 🅟. 🅜🅐🅡🅘🅝🅞🅥</h3>
+        <footer className="row-fluid"></footer>
     </div>
 );
 

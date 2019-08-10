@@ -1,12 +1,25 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import './Skills.css';
+import './../About/About.css';
 
 export default class Skills extends Component {
-    static propTypes = {
-        prop: PropTypes
-    };
-
     render() {
-        return <div></div>;
+        return (
+            <div id="skills" className="row-fluid">
+                <h3 className="title">Skills</h3>
+                <div className="row skillRow">
+                    <h5> Programming Languages:</h5>
+                </div>
+                <div className="row skillRow">
+                    <h5>FrameWorks/Libraries/Runtime Environments:</h5>
+                </div>
+                <div className="row skillRow">
+                    <h5>Database(s):</h5>
+                </div>
+                <div className="row skillRow">
+                    <h5>Other Software:</h5>
+                </div>
+            </div>
+        );
     }
 }

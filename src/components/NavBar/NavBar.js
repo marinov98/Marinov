@@ -8,7 +8,7 @@ import MdMail from 'react-ionicons/lib/MdMail';
 
 function NavBar() {
     return (
-        <div>
+        <div id="navbar">
             <nav className="sticky">
                 <div className="row">
                     <h3 className="navName">𝔐𝔞𝔯𝔦𝔫𝔬𝔳</h3>

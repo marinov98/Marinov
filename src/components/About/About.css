@@ -1,0 +1,56 @@
+#about img {
+    border-radius: 75%;
+    margin-bottom: 10px;
+}
+
+.aboutMe {
+    opacity: 0.8;
+    background-color: rgba(224, 221, 221, 0.98);
+    position: relative;
+    color: black;
+}
+
+.aboutMe:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px rgba(175, 174, 174, 0.98);
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+/* FANCY LINES */
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+}
+.fancy span {
+    display: inline-block;
+    position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    top: 0;
+    width: 200px;
+}
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}

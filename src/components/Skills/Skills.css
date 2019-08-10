@@ -1,0 +1,12 @@
+#skills {
+    background: azure;
+    color: black;
+}
+
+.title {
+    padding-top: 50px;
+}
+
+.skillRow {
+    margin: 25px;
+}

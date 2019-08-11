@@ -1,6 +1,6 @@
 # My Personal Website
 
-Tech Stack: Gatsby.js
+Tech Stack: [Gatsby.js](https://www.gatsbyjs.org/)
 
 ## **Getting Started**
 
@@ -9,6 +9,5 @@ Tech Stack: Gatsby.js
 
 ## **Deployement**
 
-Deployed on netlify
-Check out my Website!
-Url: https://mmarinov.netlify.com/
+- Deployed on [netlify](https://www.netlify.com/)
+- Check out my Website: https://mmarinov.netlify.com/

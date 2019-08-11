@@ -17,9 +17,26 @@ import { configureAnchors } from 'react-scrollable-anchor';
 import { Button } from 'reactstrap';
 import { goToTop } from 'react-scrollable-anchor';
 import { removeHash } from 'react-scrollable-anchor';
+import { fadeIn, tada, bounce } from 'react-animations';
+import Radium, { StyleRoot } from 'radium';
+
+const styles = {
+    fadeIn: {
+        animation: 'x 1s',
+        animationName: Radium.keyframes(fadeIn, 'fadeIn')
+    },
+    tada: {
+        animation: 'x 1s',
+        animationName: Radium.keyframes(tada, 'tada')
+    },
+    bounce: {
+        animation: 'x 1s',
+        animationName: Radium.keyframes(bounce, 'bounce')
+    }
+};
 
 export default function IndexPage() {
-    configureAnchors({ offset: -10, scrollDuration: 1000, keepLastAnchorHash: false });
+    configureAnchors({ offset: -10, scrollDuration: 1000, scrollUrlHashUpdate: false });
     return (
         // NAVBAR
         <div id="index">
@@ -32,7 +49,7 @@ export default function IndexPage() {
                                 <a href="#gotoAbout">About Me</a>
                             </li>
                             <li>
-                                <a href="#gotoSkills">Skills</a>
+                                <a href="#gotosummary">Skills</a>
                             </li>
                             <li>
                                 <a href="#gotoProjects">Projects</a>
@@ -61,14 +78,19 @@ export default function IndexPage() {
 
             <h1 style={{ marginTop: '72px' }}> 🅜🅐🅡🅘🅝 🅟. 🅜🅐🅡🅘🅝🅞🅥</h1>
             <ScrollableAnchor id={'gotoAbout'}>
-                <About />
+                <StyleRoot>
+                    <div style={styles.tada}>
+                        <About />
+                    </div>
+                </StyleRoot>
             </ScrollableAnchor>
             <div className="row-fluid skills-separator">
                 <h5>Technical Summary</h5>
             </div>
-            <ScrollableAnchor id={'gotoSkills'}>
-                <Skills />
+            <ScrollableAnchor id={'gotosummary'}>
+                <div style={{ listStyle: 'none' }}></div>
             </ScrollableAnchor>
+            <Skills />
             <ScrollableAnchor id={'gotoProjects'}>
                 <div className="row-fluid projects-separator">
                     <h5>Most Recent Projects</h5>

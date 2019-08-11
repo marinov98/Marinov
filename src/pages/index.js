@@ -78,19 +78,24 @@ export default function IndexPage() {
 
             <h1 style={{ marginTop: '72px' }}> 🅜🅐🅡🅘🅝 🅟. 🅜🅐🅡🅘🅝🅞🅥</h1>
             <ScrollableAnchor id={'gotoAbout'}>
-                <StyleRoot>
-                    <div style={styles.tada}>
-                        <About />
-                    </div>
-                </StyleRoot>
+                <div></div>
             </ScrollableAnchor>
+            <StyleRoot>
+                <div style={styles.tada}>
+                    <About />
+                </div>
+            </StyleRoot>
             <div className="row-fluid skills-separator">
                 <h5>Technical Summary</h5>
             </div>
             <ScrollableAnchor id={'gotosummary'}>
                 <div style={{ listStyle: 'none' }}></div>
             </ScrollableAnchor>
-            <Skills />
+            <StyleRoot>
+                <div style={styles.fadeIn}>
+                    <Skills />
+                </div>
+            </StyleRoot>
             <ScrollableAnchor id={'gotoProjects'}>
                 <div className="row-fluid projects-separator">
                     <h5>Most Recent Projects</h5>

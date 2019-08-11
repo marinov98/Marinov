@@ -11,7 +11,7 @@ function About() {
                 <div className="col-sm-6">
                     <img
                         className="profileimg"
-                        src={require('../../images/ProfilePic.png')}
+                        src={require('../../images/self/ProfilePic.png')}
                         alt="Marin Marinov"
                     />
                 </div>

@@ -7,6 +7,28 @@ export default class Skills extends Component {
         return (
             <div id="skills" className="row-fluid gradient">
                 <div className="row skillRow">
+                    <h5>Markup Languages:</h5>
+                </div>
+                <div className="row">
+                    <ul className="skills-list">
+                        <li className="image-script">
+                            <img
+                                src={require('../../images/skills/html-logo.png')}
+                                alt="html"
+                            ></img>
+                        </li>
+                        <li>
+                            <img src={require('../../images/skills/css-logo.png')} alt="CSS"></img>
+                        </li>
+                        <li>
+                            <img
+                                src={require('../../images/skills/md-logo.png')}
+                                alt="MarkDown"
+                            ></img>
+                        </li>
+                    </ul>
+                </div>
+                <div className="row skillRow">
                     <h5> Programming Languages:</h5>
                 </div>
                 <div className="row">
@@ -42,28 +64,6 @@ export default class Skills extends Component {
                     </ul>
                 </div>
                 <div className="row skillRow">
-                    <h5>Markup Languages:</h5>
-                </div>
-                <div className="row">
-                    <ul className="skills-list">
-                        <li className="image-script">
-                            <img
-                                src={require('../../images/skills/html-logo.png')}
-                                alt="html"
-                            ></img>
-                        </li>
-                        <li>
-                            <img src={require('../../images/skills/css-logo.png')} alt="CSS"></img>
-                        </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/md-logo.png')}
-                                alt="MarkDown"
-                            ></img>
-                        </li>
-                    </ul>
-                </div>
-                <div className="row skillRow">
                     <h5>Frameworks/Libraries/Runtime Environments:</h5>
                 </div>
                 <div className="row">
@@ -84,6 +84,12 @@ export default class Skills extends Component {
                             <img
                                 src={require('../../images/skills/nodejs-512.png')}
                                 alt="node"
+                            ></img>
+                        </li>
+                        <li>
+                            <img
+                                src={require('../../images/skills/express-logo.png')}
+                                alt="express"
                             ></img>
                         </li>
                         <li>
@@ -133,6 +139,53 @@ export default class Skills extends Component {
                             <img
                                 src={require('../../images/skills/office-logo.png')}
                                 alt="office"
+                            ></img>
+                        </li>
+                    </ul>
+                </div>
+                <div className="row skillRow">
+                    <h5>Operating Systems:</h5>
+                </div>
+                <div className="row">
+                    <ul className="skills-list">
+                        <li className="image-script">
+                            <img
+                                src={require('../../images/skills/ubuntu-logo.png')}
+                                alt="ubuntu"
+                            ></img>
+                        </li>
+                        <li>
+                            <img
+                                src={require('../../images/skills/arch-logo.jpg')}
+                                alt="antergos"
+                            ></img>
+                        </li>
+                        <li>
+                            <img src={require('../../images/skills/mac-logo.png')} alt="Mac"></img>
+                        </li>
+                        <li>
+                            <img
+                                src={require('../../images/skills/windows-logo.png')}
+                                alt="Windows"
+                            ></img>
+                        </li>
+                    </ul>
+                </div>
+                <div className="row skillRow">
+                    <h5>Cloud:</h5>
+                </div>
+                <div className="row">
+                    <ul className="skills-list">
+                        <li className="image-script">
+                            <img
+                                src={require('../../images/skills/heroku-logo.png')}
+                                alt="heroku"
+                            ></img>
+                        </li>
+                        <li>
+                            <img
+                                src={require('../../images/skills/netlify-logo.jpg')}
+                                alt="netlify"
                             ></img>
                         </li>
                     </ul>

@@ -1,6 +1,8 @@
 #skills {
-    background: azure;
+    /* background: rgb(53, 143, 143);*/
+    background: rgb(235, 235, 235);
     color: black;
+    padding: 20px;
 }
 
 .title {
@@ -8,5 +10,35 @@
 }
 
 .skillRow {
-    margin: 25px;
+    margin: 5px;
+}
+
+.skills-list {
+    float: left;
+    list-style: none;
+    margin: 5px;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.skills-list img {
+    height: 50%;
+    width: 50%;
+}
+
+.databases {
+    margin-top: 35px;
+}
+
+.databases img {
+    margin-left: 15px;
+    height: 10%;
+    width: 10%;
+}
+
+.gradient {
+    border-bottom: 2px solid rgb(82, 159, 201);
 }

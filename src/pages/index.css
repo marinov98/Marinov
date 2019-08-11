@@ -39,3 +39,63 @@ h3 {
     background-attachment: fixed;
     color: white;
 }
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+/* SEPARATORS */
+
+.skills-separator {
+    position: relative;
+    height: 100px;
+    padding-top: 24px;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+    background: rgb(248, 248, 248);
+    color: black;
+    border-bottom: 1px solid rgb(216, 214, 214);
+}
+
+.skills-separator:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px rgb(255, 255, 255);
+    opacity: 0.8;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}
+
+.projects-separator {
+    position: relative;
+    height: 100px;
+    padding-top: 24px;
+    font-size: 34px;
+    font-weight: 100;
+    text-align: center;
+    background: rgb(94, 172, 215);
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(152, 236, 236);
+}
+
+.projects-separator:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 50px rgb(94, 172, 215);
+    opacity: 0.8;
+    border-left: solid 50px transparent;
+    border-right: solid 50px transparent;
+}

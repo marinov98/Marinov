@@ -1,0 +1,18 @@
+/* ALL PROJECTS */
+#projects {
+    background-color: azure;
+    color: black;
+}
+
+.allProjects {
+    padding: 60px;
+}
+
+.allProjects img {
+    height: 250px;
+    width: 250px;
+}
+
+.instaPet-project img {
+    width: 400px;
+}

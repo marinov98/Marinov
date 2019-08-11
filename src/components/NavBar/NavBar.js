@@ -6,7 +6,7 @@ import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
 import IosPaper from 'react-ionicons/lib/IosPaper';
 import MdMail from 'react-ionicons/lib/MdMail';
 
-function NavBar() {
+export default function NavBar() {
     return (
         <div id="navbar">
             <nav className="sticky">
@@ -45,5 +45,3 @@ function NavBar() {
         </div>
     );
 }
-
-export default NavBar;

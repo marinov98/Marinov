@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 
-function About() {
+export default function About() {
     return (
         <div id="about" className="aboutMe row-fluid">
             <h3 class="subtitle fancy">
@@ -30,5 +30,3 @@ function About() {
         </div>
     );
 }
-
-export default About;

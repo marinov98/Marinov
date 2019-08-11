@@ -111,7 +111,7 @@ export default function IndexPage() {
                         goToTop();
                     }}
                 >
-                    Go to top
+                    ⇧   
                 </Button>
             </footer>
         </div>

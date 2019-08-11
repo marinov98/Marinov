@@ -28,16 +28,10 @@
     width: 50%;
 }
 
-.databases {
-    margin-top: 35px;
-}
-
 .databases img {
     margin-left: 15px;
-    height: 10%;
-    width: 10%;
 }
 
 .gradient {
-    border-bottom: 2px solid rgb(82, 159, 201);
+    border-bottom: 2px solid rgb(180, 39, 39);
 }

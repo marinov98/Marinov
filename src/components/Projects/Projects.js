@@ -3,7 +3,7 @@ import './Projects.css';
 
 export default function Projects() {
     return (
-        <div className="row-fluid gradient" id="projects">
+        <div className="row-fluid" id="projects">
             <div className="row allProjects">
                 <div className="calculator-project col-sm">
                     <h4>Statistical Calculator</h4>

@@ -2,11 +2,13 @@
 
 Tech Stack: Gatsby.js
 
-## **Start developing.**
+## **Getting Started**
 
-install dependencies: `yarn install`
-Run the app: `npm start`
+-   install dependencies: `yarn install`
+-   Run the app: `npm start`
 
 ## **Deployement**
 
 Deployed on netlify
+Check out my Website!
+Url: https://mmarinov.netlify.com/

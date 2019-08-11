@@ -13,9 +13,13 @@ const IndexPage = () => (
         <NavBar />
         <h1 style={{ marginTop: '72px' }}> 🅜🅐🅡🅘🅝 🅟. 🅜🅐🅡🅘🅝🅞🅥</h1>
         <About />
-        <div className="row-fluid skills-separator">Technical Summary</div>
+        <div className="row-fluid skills-separator">
+            <h5>Technical Summary</h5>
+        </div>
         <Skills />
-        <div className="row-fluid projects-separator">Most Recent Projects</div>
+        <div className="row-fluid projects-separator">
+            <h5>Most Recent Projects</h5>
+        </div>
         <Projects />
         <footer className="row-fluid">
             <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>

@@ -29,9 +29,9 @@ h3 {
             from(rgba(27, 27, 27, 0.7)),
             to(rgba(0, 0, 0, 0.7))
         ),
-        url('../images/homepic.jpeg');
+        url('../images/background.jpg');
     background-image: linear-gradient(rgba(49, 49, 49, 0.7), rgba(31, 30, 30, 0.7)),
-        url('../images/homepic.jpeg');
+        url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -8,7 +8,7 @@ export default function Education() {
             <div className="row titles">
                 <div className="col-sm college">
                     <img src={require('../../images/education/hunter-logo.png')}></img>
-                    <h5 className="atitle">Hunter College</h5>
+                    <h5 className="atitle">CUNY Hunter College</h5>
                     <p>
                         {' '}
                         BA Computer Science 2017-2021

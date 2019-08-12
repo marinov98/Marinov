@@ -20,7 +20,7 @@ export default function Projects() {
                     <h4>InstaPet</h4>
                     <a href="https://ttp-instapet.herokuapp.com/login">
                         <img
-                            src={require('../../images/projects/instapet-logo.png')}
+                            src={require('../../images/projects/instapet.png')}
                             alt="InstaPet"
                         ></img>
                     </a>

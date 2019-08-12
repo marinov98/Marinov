@@ -57,8 +57,8 @@ footer {
     font-size: 34px;
     font-weight: 100;
     text-align: center;
-    background: rgb(248, 248, 248);
-    color: black;
+    background: rgb(94, 172, 215);
+    color: white;
     border-bottom: 1px solid rgb(216, 214, 214);
 }
 
@@ -70,7 +70,7 @@ footer {
     margin-left: -50px;
     width: 0;
     height: 0;
-    border-top: solid 50px rgb(248, 248, 248);
+    border-top: solid 50px rgb(94, 172, 215);
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }

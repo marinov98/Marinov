@@ -11,7 +11,7 @@ export default function About() {
                 <div className="col">
                     <img
                         className="profileimg"
-                        src={require('../../images/self/ProfilePic.png')}
+                        src={require('../../images/self/ProfilePic2.png')}
                         alt="Marin Marinov"
                     />
                 </div>

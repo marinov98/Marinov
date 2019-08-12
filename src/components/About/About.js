@@ -8,14 +8,14 @@ export default function About() {
                 <span style={{ marginTop: '20px' }}>About Me</span>
             </h3>
             <div className="row">
-                <div className="col-sm-6">
+                <div className="col">
                     <img
                         className="profileimg"
-                        src={require('../../images/self/ProfilePic.png')}
+                        src={require('../../images/self/ProfilePic2.png')}
                         alt="Marin Marinov"
                     />
                 </div>
-                <div className="col-md-6">
+                <div className="col-sm desc">
                     <p className="description">
                         {' '}
                         Hello and Welcome to my website! My name is Marin. I am currently a student

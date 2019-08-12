@@ -43,7 +43,7 @@ export default function IndexPage() {
             <div id="navbar">
                 <nav className="sticky">
                     <div className="row">
-                        <h3 className="navName">𝔐𝔞𝔯𝔦𝔫𝔬𝔳</h3>
+                        <h3 className="navName">Marin Pavlinov Marinov</h3>
                         <ul className="main-nav ">
                             <li>
                                 <a href="#gotoAbout">About Me</a>
@@ -57,26 +57,26 @@ export default function IndexPage() {
                         </ul>
                         <div className="col connectIcons">
                             <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
-                                <IosPaper fontSize="55px" />
+                                <IosPaper fontSize="42px" />
                             </a>
                             <a href="https://github.com/marinov98">
-                                <LogoGithub fontSize="55px" />
+                                <LogoGithub fontSize="42px" />
                             </a>
                             <a href="https://www.linkedin.com/in/marin-p-marinov/">
-                                <LogoLinkedin fontSize="60px" />
+                                <LogoLinkedin fontSize="47px" />
                             </a>
                             <a href="https://www.facebook.com/profile.php?id=100009602178957">
-                                <LogoFacebook fontSize="60px" />
+                                <LogoFacebook fontSize="47px" />
                             </a>
                             <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">
-                                <MdMail fontSize="60px" beat="true" />
+                                <MdMail fontSize="47px" />
                             </a>
                         </div>
                     </div>
                 </nav>
             </div>
 
-            <h1 style={{ marginTop: '72px' }}> 🅜🅐🅡🅘🅝 🅟. 🅜🅐🅡🅘🅝🅞🅥</h1>
+            <div style={{ marginTop: '12px', visibility: 'hidden' }}>Something</div>
             <ScrollableAnchor id={'gotoAbout'}>
                 <div></div>
             </ScrollableAnchor>
@@ -111,7 +111,7 @@ export default function IndexPage() {
                         goToTop();
                     }}
                 >
-                    ⇧   
+                    ⇧
                 </Button>
             </footer>
         </div>

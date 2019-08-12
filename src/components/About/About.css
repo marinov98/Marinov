@@ -1,11 +1,16 @@
+#about {
+    margin-top: 70px;
+}
+
 #about img {
-    border-radius: 75%;
-    margin-bottom: 10px;
+    border-radius: 70%;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 .aboutMe {
     opacity: 0.8;
-    background-color: rgba(207, 206, 206, 0.98);
+    background-color: rgba(226, 225, 225, 0.98);
     position: relative;
     color: black;
     border-bottom: 1px solid rgba(148, 147, 147, 0.98);
@@ -23,6 +28,11 @@
     opacity: 0.8;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
+}
+
+.desc {
+    margin-right: 60px;
+    text-align: left-justify;
 }
 
 .description {

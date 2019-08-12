@@ -1,8 +1,10 @@
 /*  Main - nav*/
 .navName {
-    color: black;
-    margin-top: 15px;
+    color: rgb(211, 20, 14);
+    font-size: 25px;
+    margin-top: 20px;
     margin-left: 25px;
+    font-weight: 600;
 }
 
 .main-nav {
@@ -63,5 +65,10 @@
 
 /* ICONS */
 .connectIcons {
+    margin-top: 15px;
     margin-left: 80px;
+}
+
+.connectIcons a {
+    margin: 5px;
 }

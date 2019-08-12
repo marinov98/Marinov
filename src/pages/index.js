@@ -106,6 +106,7 @@ export default function IndexPage() {
                 <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
                 <Button
                     color="secondary"
+                    size="lg"
                     onClick={() => {
                         removeHash();
                         goToTop();

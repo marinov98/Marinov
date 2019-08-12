@@ -7,15 +7,13 @@ export default function About() {
             <h3 class="subtitle fancy">
                 <span style={{ marginTop: '20px' }}>About Me</span>
             </h3>
-            <div className="row">
-                <div className="col">
-                    <img
-                        className="profileimg"
-                        src={require('../../images/self/ProfilePic2.png')}
-                        alt="Marin Marinov"
-                    />
-                </div>
-                <div className="col-sm desc">
+            <div className="row bio">
+                <img
+                    className="profileimg"
+                    src={require('../../images/self/ProfilePic2.png')}
+                    alt="Marin Marinov"
+                />
+                <div className="col desc">
                     <p className="description">
                         {' '}
                         Hello and Welcome to my website! My name is Marin. I am currently a student

@@ -8,6 +8,15 @@
     margin-left: 40px;
 }
 
+.bio {
+    margin: auto;
+    width: 50%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
 .aboutMe {
     opacity: 0.8;
     background-color: rgba(226, 225, 225, 0.98);
@@ -30,13 +39,9 @@
     border-right: solid 50px transparent;
 }
 
-.desc {
-    margin-right: 60px;
-    text-align: left-justify;
-}
-
 .description {
-    margin-top: 15px;
+    margin-left: 10px;
+    padding-left: 30px;
 }
 
 /* FANCY LINES */

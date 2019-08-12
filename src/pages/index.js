@@ -7,6 +7,9 @@ import './../components/NavBar/NavBar.css';
 import About from './../components/About/About';
 import Skills from './../components/Skills/Skills';
 import Projects from './../components/Projects/Projects';
+import Education from '../components/Eduction/Education';
+
+// Packages
 import ScrollableAnchor from 'react-scrollable-anchor';
 import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
 import LogoGithub from 'react-ionicons/lib/LogoGithub';
@@ -83,6 +86,11 @@ export default function IndexPage() {
             <StyleRoot>
                 <div style={styles.tada}>
                     <About />
+                </div>
+            </StyleRoot>
+            <StyleRoot>
+                <div style={styles.fadeIn}>
+                    <Education />
                 </div>
             </StyleRoot>
             <div className="row-fluid skills-separator">

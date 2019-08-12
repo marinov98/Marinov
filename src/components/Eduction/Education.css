@@ -1,0 +1,25 @@
+#education {
+    background: white;
+    color: black;
+    padding-top: 80px;
+    border-bottom: 1px solid darkgray;
+}
+
+#education h5 {
+    box-sizing: border-box;
+    margin: 8px;
+    border-bottom: 1px solid rgb(66, 64, 64);
+}
+
+.titles {
+    padding-bottom: 15px;
+}
+
+.educationTitle {
+    padding-bottom: 40px;
+}
+
+.educationTitle h3 {
+    padding-top: 10px;
+    text-align: center;
+}

@@ -18,7 +18,7 @@ export default function Projects() {
                 </div>
                 <div className="instaPet-project col-sm">
                     <h4>InstaPet</h4>
-                    <a href="https://github.com/angelalim1010/InstaPet">
+                    <a href="https://ttp-instapet.herokuapp.com/login">
                         <img
                             src={require('../../images/projects/instapet-logo.png')}
                             alt="InstaPet"
@@ -29,7 +29,7 @@ export default function Projects() {
                 </div>
                 <div className="divineFoods-project col-sm">
                     <h4>Divine Foods</h4>
-                    <a href="https://github.com/marinov98/marinov98.github.io">
+                    <a href="https://marinov98.github.io/">
                         <img
                             src={require('../../images/projects/divineFoods-logo.png')}
                             alt="Divine Foods"

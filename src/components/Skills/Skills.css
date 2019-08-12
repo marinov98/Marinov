@@ -2,6 +2,12 @@
     background: rgb(235, 235, 235);
     color: black;
     padding: 20px;
+    padding-left: 50px;
+}
+
+#skills h5 {
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .title {
@@ -16,6 +22,7 @@
     float: left;
     list-style: none;
     margin: 5px;
+    align-items: center;
 }
 
 .skills-list li {
@@ -24,8 +31,10 @@
 }
 
 .skills-list img {
+    margin-right: 70px;
     height: 50%;
     width: 50%;
+    padding-bottom: 20px;
 }
 
 .databases img {

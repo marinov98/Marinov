@@ -18,6 +18,13 @@ module.exports = {
                     families: ['Titillium Web']
                 }
             }
+        },
+        {
+            resolve: `gatsby-plugin-google-fonts`,
+            options: {
+                fonts: [`Titillium Web`],
+                display: 'swap'
+            }
         }
     ]
 };

@@ -4,7 +4,9 @@ import './Education.css';
 export default function Education() {
     return (
         <div id="education">
-            <h3 className="educationTitle">Education</h3>
+            <h4 className="educationTitle" style={{ fontWeight: '600' }}>
+                Education
+            </h4>
             <div className="row titles">
                 <div className="col-sm college">
                     <img src={require('../../images/education/hunter-logo.png')}></img>

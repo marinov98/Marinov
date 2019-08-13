@@ -3,7 +3,6 @@
     color: rgb(211, 20, 14);
     font-size: 25px;
     margin-top: 20px;
-    margin-left: 25px;
     font-weight: 550;
 }
 
@@ -11,7 +10,6 @@
     float: left;
     list-style: none;
     margin-top: 5px;
-    margin-left: 80px;
 }
 
 .main-nav li {
@@ -66,7 +64,6 @@
 /* ICONS */
 .connectIcons {
     margin-top: 15px;
-    margin-left: 80px;
 }
 
 .connectIcons a {

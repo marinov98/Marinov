@@ -46,8 +46,10 @@ export default function IndexPage() {
             <div id="navbar">
                 <nav className="sticky">
                     <div className="row">
-                        <h3 className="navName">Marin Pavlinov Marinov</h3>
-                        <ul className="main-nav ">
+                        <div className="col-sm">
+                            <h3 className="navName">Marin Pavlinov Marinov</h3>
+                        </div>
+                        <ul className="col-sm main-nav ">
                             <li>
                                 <a href="#gotoAbout">About Me</a>
                             </li>
@@ -58,7 +60,7 @@ export default function IndexPage() {
                                 <a href="#gotoProjects">Projects</a>
                             </li>
                         </ul>
-                        <div className="col connectIcons">
+                        <div className="col-sm connectIcons">
                             <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
                                 <IosPaper fontSize="42px" />
                             </a>
@@ -116,21 +118,25 @@ export default function IndexPage() {
                 </div>
             </StyleRoot>
             <footer className="row-fluid">
-                <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
-                <p>Powered By :</p>
-                <a href="https://www.netlify.com/">
-                    <img src={require('../images/skills/netlify-footer.png')}></img>
-                </a>
-                <div className="row button">
-                    <Button
-                        color="secondary"
-                        size="lg"
-                        onClick={() => {
-                            goToTop();
-                        }}
-                    >
-                        ⇧
-                    </Button>
+                <div className="row">
+                    <div className="button">
+                        <Button
+                            color="secondary"
+                            size="lg"
+                            onClick={() => {
+                                goToTop();
+                            }}
+                        >
+                            ⇧
+                        </Button>
+                    </div>
+                    <div className="col">
+                        <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
+                        <p>Powered By :</p>
+                        <a href="https://www.netlify.com/">
+                            <img src={require('../images/skills/netlify-footer.png')}></img>
+                        </a>
+                    </div>
                 </div>
             </footer>
         </div>

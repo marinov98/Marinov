@@ -105,11 +105,16 @@ export default function IndexPage() {
                 </div>
             </StyleRoot>
             <ScrollableAnchor id={'gotoProjects'}>
-                <div className="row-fluid projects-separator">
-                    <h5>Most Recent Projects</h5>
-                </div>
+                <div></div>
             </ScrollableAnchor>
-            <Projects />
+            <div className="row-fluid projects-separator">
+                <h5>Most Recent Projects</h5>
+            </div>
+            <StyleRoot>
+                <div style={styles.fadeIn}>
+                    <Projects />
+                </div>
+            </StyleRoot>
             <footer className="row-fluid">
                 <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
                 <Button

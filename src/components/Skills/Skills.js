@@ -5,8 +5,8 @@ import './../About/About.css';
 export default function Skills() {
     return (
         <div id="skills" className="row-fluid gradient">
-            <div className="row skillRow">
-                <h5 className="skillTitle">Markup Languages:</h5>
+            <div className="row skillRow markup">
+                <h5>Markup Languages:</h5>
             </div>
             <div className="row skillRow">
                 <ul className="skills-list">
@@ -71,6 +71,12 @@ export default function Skills() {
                         <img src={require('../../images/skills/redux-logo.png')} alt="redux"></img>
                     </li>
                     <li>
+                        <img
+                            src={require('../../images/skills/angular-logo.png')}
+                            alt="angular"
+                        ></img>
+                    </li>
+                    <li>
                         <img src={require('../../images/skills/nodejs-512.png')} alt="node"></img>
                     </li>
                     <li>
@@ -80,10 +86,7 @@ export default function Skills() {
                         ></img>
                     </li>
                     <li>
-                        <img
-                            src={require('../../images/skills/angular-logo.png')}
-                            alt="angular"
-                        ></img>
+                        <img src={require('../../images/skills/jest-logo.png')} alt="jest"></img>
                     </li>
                     <li>
                         <img

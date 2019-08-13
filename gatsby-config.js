@@ -15,8 +15,15 @@ module.exports = {
             resolve: 'gatsby-plugin-web-font-loader',
             options: {
                 google: {
-                    families: ['Titillium Web', 'Muli', 'Droid Serif']
+                    families: ['Titillium Web']
                 }
+            }
+        },
+        {
+            resolve: `gatsby-plugin-google-fonts`,
+            options: {
+                fonts: [`Titillium Web`],
+                display: 'swap'
             }
         }
     ]

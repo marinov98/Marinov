@@ -12,7 +12,9 @@ export default function Education() {
                     <p>
                         {' '}
                         BA Computer Science 2017-2021
-                        <br /> Minors: Mathematics, Psychology
+                        <br />
+                        Minors: Mathematics, Psychology
+                        <br /> Dean's List
                     </p>
                 </div>
                 <div className="col-sm awards macaulauy">

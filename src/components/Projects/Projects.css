@@ -6,13 +6,28 @@
 
 .allProjects {
     padding: 60px;
+    padding-top: 100px;
+}
+
+.project h4 {
+    padding-bottom: 40px;
+}
+
+.project h5 {
+    padding-top: 20px;
+}
+
+.projects h4,
+h5,
+h6 {
+    font-weight: 600;
 }
 
 .allProjects img {
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 275px;
     transition: transform 0.5s;
 }
 .allProjects img:hover {

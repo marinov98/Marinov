@@ -117,16 +117,21 @@ export default function IndexPage() {
             </StyleRoot>
             <footer className="row-fluid">
                 <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
-                <Button
-                    color="secondary"
-                    size="lg"
-                    onClick={() => {
-                        removeHash();
-                        goToTop();
-                    }}
-                >
-                    ⇧
-                </Button>
+                <p>Powered By :</p>
+                <a href="https://www.netlify.com/">
+                    <img src={require('../images/skills/netlify-footer.png')}></img>
+                </a>
+                <div className="row button">
+                    <Button
+                        color="secondary"
+                        size="lg"
+                        onClick={() => {
+                            goToTop();
+                        }}
+                    >
+                        ⇧
+                    </Button>
+                </div>
             </footer>
         </div>
     );

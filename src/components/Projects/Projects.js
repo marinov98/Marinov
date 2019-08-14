@@ -24,7 +24,7 @@ export default function Projects() {
                 </div>
                 <div className="instaPet-project col-sm project">
                     <h4 style={{ fontWeight: '600' }}>InstaPet</h4>
-                    <a href="https://ttp-instapet.herokuapp.com/login">
+                    <a href="https://github.com/angelalim1010/InstaPet">
                         <img
                             src={require('../../images/projects/instapet.png')}
                             alt="InstaPet"

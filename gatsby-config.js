@@ -25,6 +25,7 @@ module.exports = {
                 fonts: [`Titillium Web`],
                 display: 'swap'
             }
-        }
+        },
+        `gatsby-plugin-react-helmet`
     ]
 };

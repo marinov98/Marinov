@@ -6,6 +6,7 @@ import './../components/NavBar/NavBar.css';
 import 'animate.css/animate.min.css';
 
 // Components
+import Header from './header';
 import About from './../components/About/About';
 import Skills from './../components/Skills/Skills';
 import Projects from './../components/Projects/Projects';
@@ -42,6 +43,7 @@ export default function IndexPage() {
     return (
         // NAVBAR
         <div id="index" className="container-fluid">
+            <Header />
             <div id="navbar">
                 <nav className="sticky">
                     <div className="row">

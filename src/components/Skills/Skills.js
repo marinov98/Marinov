@@ -4,11 +4,11 @@ import './../About/About.css';
 
 export default function Skills() {
     return (
-        <div id="skills" className="row-fluid gradient">
-            <div className="row skillRow markup">
+        <div id="skills" className="gradient">
+            <div className="row skill-row markup">
                 <h5>Markup Languages:</h5>
             </div>
-            <div className="row skillRow">
+            <div className="row skill-row">
                 <ul className="skills-list">
                     <li className="image-script">
                         <img src={require('../../images/skills/html-logo.png')} alt="html"></img>
@@ -21,7 +21,7 @@ export default function Skills() {
                     </li>
                 </ul>
             </div>
-            <div className="row skillRow">
+            <div className="row skill-row">
                 <h5> Programming Languages:</h5>
             </div>
             <div className="row">
@@ -56,7 +56,7 @@ export default function Skills() {
                     </li>
                 </ul>
             </div>
-            <div className="row skillRow">
+            <div className="row skill-row">
                 <h5>Frameworks/Libraries/Runtime Environments:</h5>
             </div>
             <div className="row">
@@ -77,6 +77,13 @@ export default function Skills() {
                         ></img>
                     </li>
                     <li>
+                        <img
+                            src={require('../../images/skills/bootstrap-logo.png')}
+                            alt="bootstrap"
+                        ></img>
+                    </li>
+
+                    <li>
                         <img src={require('../../images/skills/nodejs-512.png')} alt="node"></img>
                     </li>
                     <li>
@@ -96,13 +103,13 @@ export default function Skills() {
                     </li>
                 </ul>
             </div>
-            <div className="row skillRow">
+            <div className="row skill-row">
                 <h5>Database(s):</h5>
             </div>
             <div className="row databases">
                 <img src={require('../../images/skills/pq-logo.png')} alt="postgresql"></img>
             </div>
-            <div className="row skillRow">
+            <div className="row skill-row">
                 <h5>Other Software:</h5>
             </div>
             <div className="row">
@@ -114,10 +121,16 @@ export default function Skills() {
                         <img src={require('../../images/skills/cmake-logo.jpg')} alt="cmake"></img>
                     </li>
                     <li>
-                        <img src={require('../../images/skills/vim-logo.png')} alt="vim"></img>
+                        <img
+                            src={require('../../images/skills/airtable-logo.png')}
+                            alt="AirTable"
+                        ></img>
                     </li>
                     <li>
-                        <img src={require('../../images/skills/emacs-logo.png')} alt="emacs"></img>
+                        <img
+                            src={require('../../images/skills/monkeylearn-logo.png')}
+                            alt="MonkeyLearn"
+                        ></img>
                     </li>
                     <li>
                         <img
@@ -125,9 +138,15 @@ export default function Skills() {
                             alt="office"
                         ></img>
                     </li>
+                    <li>
+                        <img src={require('../../images/skills/vim-logo.png')} alt="vim"></img>
+                    </li>
+                    <li>
+                        <img src={require('../../images/skills/emacs-logo.png')} alt="emacs"></img>
+                    </li>
                 </ul>
             </div>
-            <div className="row skillRow">
+            <div className="row skill-row">
                 <h5>Operating Systems:</h5>
             </div>
             <div className="row">
@@ -141,7 +160,7 @@ export default function Skills() {
                     <li>
                         <img
                             src={require('../../images/skills/arch-logo.jpg')}
-                            alt="antergos"
+                            alt="arch-linux"
                         ></img>
                     </li>
                     <li>
@@ -155,7 +174,7 @@ export default function Skills() {
                     </li>
                 </ul>
             </div>
-            <div className="row skillRow">
+            <div className="row skill-row">
                 <h5>Cloud:</h5>
             </div>
             <div className="row">

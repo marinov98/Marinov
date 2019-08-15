@@ -4,13 +4,14 @@
     color: black;
 }
 
-.allProjects {
+.all-projects {
     padding: 60px;
     padding-top: 100px;
 }
 
 .project h4 {
     padding-bottom: 40px;
+    font-weight: 600;
 }
 
 .project h5 {
@@ -23,13 +24,17 @@ h6 {
     font-weight: 600;
 }
 
-.allProjects img {
+.dotfiles {
+    padding-left: 60px;
+}
+
+.all-projects img {
     margin-top: 20px;
     margin-bottom: 20px;
     height: 250px;
     width: 275px;
     transition: transform 0.5s;
 }
-.allProjects img:hover {
+.all-projects img:hover {
     transform: scale(1.3);
 }

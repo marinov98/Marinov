@@ -19,7 +19,6 @@ import MdMail from 'react-ionicons/lib/MdMail';
 import { configureAnchors } from 'react-scrollable-anchor';
 import { Button } from 'reactstrap';
 import { goToTop } from 'react-scrollable-anchor';
-import { removeHash } from 'react-scrollable-anchor';
 import { fadeIn, tada, bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 
@@ -42,7 +41,7 @@ export default function IndexPage() {
     configureAnchors({ offset: -10, scrollDuration: 1000, scrollUrlHashUpdate: false });
     return (
         // NAVBAR
-        <div id="index">
+        <div id="index" className="container-fluid">
             <div id="navbar">
                 <nav className="sticky">
                     <div className="row">

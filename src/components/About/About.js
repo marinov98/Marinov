@@ -3,16 +3,12 @@ import './About.css';
 
 export default function About() {
     return (
-        <div id="about" className="aboutMe row-fluid">
+        <div id="about" className="about-me">
             <h3 class="subtitle fancy">
                 <span style={{ marginTop: '20px' }}>About Me</span>
             </h3>
             <div className="row bio">
-                <img
-                    className="profileimg"
-                    src={require('../../images/self/ProfilePic2.png')}
-                    alt="Marin Marinov"
-                />
+                <img src={require('../../images/self/ProfilePic2.png')} alt="Marin Marinov" />
                 <div className="col desc">
                     <p className="description">
                         {' '}

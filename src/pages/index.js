@@ -21,6 +21,7 @@ import { Button } from 'reactstrap';
 import { fadeIn, tada, bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 import Scrollchor from 'react-scrollchor';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = {
     fadeIn: {
@@ -109,9 +110,11 @@ export default function IndexPage() {
                 <div className="row">
                     <div className="button">
                         <Scrollchor to="#index" animate={{ offset: 20, duration: 800 }}>
-                            <Button color="secondary" size="lg">
-                                ⇧
-                            </Button>
+                            <ScrollAnimation offset="300" animateIn="fadeIn" animateOut="fadeIn">
+                                <Button color="secondary" size="lg">
+                                    ⇧
+                                </Button>
+                            </ScrollAnimation>
                         </Scrollchor>
                     </div>
                     <div className="col">

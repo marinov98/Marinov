@@ -1,13 +1,12 @@
 # My Personal Website
-
+[Check it Out!](https://mmarinov.netlify.com/)
 Tech Stack: [Gatsby.js](https://www.gatsbyjs.org/)
 
 ## **Getting Started**
 
 -   install dependencies: `yarn install`
--   Run the app: `npm start`
+-   Run the app: `npm start` or `yarn start`
 
-## **Deployement**
-
+## **Deployment**
 - Deployed on [netlify](https://www.netlify.com/)
-- Check out my Website: https://mmarinov.netlify.com/
+

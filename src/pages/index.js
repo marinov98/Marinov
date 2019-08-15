@@ -3,13 +3,15 @@ import React from 'react';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../components/NavBar/NavBar.css';
+import 'animate.css/animate.min.css';
+
 // Components
 import About from './../components/About/About';
 import Skills from './../components/Skills/Skills';
 import Projects from './../components/Projects/Projects';
 import Education from '../components/Eduction/Education';
 
-// Packages
+// Utility & Packages
 import ScrollableAnchor from 'react-scrollable-anchor';
 import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
 import LogoGithub from 'react-ionicons/lib/LogoGithub';
@@ -38,7 +40,7 @@ const styles = {
 };
 
 export default function IndexPage() {
-    configureAnchors({ offset: -10, scrollDuration: 1000, scrollUrlHashUpdate: false });
+    configureAnchors({ offset: -60, scrollDuration: 1000 });
     return (
         // NAVBAR
         <div id="index" className="container-fluid">
@@ -89,33 +91,21 @@ export default function IndexPage() {
                     <About />
                 </div>
             </StyleRoot>
-            <StyleRoot>
-                <div style={styles.fadeIn}>
-                    <Education />
-                </div>
-            </StyleRoot>
+            <Education />
             <div className="row-fluid skills-separator">
                 <h5>Technical Summary</h5>
             </div>
             <ScrollableAnchor id={'gotosummary'}>
                 <div style={{ listStyle: 'none' }}></div>
             </ScrollableAnchor>
-            <StyleRoot>
-                <div style={styles.fadeIn}>
-                    <Skills />
-                </div>
-            </StyleRoot>
+            <Skills />
             <ScrollableAnchor id={'gotoProjects'}>
                 <div></div>
             </ScrollableAnchor>
             <div className="row-fluid projects-separator">
                 <h5>Most Recent Projects</h5>
             </div>
-            <StyleRoot>
-                <div style={styles.fadeIn}>
-                    <Projects />
-                </div>
-            </StyleRoot>
+            <Projects />
             <footer className="row-fluid">
                 <div className="row">
                     <div className="button">

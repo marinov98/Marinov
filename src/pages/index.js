@@ -45,7 +45,7 @@ export default function IndexPage() {
         <div id="index" className="container-fluid">
             <Header />
             <div id="navbar">
-                <nav className="sticky">
+                <nav className="sticky container-fluid">
                     <div className="row">
                         <div className="col-sm">
                             <h3 className="navName">Marin Pavlinov Marinov</h3>

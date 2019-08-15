@@ -5,7 +5,6 @@
 #about img {
     border-radius: 70%;
     margin-bottom: 20px;
-    margin-left: 40px;
 }
 
 .bio {
@@ -37,12 +36,6 @@
     opacity: 0.8;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
-}
-
-.description {
-    margin-left: 10px;
-    padding-left: 30px;
-    padding-top: 15px;
 }
 
 /* FANCY LINES */

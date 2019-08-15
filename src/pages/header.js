@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 
 export default function Header() {
@@ -6,7 +6,7 @@ export default function Header() {
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Marin Marinov || Aspiring Software Engineer</title>
+                <title>Marin Marinov || Aspiring Software Developer</title>
                 <link rel="canonical" href="https://mmarinov.netlify.com/" />
                 <link
                     href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"

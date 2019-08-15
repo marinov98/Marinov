@@ -30,7 +30,7 @@
 
 .main-nav li a:active,
 .main-nav li a:hover {
-    border-bottom: 2px solid #f51e30;
+    border-bottom: 1px solid #f51e30;
     font-size: 20px;
 }
 

@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Skills() {
     return (
-        <div id="skills" className="gradient">
+        <div id="skills" className="container-fluid gradient">
             <div className="row skill-row markup">
                 <h5>Markup Languages:</h5>
             </div>

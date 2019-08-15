@@ -7,7 +7,7 @@ export default function Header() {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Marin Marinov || Aspiring Software Developer</title>
-                <link rel="canonical" href="https://mmarinov.netlify.com/" />
+                {/* <link rel="canonical" href="https://mmarinov.netlify.com/" /> */}
                 <link
                     href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap"
                     rel="stylesheet"

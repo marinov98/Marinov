@@ -4,20 +4,20 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function About() {
     return (
-        <div id="about" className="about-me">
+        <div id="about" className="about-me container-fluid">
             <h3 class="subtitle fancy">
                 <span style={{ marginTop: '20px' }}>About Me</span>
             </h3>
             <div className="row bio">
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="2.5">
-                    <div>
+                    <div className="col">
                         <img
                             src={require('../../images/self/ProfilePic2.png')}
                             alt="Marin Marinov"
                         />
                     </div>
                 </ScrollAnimation>
-                <div className="col desc">
+                <div className="col">
                     <ScrollAnimation animateIn="fadeInRight" animateOnce="true" duration="2.5">
                         <p className="description">
                             {' '}

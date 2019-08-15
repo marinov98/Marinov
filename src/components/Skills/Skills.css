@@ -14,7 +14,7 @@
     padding-top: 50px;
 }
 
-.skillRow {
+.skill-row {
     margin: 5px;
 }
 
@@ -35,14 +35,10 @@
 }
 
 .skills-list img {
-    margin-right: 30px;
+    margin-right: 5px;
     height: 50%;
     width: 50%;
     padding-bottom: 20px;
-}
-
-.databases img {
-    margin-left: 15px;
 }
 
 .gradient {

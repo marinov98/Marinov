@@ -3,25 +3,25 @@ import React from 'react';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './../components/NavBar/NavBar.css';
+import 'animate.css/animate.min.css';
+
 // Components
 import About from './../components/About/About';
 import Skills from './../components/Skills/Skills';
 import Projects from './../components/Projects/Projects';
 import Education from '../components/Eduction/Education';
 
-// Packages
-import ScrollableAnchor from 'react-scrollable-anchor';
+// Utility & Packages
 import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
 import LogoGithub from 'react-ionicons/lib/LogoGithub';
 import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
 import IosPaper from 'react-ionicons/lib/IosPaper';
 import MdMail from 'react-ionicons/lib/MdMail';
-import { configureAnchors } from 'react-scrollable-anchor';
 import { Button } from 'reactstrap';
-import { goToTop } from 'react-scrollable-anchor';
-import { removeHash } from 'react-scrollable-anchor';
 import { fadeIn, tada, bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
+import Scrollchor from 'react-scrollchor';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = {
     fadeIn: {
@@ -39,10 +39,9 @@ const styles = {
 };
 
 export default function IndexPage() {
-    configureAnchors({ offset: -10, scrollDuration: 1000, scrollUrlHashUpdate: false });
     return (
         // NAVBAR
-        <div id="index">
+        <div id="index" className="container-fluid">
             <div id="navbar">
                 <nav className="sticky">
                     <div className="row">
@@ -51,13 +50,22 @@ export default function IndexPage() {
                         </div>
                         <ul className="col-sm main-nav ">
                             <li>
-                                <a href="#gotoAbout">About Me</a>
+                                <Scrollchor
+                                    to="#about-hidden"
+                                    animate={{ offset: 20, duration: 800 }}
+                                >
+                                    About Me
+                                </Scrollchor>
                             </li>
                             <li>
-                                <a href="#gotosummary">Skills</a>
+                                <Scrollchor to="#skills" animate={{ offset: 20, duration: 800 }}>
+                                    Skills
+                                </Scrollchor>
                             </li>
                             <li>
-                                <a href="#gotoProjects">Projects</a>
+                                <Scrollchor to="#projects" animate={{ offset: 20, duration: 800 }}>
+                                    Projects
+                                </Scrollchor>
                             </li>
                         </ul>
                         <div className="col-sm connectIcons">
@@ -81,54 +89,33 @@ export default function IndexPage() {
                 </nav>
             </div>
 
-            <div style={{ marginTop: '12px', visibility: 'hidden' }}>Something</div>
-            <ScrollableAnchor id={'gotoAbout'}>
-                <div></div>
-            </ScrollableAnchor>
+            <div id="about-hidden" style={{ marginTop: '12px', visibility: 'hidden' }}>
+                Something
+            </div>
             <StyleRoot>
                 <div style={styles.tada}>
                     <About />
                 </div>
             </StyleRoot>
-            <StyleRoot>
-                <div style={styles.fadeIn}>
-                    <Education />
-                </div>
-            </StyleRoot>
+            <Education />
             <div className="row-fluid skills-separator">
                 <h5>Technical Summary</h5>
             </div>
-            <ScrollableAnchor id={'gotosummary'}>
-                <div style={{ listStyle: 'none' }}></div>
-            </ScrollableAnchor>
-            <StyleRoot>
-                <div style={styles.fadeIn}>
-                    <Skills />
-                </div>
-            </StyleRoot>
-            <ScrollableAnchor id={'gotoProjects'}>
-                <div></div>
-            </ScrollableAnchor>
+            <Skills />
             <div className="row-fluid projects-separator">
                 <h5>Most Recent Projects</h5>
             </div>
-            <StyleRoot>
-                <div style={styles.fadeIn}>
-                    <Projects />
-                </div>
-            </StyleRoot>
+            <Projects />
             <footer className="row-fluid">
                 <div className="row">
                     <div className="button">
-                        <Button
-                            color="secondary"
-                            size="lg"
-                            onClick={() => {
-                                goToTop();
-                            }}
-                        >
-                            ⇧
-                        </Button>
+                        <Scrollchor to="#index" animate={{ offset: 20, duration: 800 }}>
+                            <ScrollAnimation offset="300" animateIn="fadeIn" animateOut="fadeIn">
+                                <Button color="secondary" size="lg">
+                                    ⇧
+                                </Button>
+                            </ScrollAnimation>
+                        </Scrollchor>
                     </div>
                     <div className="col">
                         <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>

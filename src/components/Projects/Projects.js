@@ -67,7 +67,7 @@ export default function Projects() {
                             ></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>Shell Script</p>
+                        <p>Shell script, Vim script, Python, Emacs-lisp</p>
                         <h6>Description:</h6>
                         <p>
                             A combination of '.' configuaration files and shell scripts. Contains my

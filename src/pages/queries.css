@@ -7,6 +7,11 @@
     .nav-name {
         font-size: 16px;
     }
+
+    .icon {
+        height: 28px;
+        width: 28px;
+    }
 }
 
 /*small phones to small tablets  */
@@ -29,12 +34,31 @@
     h3 {
         font-size: 80%;
     }
+
+    .icon {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 /*small tablet to big tablet  */
 @media only screen and (max-width: 1023px) {
-    body {
+    html {
         font-size: 18px;
+    }
+
+    .nav-name {
+        font-size: 20px;
+    }
+
+    .main-nav li {
+        display: none;
+    }
+
+    .icon {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 20px;
     }
 }
 

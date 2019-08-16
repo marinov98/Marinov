@@ -4,7 +4,7 @@
         padding: 25px 0;
     }
 
-    .nav-name {
+    #navbar h3 {
         font-size: 16px;
     }
 
@@ -52,6 +52,10 @@
 
     h6 {
         font-size: 100%;
+    }
+
+    #navbar h3 {
+        font-size: 18px;
     }
 
     #skills h5 {

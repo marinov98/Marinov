@@ -16,6 +16,10 @@
     align-items: center;
 }
 
+.bio p {
+    padding-top: 15px;
+}
+
 .about-me {
     opacity: 0.8;
     background-color: rgba(226, 225, 225, 0.98);

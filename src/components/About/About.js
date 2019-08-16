@@ -19,7 +19,7 @@ export default function About() {
                 </ScrollAnimation>
                 <div className="col">
                     <ScrollAnimation animateIn="fadeInRight" animateOnce="true" duration="2.5">
-                        <p className="description">
+                        <p>
                             {' '}
                             Hello and Welcome to my website! My name is Marin and I am originally
                             from Sofia, Bulgaria. I am currently a student at macaulay honors

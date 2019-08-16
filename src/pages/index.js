@@ -47,10 +47,10 @@ export default function IndexPage() {
             <div id="navbar">
                 <nav className="sticky container-fluid">
                     <div className="row">
-                        <div className="col-sm">
+                        <div className="col">
                             <h3 className="navName">Marin Pavlinov Marinov</h3>
                         </div>
-                        <ul className="col-sm main-nav ">
+                        <ul className="col main-nav ">
                             <li>
                                 <Scrollchor
                                     to="#about-hidden"
@@ -70,7 +70,7 @@ export default function IndexPage() {
                                 </Scrollchor>
                             </li>
                         </ul>
-                        <div className="col-sm connectIcons">
+                        <div className="col connectIcons">
                             <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
                                 <IosPaper fontSize="42px" />
                             </a>

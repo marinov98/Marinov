@@ -24,15 +24,11 @@ h6 {
     font-weight: 600;
 }
 
-.dotfiles {
-    padding-left: 60px;
-}
-
 .all-projects img {
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 250px;
-    width: 275px;
+    height: 180px;
+    width: 198px;
     transition: transform 0.5s;
 }
 .all-projects img:hover {

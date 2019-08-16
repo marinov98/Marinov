@@ -75,7 +75,8 @@ export default function Projects() {
                             <b>Vim, Emacs, Ranger, i3wn, Bash, Powerline-Shell, Compton and Tmux</b>
                             . The shell scripts transfer the configuration files to the User's home
                             directory and also install essential packages for programming and
-                            development
+                            development. Contains package install scripts compatible with Debian and
+                            Arch-based Linux Distributions, Windows and MacOS
                         </p>
                     </div>
                 </div>

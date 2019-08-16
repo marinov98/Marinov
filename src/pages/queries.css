@@ -12,6 +12,11 @@
         height: 28px;
         width: 28px;
     }
+
+    #about img {
+        height: 200px;
+        width: 200px;
+    }
 }
 
 /*small phones to small tablets  */
@@ -39,6 +44,10 @@
         height: 40px;
         width: 40px;
     }
+
+    footer {
+        font-size: 16px;
+    }
 }
 
 /*small tablet to big tablet  */
@@ -59,6 +68,10 @@
         height: 28px;
         width: 28px;
         margin-bottom: 20px;
+    }
+
+    #about img {
+        padding-right: 10px;
     }
 }
 

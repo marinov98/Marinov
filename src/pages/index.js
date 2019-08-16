@@ -1,24 +1,19 @@
 import React from 'react';
 // CSS
 import './index.css';
-import './../components/NavBar/NavBar.css';
 import './queries.css';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import Header from './header';
+import NavBar from './../components/NavBar/NavBar';
 import About from './../components/About/About';
 import Skills from './../components/Skills/Skills';
 import Projects from './../components/Projects/Projects';
 import Education from '../components/Eduction/Education';
 
 // Utility & Packages
-import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
-import LogoGithub from 'react-ionicons/lib/LogoGithub';
-import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
-import IosPaper from 'react-ionicons/lib/IosPaper';
-import MdMail from 'react-ionicons/lib/MdMail';
 import { Button } from 'reactstrap';
 import { fadeIn, tada, bounce } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
@@ -45,55 +40,9 @@ export default function IndexPage() {
         // NAVBAR
         <div id="index" className="container-fluid">
             <Header />
-            <div id="navbar">
-                <nav className="sticky container-fluid">
-                    <div className="row">
-                        <div className="col">
-                            <h3 className="nav-name">Marin Pavlinov Marinov</h3>
-                        </div>
-                        <ul className="col main-nav ">
-                            <li>
-                                <Scrollchor
-                                    to="#about-hidden"
-                                    animate={{ offset: 20, duration: 800 }}
-                                >
-                                    About Me
-                                </Scrollchor>
-                            </li>
-                            <li>
-                                <Scrollchor to="#skills" animate={{ offset: 20, duration: 800 }}>
-                                    Skills
-                                </Scrollchor>
-                            </li>
-                            <li>
-                                <Scrollchor to="#projects" animate={{ offset: 20, duration: 800 }}>
-                                    Projects
-                                </Scrollchor>
-                            </li>
-                        </ul>
-                        <div className="col connectIcons">
-                            <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
-                                <IosPaper className="icon" fontSize="42px" />
-                            </a>
-                            <a href="https://github.com/marinov98">
-                                <LogoGithub className="icon" fontSize="42px" />
-                            </a>
-                            <a href="https://www.linkedin.com/in/marin-p-marinov/">
-                                <LogoLinkedin className="icon" fontSize="47px" />
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=100009602178957">
-                                <LogoFacebook className="icon" fontSize="47px" />
-                            </a>
-                            <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">
-                                <MdMail className="icon" fontSize="47px" />
-                            </a>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-
+            <NavBar />
             <div id="about-hidden" style={{ marginTop: '12px', visibility: 'hidden' }}>
-                Something
+                Marin P. Marinov
             </div>
             <StyleRoot>
                 <div style={styles.tada}>

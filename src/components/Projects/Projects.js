@@ -21,7 +21,7 @@ export default function Projects() {
                         <p>
                             Simple Terminal-based calculator that can calculate 1 & 2 variable
                             statistics confidence intervals,conduct hypothesis testing, and find
-                            correlation coefficients
+                            correlation coefficients.
                         </p>
                     </div>
                     <div className="instaPet-project col project">
@@ -35,7 +35,7 @@ export default function Projects() {
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
                         <p>API, React, Redux, Node, Express, PostreSQL</p>
                         <h6>Description:</h6>
-                        <p>Group project aimed to build an app like Instagram... but for pets</p>
+                        <p>Group project aimed to build an app like Instagram... but for pets.</p>
                     </div>
                 </div>
             </ScrollAnimation>
@@ -55,7 +55,7 @@ export default function Projects() {
                         <p>
                             Website for a pseudo premium food delivery service. Aims to deliver
                             healthy food fast. Contains its own plans and sign up forms and is
-                            optimized for various screen sizes
+                            optimized for various screen sizes.
                         </p>
                     </div>
                     <div className="col dotfiles project">
@@ -76,7 +76,7 @@ export default function Projects() {
                             . The shell scripts transfer the configuration files to the User's home
                             directory and also install essential packages for programming and
                             development. Contains package install scripts compatible with Debian and
-                            Arch-based Linux Distributions, Windows and MacOS
+                            Arch-based Linux Distributions, Windows and MacOS.
                         </p>
                     </div>
                 </div>

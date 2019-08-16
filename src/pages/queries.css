@@ -17,6 +17,11 @@
         height: 200px;
         width: 200px;
     }
+
+    #education img {
+        height: 45%;
+        width: 40%;
+    }
 }
 
 /*small phones to small tablets  */
@@ -24,6 +29,7 @@
     html {
         font-size: 16px;
     }
+
     .main-nav {
         display: none;
     }
@@ -40,13 +46,47 @@
         font-size: 80%;
     }
 
+    h5 {
+        font-size: 110%;
+    }
+
+    h6 {
+        font-size: 100%;
+    }
+
+    #skills h5 {
+        font-size: 110%;
+    }
+
     .icon {
         height: 40px;
         width: 40px;
     }
 
+    #skills img {
+        height: 40%;
+        width: 40%;
+    }
+
+    #projects h4 {
+        font-size: 22px;
+    }
+
+    .button button {
+        visibility: hidden;
+    }
+
     footer {
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+    .fancy span {
+        margin-bottom: 20px;
+    }
+
+    .fancy span:before,
+    span:after {
+        display: none;
     }
 }
 
@@ -60,10 +100,6 @@
         font-size: 20px;
     }
 
-    .main-nav li {
-        display: none;
-    }
-
     .icon {
         height: 28px;
         width: 28px;
@@ -72,6 +108,10 @@
 
     #about img {
         padding-right: 10px;
+    }
+
+    .main-nav {
+        display: none;
     }
 }
 

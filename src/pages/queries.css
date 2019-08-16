@@ -1,0 +1,46 @@
+/*small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+    .container-fluid {
+        padding: 25px 0;
+    }
+
+    .nav-name {
+        font-size: 16px;
+    }
+}
+
+/*small phones to small tablets  */
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 16px;
+    }
+    .main-nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 180%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    h3 {
+        font-size: 80%;
+    }
+}
+
+/*small tablet to big tablet  */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/*big tablet to 1200x   */
+@media only screen and (max-width: 1200px) {
+    .row {
+        padding: 0 2%;
+    }
+}

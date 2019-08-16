@@ -1,9 +1,10 @@
 import React from 'react';
 // CSS
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './../components/NavBar/NavBar.css';
+import './queries.css';
 import 'animate.css/animate.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import Header from './header';
@@ -48,7 +49,7 @@ export default function IndexPage() {
                 <nav className="sticky container-fluid">
                     <div className="row">
                         <div className="col">
-                            <h3 className="navName">Marin Pavlinov Marinov</h3>
+                            <h3 className="nav-name">Marin Pavlinov Marinov</h3>
                         </div>
                         <ul className="col main-nav ">
                             <li>

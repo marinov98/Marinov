@@ -73,19 +73,19 @@ export default function IndexPage() {
                         </ul>
                         <div className="col connectIcons">
                             <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
-                                <IosPaper fontSize="42px" />
+                                <IosPaper className="icon" fontSize="42px" />
                             </a>
                             <a href="https://github.com/marinov98">
-                                <LogoGithub fontSize="42px" />
+                                <LogoGithub className="icon" fontSize="42px" />
                             </a>
                             <a href="https://www.linkedin.com/in/marin-p-marinov/">
-                                <LogoLinkedin fontSize="47px" />
+                                <LogoLinkedin className="icon" fontSize="47px" />
                             </a>
                             <a href="https://www.facebook.com/profile.php?id=100009602178957">
-                                <LogoFacebook fontSize="47px" />
+                                <LogoFacebook className="icon" fontSize="47px" />
                             </a>
                             <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">
-                                <MdMail fontSize="47px" />
+                                <MdMail className="icon" fontSize="47px" />
                             </a>
                         </div>
                     </div>

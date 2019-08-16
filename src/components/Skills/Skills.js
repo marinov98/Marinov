@@ -97,31 +97,40 @@ export default function Skills() {
                                 alt="bootstrap"
                             ></img>
                         </li>
-
                         <li>
                             <img
-                                src={require('../../images/skills/nodejs-512.png')}
-                                alt="node"
+                                src={require('../../images/skills/gatsby-logo.png')}
+                                alt="gatsby.js"
                             ></img>
                         </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/express-logo.png')}
-                                alt="express"
-                            ></img>
-                        </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/jest-logo.png')}
-                                alt="jest"
-                            ></img>
-                        </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/Asp-net-logo.jpg')}
-                                alt="asp.NET"
-                            ></img>
-                        </li>
+                        <div className="row">
+                            <ul className="skills-list">
+                                <li>
+                                    <img
+                                        src={require('../../images/skills/nodejs-512.png')}
+                                        alt="node"
+                                    ></img>
+                                </li>
+                                <li>
+                                    <img
+                                        src={require('../../images/skills/express-logo.png')}
+                                        alt="express"
+                                    ></img>
+                                </li>
+                                <li>
+                                    <img
+                                        src={require('../../images/skills/jest-logo.png')}
+                                        alt="jest"
+                                    ></img>
+                                </li>
+                                <li>
+                                    <img
+                                        src={require('../../images/skills/Asp-net-logo.jpg')}
+                                        alt="asp.NET"
+                                    ></img>
+                                </li>
+                            </ul>
+                        </div>
                     </ul>
                 </div>
             </ScrollAnimation>

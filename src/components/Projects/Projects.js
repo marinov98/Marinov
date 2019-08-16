@@ -33,7 +33,7 @@ export default function Projects() {
                             ></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>React, Redux, Node, Express, PostreSQL</p>
+                        <p>API, React, Redux, Node, Express, PostreSQL</p>
                         <h6>Description:</h6>
                         <p>Group project aimed to build an app like Instagram... but for pets</p>
                     </div>
@@ -71,10 +71,11 @@ export default function Projects() {
                         <h6>Description:</h6>
                         <p>
                             A combination of '.' configuaration files and shell scripts. Contains my
-                            configurations for Vim, Emacs, Ranger, i3wn, Bash, Powerline-Shell,
-                            Compton and Tmux. The shell scripts transfer the configuration files to
-                            the User's home directory and also install essential packages for
-                            programming and development
+                            configurations for{' '}
+                            <b>Vim, Emacs, Ranger, i3wn, Bash, Powerline-Shell, Compton and Tmux</b>
+                            . The shell scripts transfer the configuration files to the User's home
+                            directory and also install essential packages for programming and
+                            development
                         </p>
                     </div>
                 </div>

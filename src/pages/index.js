@@ -1,9 +1,10 @@
 import React from 'react';
 // CSS
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './../components/NavBar/NavBar.css';
+import './queries.css';
 import 'animate.css/animate.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import Header from './header';
@@ -47,10 +48,10 @@ export default function IndexPage() {
             <div id="navbar">
                 <nav className="sticky container-fluid">
                     <div className="row">
-                        <div className="col-sm">
-                            <h3 className="navName">Marin Pavlinov Marinov</h3>
+                        <div className="col">
+                            <h3 className="nav-name">Marin Pavlinov Marinov</h3>
                         </div>
-                        <ul className="col-sm main-nav ">
+                        <ul className="col main-nav ">
                             <li>
                                 <Scrollchor
                                     to="#about-hidden"
@@ -70,7 +71,7 @@ export default function IndexPage() {
                                 </Scrollchor>
                             </li>
                         </ul>
-                        <div className="col-sm connectIcons">
+                        <div className="col connectIcons">
                             <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
                                 <IosPaper fontSize="42px" />
                             </a>

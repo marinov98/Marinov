@@ -2,6 +2,7 @@ const path = require(`path`);
 
 module.exports = {
     plugins: [
+        `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -15,17 +16,9 @@ module.exports = {
             resolve: 'gatsby-plugin-web-font-loader',
             options: {
                 google: {
-                    families: ['Titillium Web']
+                    families: ['Roboto']
                 }
             }
-        },
-        {
-            resolve: `gatsby-plugin-google-fonts`,
-            options: {
-                fonts: [`Titillium Web`],
-                display: 'swap'
-            }
-        },
-        `gatsby-plugin-react-helmet`
+        }
     ]
 };

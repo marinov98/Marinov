@@ -1,5 +1,5 @@
 /*  Main - nav*/
-.navName {
+.nav-name {
     color: rgb(211, 20, 14);
     font-size: 25px;
     margin-top: 20px;
@@ -30,7 +30,7 @@
 
 .main-nav li a:active,
 .main-nav li a:hover {
-    border-bottom: 1px solid #f51e30;
+    border-bottom: 2px solid #f51e30;
     font-size: 20px;
 }
 

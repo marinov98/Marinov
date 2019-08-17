@@ -1,8 +1,9 @@
+/*  Main - nav*/
 .nav-name {
-    color: rgb(211, 20, 14);
+    color: rgb(192, 50, 50);
     font-size: 25px;
     margin-top: 20px;
-    font-weight: 550;
+    font-weight: 800;
 }
 
 .main-nav {
@@ -52,7 +53,7 @@
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 8px 0;
-    color: #333;
+    color: rgb(49, 49, 49);
 }
 
 .sticky .main-nav li a:active,
@@ -61,10 +62,10 @@
 }
 
 /* ICONS */
-.connectIcons {
+.connect-icons {
     margin-top: 15px;
 }
 
-.connectIcons a {
+.connect-icons a {
     margin: 5px;
 }

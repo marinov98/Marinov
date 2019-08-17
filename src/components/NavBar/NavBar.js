@@ -32,7 +32,7 @@ export default function NavBar() {
                             </Scrollchor>
                         </li>
                     </ul>
-                    <div className="col connectIcons">
+                    <div className="col connect-icons">
                         <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
                             <IosPaper className="icon" fontSize="42px" />
                         </a>

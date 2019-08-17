@@ -22,12 +22,12 @@ export default function About() {
                         <p>
                             {' '}
                             Hello and Welcome to my website! My name is Marin and I am originally
-                            from Sofia, Bulgaria. I am currently a student at macaulay honors
-                            college @Hunter College. I am persuing a Computer Science major along
+                            from Sofia, Bulgaria. I am currently a student at Macaulay Honors
+                            College @Hunter College. I am persuing a Computer Science major along
                             with minors in Mathematics and Psychology. I have worked mostly as a
-                            math tutor but now I am hoping dive into being a software developer. I
-                            have worked on both personal and group coding projects. I have also had
-                            the honor to intern as a software engineer in WeWork labs
+                            math tutor but now I am hoping to dive into being a software developer.
+                            I have worked on both personal and group coding projects. I have also
+                            had the honor to intern as a software engineer in WeWork Labs.
                         </p>
                     </ScrollAnimation>
                 </div>

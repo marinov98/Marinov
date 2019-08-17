@@ -83,7 +83,7 @@ footer img {
     font-size: 34px;
     font-weight: 100;
     text-align: center;
-    background: #8e8d8a;
+    background: #314455;
     color: white;
     border-bottom: 1px solid rgb(216, 214, 214);
 }
@@ -96,7 +96,7 @@ footer img {
     margin-left: -50px;
     width: 0;
     height: 0;
-    border-top: solid 50px #8e8d8a;
+    border-top: solid 50px #314455;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }

@@ -5,13 +5,13 @@
     padding-left: 50px;
 }
 
+.title {
+    padding-top: 50px;
+}
+
 .skill-row h5 {
     font-size: 30px;
     font-weight: 600;
-}
-
-.title {
-    padding-top: 50px;
 }
 
 .skill-row {
@@ -40,6 +40,11 @@
     height: 50%;
     width: 50%;
     padding-bottom: 20px;
+}
+
+.databases img {
+    height: 90%;
+    width: 90%;
 }
 
 .gradient {

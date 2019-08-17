@@ -138,8 +138,15 @@ export default function Skills() {
                 <div className="row skill-row">
                     <h5>Database(s):</h5>
                 </div>
-                <div className="row databases">
-                    <img src={require('../../images/skills/pq-logo.png')} alt="postgresql"></img>
+                <div className="row">
+                    <ul className="skills-list databases">
+                        <li>
+                            <img
+                                src={require('../../images/skills/pq-logo.png')}
+                                alt="postgresql"
+                            ></img>
+                        </li>
+                    </ul>
                 </div>
             </ScrollAnimation>
             <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">

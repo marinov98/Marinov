@@ -22,13 +22,13 @@
 
 .about-me {
     opacity: 0.8;
-    background-color: rgba(226, 225, 225, 0.98);
+    background-color: rgba(255, 255, 255, 0.98);
     position: relative;
-    color: black;
+    color: #333;
     border-bottom: 1px solid rgba(148, 147, 147, 0.98);
 }
 
-.about-me:after {
+/* .about-me:after {
     content: '';
     position: absolute;
     top: 100%;
@@ -40,7 +40,7 @@
     opacity: 0.8;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
-}
+} */
 
 /* FANCY LINES */
 .fancy {

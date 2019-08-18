@@ -62,7 +62,7 @@ export default function IndexPage() {
                 <div className="row">
                     <div className="button">
                         <Scrollchor to="#index" animate={{ offset: 20, duration: 800 }}>
-                            <ScrollAnimation offset="300" animateIn="fadeIn" animateOut="fadeIn">
+                            <ScrollAnimation animateIn="fadeIn" animateOut="fadeIn">
                                 <Button color="secondary" size="lg">
                                     ⇧
                                 </Button>

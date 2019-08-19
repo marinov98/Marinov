@@ -42,9 +42,10 @@
     margin-left: -30px;
 }
 
-.databases img {
-    height: 80%;
-    width: 80%;
+.db img {
+    height: 160px;
+    width: 160px;
+    margin-left: 10px;
 }
 
 .gradient {

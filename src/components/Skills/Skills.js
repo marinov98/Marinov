@@ -12,7 +12,7 @@ export default function Skills() {
                 </div>
                 <div className="row skill-row">
                     <ul className="skills-list">
-                        <li className="image-script">
+                        <li>
                             <img
                                 src={require('../../images/skills/html-logo.png')}
                                 alt="html"
@@ -139,7 +139,7 @@ export default function Skills() {
                     <h5>Database(s):</h5>
                 </div>
                 <div className="row">
-                    <ul className="skills-list databases">
+                    <ul className="skills-list db">
                         <li>
                             <img
                                 src={require('../../images/skills/pq-logo.png')}

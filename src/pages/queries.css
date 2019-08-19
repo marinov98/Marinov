@@ -5,7 +5,7 @@
     }
 
     html {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     /* NAVBAR */
@@ -28,7 +28,7 @@
     }
 
     .bio:last-child p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .fancy span {
@@ -108,7 +108,7 @@
 /*small tablet to big tablet  */
 @media screen and (min-width: 480px) and (max-width: 991px) {
     html {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     #navbar h3 {
@@ -130,7 +130,7 @@
     }
 
     .bio:last-child p {
-        font-size: 15px;
+        font-size: 17px;
     }
 
     .titles img {

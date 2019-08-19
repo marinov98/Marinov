@@ -17,11 +17,17 @@
 .project h4 {
     margin-top: 10px;
     padding-bottom: 40px;
+    font-size: 22px;
     font-weight: 600;
 }
 
 .project h5 {
     padding-top: 20px;
+    font-size: 18px;
+}
+
+.project h6 {
+    font-size: 16px;
 }
 
 .projects h4,

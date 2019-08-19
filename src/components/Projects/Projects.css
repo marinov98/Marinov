@@ -5,11 +5,17 @@
 }
 
 .all-projects {
-    padding: 60px;
-    padding-top: 100px;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.project {
+    background-color: rgb(252, 250, 250);
+    margin-right: 10px;
 }
 
 .project h4 {
+    margin-top: 10px;
     padding-bottom: 40px;
     font-weight: 600;
 }
@@ -27,8 +33,8 @@ h6 {
 .all-projects img {
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 180px;
-    width: 198px;
+    height: 170px;
+    width: 182px;
     transition: transform 0.5s;
 }
 .all-projects img:hover {

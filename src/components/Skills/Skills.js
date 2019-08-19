@@ -154,7 +154,7 @@ export default function Skills() {
                     <h5>Other Software:</h5>
                 </div>
                 <div className="row">
-                    <ul className="skills-list">
+                    <ul className="skills-list other">
                         <li>
                             <img src={require('../../images/skills/git-logo.png')} alt="git"></img>
                         </li>

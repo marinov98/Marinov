@@ -86,6 +86,7 @@ footer img {
     background: #165f8c;
     color: white;
     border-bottom: 1px solid rgb(216, 214, 214);
+    text-transform: uppercase;
 }
 
 .skills-separator:after {
@@ -111,6 +112,7 @@ footer img {
     background: rgb(192, 50, 50);
     color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(170, 43, 43);
+    text-transform: uppercase;
 }
 
 .projects-separator:after {

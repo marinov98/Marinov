@@ -2,7 +2,7 @@
     background: rgb(255, 255, 255);
     color: #333;
     padding: 20px;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .title {
@@ -30,21 +30,21 @@
 }
 
 .skills-list li {
-    padding-right: 10px;
+    padding-right: 5px;
     display: inline-block;
     margin-top: 10px;
 }
 
 .skills-list img {
-    margin-right: 5px;
-    height: 50%;
-    width: 50%;
+    height: 45%;
+    width: 45%;
     padding-bottom: 20px;
+    margin-left: -30px;
 }
 
 .databases img {
-    height: 90%;
-    width: 90%;
+    height: 80%;
+    width: 80%;
 }
 
 .gradient {

@@ -2,11 +2,6 @@
     margin-top: 70px;
 }
 
-#about img {
-    border-radius: 70%;
-    margin-bottom: 20px;
-}
-
 .bio {
     margin: auto;
     width: 50%;
@@ -14,6 +9,11 @@
     display: flex;
     -webkit-align-items: center;
     align-items: center;
+}
+
+.bio img {
+    border-radius: 70%;
+    margin-bottom: 20px;
 }
 
 .bio p {

@@ -19,7 +19,7 @@ export default function Education() {
                             <br /> Dean's List
                         </p>
                     </div>
-                    <div className="col-sm awards macaulauy">
+                    <div className="col-sm awards macaulay">
                         <img src={require('../../images/education/macaulay-logo.png')}></img>
                         <h5>Macaulay Honors College</h5>
                         <p>

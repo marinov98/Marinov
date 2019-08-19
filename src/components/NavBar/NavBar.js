@@ -12,8 +12,8 @@ export default function NavBar() {
         <div id="navbar">
             <nav className="sticky container-fluid">
                 <div className="row">
-                    <div className="col">
-                        <h3 className="nav-name">Marin Pavlinov Marinov</h3>
+                    <div className="col nav-name">
+                        <h3>Marin Pavlinov Marinov</h3>
                     </div>
                     <ul className="col main-nav ">
                         <li>
@@ -34,19 +34,19 @@ export default function NavBar() {
                     </ul>
                     <div className="col connect-icons">
                         <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
-                            <IosPaper className="icon" fontSize="42px" />
+                            <IosPaper className="icon" fontSize="35px" />
                         </a>
                         <a href="https://github.com/marinov98">
-                            <LogoGithub className="icon" fontSize="42px" />
+                            <LogoGithub className="icon" fontSize="40px" />
                         </a>
                         <a href="https://www.linkedin.com/in/marin-p-marinov/">
-                            <LogoLinkedin className="icon" fontSize="47px" />
+                            <LogoLinkedin className="icon" fontSize="40px" />
                         </a>
                         <a href="https://www.facebook.com/profile.php?id=100009602178957">
-                            <LogoFacebook className="icon" fontSize="47px" />
+                            <LogoFacebook className="icon" fontSize="40px" />
                         </a>
                         <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">
-                            <MdMail className="icon" fontSize="47px" />
+                            <MdMail className="icon" fontSize="40px" />
                         </a>
                     </div>
                 </div>

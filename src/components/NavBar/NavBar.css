@@ -1,8 +1,8 @@
 /*  Main - nav*/
-.nav-name {
+.nav-name h3 {
     color: rgb(192, 50, 50);
     font-size: 25px;
-    margin-top: 20px;
+    padding-top: 22px;
     font-weight: 800;
 }
 
@@ -31,7 +31,7 @@
 .main-nav li a:active,
 .main-nav li a:hover {
     border-bottom: 2px solid #f51e30;
-    font-size: 20px;
+    font-size: 100%;
 }
 
 /* Sticky navi */
@@ -67,5 +67,5 @@
 }
 
 .connect-icons a {
-    margin: 5px;
+    margin-left: 5px;
 }

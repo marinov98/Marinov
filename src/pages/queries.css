@@ -17,8 +17,9 @@
     /* ABOUT */
 
     .icon {
-        height: 18px;
-        width: 18px;
+        height: 20px;
+        width: 20px;
+        margin-left: -5px;
     }
 
     .bio img {
@@ -117,9 +118,10 @@
     }
 
     .icon {
-        height: 25px;
-        width: 25px;
+        height: 28px;
+        width: 28px;
         margin-top: 5px;
+        margin-left: -5px;
     }
 
     .bio img {

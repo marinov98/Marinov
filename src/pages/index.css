@@ -83,7 +83,7 @@ footer img {
     font-size: 34px;
     font-weight: 100;
     text-align: center;
-    background: #588bae;
+    background: #165f8c;
     color: white;
     border-bottom: 1px solid rgb(216, 214, 214);
 }
@@ -96,7 +96,7 @@ footer img {
     margin-left: -50px;
     width: 0;
     height: 0;
-    border-top: solid 50px #588bae;
+    border-top: solid 50px #165f8c;
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }
@@ -108,7 +108,7 @@ footer img {
     font-size: 34px;
     font-weight: 100;
     text-align: center;
-    background: rgb(224, 59, 53);
+    background: rgb(192, 50, 50);
     color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(170, 43, 43);
 }
@@ -121,7 +121,7 @@ footer img {
     margin-left: -50px;
     width: 0;
     height: 0;
-    border-top: solid 50px rgb(224, 59, 53);
+    border-top: solid 50px rgb(192, 50, 50);
     border-left: solid 50px transparent;
     border-right: solid 50px transparent;
 }

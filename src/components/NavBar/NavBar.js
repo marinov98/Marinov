@@ -10,45 +10,57 @@ import MdMail from 'react-ionicons/lib/MdMail';
 export default function NavBar() {
     return (
         <div id="navbar">
-            <nav className="sticky container-fluid">
-                <div className="row">
-                    <div className="col nav-name">
-                        <h3>Marin Pavlinov Marinov</h3>
-                    </div>
-                    <ul className="col main-nav ">
-                        <li>
-                            <Scrollchor to="#about-hidden" animate={{ offset: 20, duration: 800 }}>
-                                About Me
+            <nav className="navbar navbar-expand-lg navbar-dark main-nav sticky">
+                <div className="nav-name col">
+                    <h3 className="navbar-brand">Marin Pavlinov Marinov</h3>
+                </div>
+                <div className="collapse navbar-collapse" id="navbarColor01">
+                    <ul className="navbar-nav mr-auto col">
+                        <li className="nav-item">
+                            <Scrollchor
+                                className="nav-link"
+                                to="#about-hidden"
+                                animate={{ offset: 20, duration: 800 }}
+                            >
+                                About
                             </Scrollchor>
                         </li>
-                        <li>
-                            <Scrollchor to="#skills" animate={{ offset: 20, duration: 800 }}>
+                        <li className="nav-item">
+                            <Scrollchor
+                                className="nav-link"
+                                to="#skills"
+                                animate={{ offset: 20, duration: 800 }}
+                            >
                                 Skills
                             </Scrollchor>
                         </li>
-                        <li>
-                            <Scrollchor to="#projects" animate={{ offset: 20, duration: 800 }}>
+                        <li className="nav-item">
+                            <Scrollchor
+                                className="nav-link"
+                                to="#projects"
+                                animate={{ offset: 20, duration: 800 }}
+                            >
                                 Projects
                             </Scrollchor>
                         </li>
                     </ul>
-                    <div className="col connect-icons">
-                        <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
-                            <IosPaper className="icon" fontSize="35px" />
-                        </a>
-                        <a href="https://github.com/marinov98">
-                            <LogoGithub className="icon" fontSize="40px" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/marin-p-marinov/">
-                            <LogoLinkedin className="icon" fontSize="40px" />
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=100009602178957">
-                            <LogoFacebook className="icon" fontSize="40px" />
-                        </a>
-                        <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">
-                            <MdMail className="icon" fontSize="40px" />
-                        </a>
-                    </div>
+                </div>
+                <div className="col connect-icons">
+                    <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
+                        <IosPaper className="icon" color="white" fontSize="35px" />
+                    </a>
+                    <a href="https://github.com/marinov98">
+                        <LogoGithub className="icon" color="white" fontSize="40px" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/marin-p-marinov/">
+                        <LogoLinkedin className="icon" color="white" fontSize="40px" />
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100009602178957">
+                        <LogoFacebook className="icon" color="white" fontSize="40px" />
+                    </a>
+                    <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">
+                        <MdMail className="icon" color="white" fontSize="40px" />
+                    </a>
                 </div>
             </nav>
         </div>

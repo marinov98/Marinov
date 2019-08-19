@@ -117,8 +117,8 @@
     }
 
     .icon {
-        height: 28px;
-        width: 28px;
+        height: 25px;
+        width: 25px;
         margin-top: 5px;
     }
 
@@ -210,8 +210,8 @@
     }
 }
 
-/*big tablet to 1200x   */
-@media screen and (min-width: 992px) and (max-width: 1400px) {
+/*big tablet to 1276x   */
+@media screen and (min-width: 992px) and (max-width: 1276px) {
     .row {
         padding: 0 2%;
     }
@@ -219,6 +219,11 @@
     #navbar h3 {
         padding-top: 32px;
         font-size: 15px;
+    }
+
+    .main-nav li {
+        margin-top: 15px;
+        padding-top: 10px;
     }
 
     .bio img {

@@ -59,6 +59,10 @@
         font-size: 18px;
     }
 
+    #about img {
+        margin-right: 30px;
+    }
+
     #skills h5 {
         font-size: 110%;
     }
@@ -113,7 +117,30 @@
     }
 
     #about img {
+        height: 235px;
+        width: 235px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    #education img {
+        height: 45%;
+        width: 45%;
+        padding-bottom: 20px;
+    }
+
+    #education p {
+        margin-bottom: 80px;
+    }
+
+    #about img {
         padding-right: 10px;
+    }
+
+    #skills img {
+        margin-left: -60px;
+        height: 40%;
+        width: 40%;
     }
 
     .main-nav {

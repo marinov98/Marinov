@@ -28,7 +28,7 @@ export default function NavBar() {
                         <li className="nav-item">
                             <Scrollchor
                                 className="nav-link"
-                                to="#skills"
+                                to="#go-to-skills"
                                 animate={{ offset: 20, duration: 800 }}
                             >
                                 Skills
@@ -37,7 +37,7 @@ export default function NavBar() {
                         <li className="nav-item">
                             <Scrollchor
                                 className="nav-link"
-                                to="#projects"
+                                to="#go-to-projects"
                                 animate={{ offset: 20, duration: 800 }}
                             >
                                 Projects

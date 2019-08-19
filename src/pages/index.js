@@ -50,11 +50,11 @@ export default function IndexPage() {
                 </div>
             </StyleRoot>
             <Education />
-            <div className="row-fluid skills-separator">
+            <div id="go-to-skills" className="row-fluid skills-separator">
                 <h5>Technical Summary</h5>
             </div>
             <Skills />
-            <div className="row-fluid projects-separator">
+            <div id="go-to-projects" className="row-fluid projects-separator">
                 <h5>Most Recent Projects</h5>
             </div>
             <Projects />

@@ -58,7 +58,7 @@ export default function IndexPage() {
                 <h5>Most Recent Projects</h5>
             </div>
             <Projects />
-            <footer className="row-fluid">
+            <footer id="fter" className="row-fluid">
                 <div className="row">
                     <div className="button">
                         <Scrollchor to="#index" animate={{ offset: 20, duration: 800 }}>

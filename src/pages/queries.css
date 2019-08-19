@@ -97,7 +97,7 @@
         margin-right: 50px;
     }
 
-    .button button {
+    .up-btn button {
         height: 50px;
         width: 50px;
         font-size: 20px;
@@ -189,7 +189,7 @@
         display: none;
     }
 
-    .button button {
+    .up-btn button {
         height: 50px;
         width: 50px;
         font-size: 20px;

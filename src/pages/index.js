@@ -60,7 +60,7 @@ export default function IndexPage() {
             <Projects />
             <footer id="fter" className="row-fluid">
                 <div className="row">
-                    <div className="button">
+                    <div className="up-btn">
                         <Scrollchor to="#index" animate={{ offset: 20, duration: 800 }}>
                             <ScrollAnimation animateIn="fadeIn" animateOut="fadeIn">
                                 <Button color="secondary" size="lg">

@@ -24,10 +24,15 @@ export default function About() {
                             Hello and Welcome to my website! My name is Marin and I am originally
                             from Sofia, Bulgaria. I am currently a student at Macaulay Honors
                             College @Hunter College. I am pursuing a Computer Science major along
-                            with minors in Mathematics and Psychology. I have worked mostly as a
-                            math tutor. Now I am hoping to dive into being a software developer. I
-                            have worked on both personal and group coding projects. I have also had
-                            the honor to intern as a software engineer in WeWork Labs.
+                            with minors in Mathematics and Psychology.
+                            <br />
+                            <br />
+                            <span>
+                                I have worked mostly as a math tutor. Now I am hoping to dive into
+                                being a software developer. I have worked on both personal and group
+                                coding projects. I have also had the honor to intern as a software
+                                engineer in WeWork Labs.
+                            </span>
                         </p>
                     </ScrollAnimation>
                 </div>

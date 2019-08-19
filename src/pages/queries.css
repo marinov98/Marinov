@@ -108,7 +108,7 @@
     .icon {
         height: 28px;
         width: 28px;
-        margin-bottom: 20px;
+        margin-top: 5px;
     }
 
     .bio img {
@@ -150,13 +150,13 @@
     }
 
     #navbar h3 {
-        padding-top: 20px;
+        padding-top: 25px;
         font-size: 15px;
     }
 
     .bio img {
         margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 10px;
     }
 
     .skills-list img {

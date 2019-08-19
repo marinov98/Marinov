@@ -203,6 +203,11 @@
     footer {
         font-size: 15px;
     }
+
+    footer img {
+        height: 50px;
+        width: 50px;
+    }
 }
 
 /*big tablet to 1200x   */

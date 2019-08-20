@@ -4,6 +4,7 @@ import './index.css';
 import './queries.css';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-circular-progressbar/dist/styles.css';
 
 // Components
 import Header from './header';

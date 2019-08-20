@@ -2,6 +2,7 @@ import React from 'react';
 import './Skills.css';
 import './../About/About.css';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 
 export default function Skills() {
     return (
@@ -13,19 +14,32 @@ export default function Skills() {
                 <div className="row skill-row">
                     <ul className="skills-list">
                         <li>
-                            <img
-                                src={require('../../images/skills/html-logo.png')}
-                                alt="html"
-                            ></img>
+                            <CircularProgressbar
+                                value={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                                s
+                            />
                         </li>
                         <li>
-                            <img src={require('../../images/skills/css-logo.png')} alt="CSS"></img>
+                            <CircularProgressbar
+                                percentage={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/md-logo.png')}
-                                alt="MarkDown"
-                            ></img>
+                            <CircularProgressbar
+                                value={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                            />
                         </li>
                     </ul>
                 </div>
@@ -37,32 +51,50 @@ export default function Skills() {
                 <div className="row">
                     <ul className="skills-list">
                         <li>
-                            <img src={require('../../images/skills/cpp-logo.png')} alt="c++"></img>
+                            <CircularProgressbar
+                                value={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/js-logo.png')}
-                                alt="javascript"
-                            ></img>
+                            <CircularProgressbar
+                                value={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                            />
                         </li>
 
-                        <li className="image-script">
-                            <img
-                                src={require('../../images/skills/typescript-logo.png')}
-                                alt="typescript"
-                            ></img>
+                        <li>
+                            <CircularProgressbar
+                                value={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                            />
                         </li>
-                        <li className="image-script">
-                            <img
-                                src={require('../../images/skills/csharp-logo.png')}
-                                alt="csharp"
-                            ></img>
+                        <li>
+                            <CircularProgressbar
+                                value={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                            />
                         </li>
-                        <li className="image-script">
-                            <img
-                                src={require('../../images/skills/python-logo.png')}
-                                alt="python"
-                            ></img>
+                        <li>
+                            <CircularProgressbar
+                                value={80}
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt'
+                                })}
+                            />
                         </li>
                     </ul>
                 </div>
@@ -73,36 +105,11 @@ export default function Skills() {
                 </div>
                 <div className="row">
                     <ul className="skills-list">
-                        <li>
-                            <img
-                                src={require('../../images/skills/React.js_logo-512.png')}
-                                alt="React"
-                            ></img>
-                        </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/redux-logo.png')}
-                                alt="redux"
-                            ></img>
-                        </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/angular-logo.png')}
-                                alt="angular"
-                            ></img>
-                        </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/bootstrap-logo.png')}
-                                alt="bootstrap"
-                            ></img>
-                        </li>
-                        <li>
-                            <img
-                                src={require('../../images/skills/gatsby-logo.png')}
-                                alt="gatsby.js"
-                            ></img>
-                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
                         <div className="row">
                             <ul className="skills-list">
                                 <li>

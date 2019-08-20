@@ -1,277 +1,67 @@
 /*small phones: from 0 to 480px*/
-@media screen and (max-width: 479px) {
-    .container-fluid {
-        padding: 25px 0;
-    }
+@media screen and (max-width: 480px) {
+    /* General */
 
-    html {
-        font-size: 16px;
-    }
+    /* NavBar */
 
-    .col {
-        width: 100%;
-    }
+    /* About */
 
-    #navbar h3 {
-        font-size: 12px;
-    }
+    /* Education */
 
-    .icon {
-        height: 20px;
-        width: 20px;
-        margin-left: -5px;
-    }
+    /* Skills */
 
-    .bio img {
-        height: 150px;
-        width: 150px;
-        margin-left: 10px;
-    }
+    /* Projects */
 
-    .bio:last-child p {
-        font-size: 14px;
-    }
-
-    .fancy span {
-        margin-bottom: 20px;
-    }
-
-    .fancy span:before,
-    span:after {
-        display: none;
-    }
-
-    .titles img {
-        height: 45%;
-        width: 40%;
-    }
-
-    #education img {
-        height: 45%;
-        width: 35%;
-    }
-
-    #education p,
-    #education h5 {
-        font-size: 85%;
-    }
-
-    #skills img {
-        height: 40%;
-        width: 40%;
-        margin-right: 20px;
-        padding-left: 20px;
-    }
-
-    #skills h5 {
-        font-size: 14px;
-    }
-
-    #projects {
-        font-size: 13px;
-    }
-
-    #projects h4,
-    #projects h5,
-    #projects h6 {
-        font-size: 130%;
-    }
-
-    #projects img {
-        height: 110px;
-        width: 122px;
-    }
-
-    footer {
-        font-size: 13px;
-    }
-
-    footer img {
-        height: 40px;
-        width: 40px;
-        margin-right: 50px;
-    }
-
-    footer p {
-        margin-right: 50px;
-    }
-
-    .up-btn button {
-        height: 50px;
-        width: 50px;
-        font-size: 20px;
-    }
-
-    .main-nav {
-        display: none;
-    }
+    /* Footer */
 }
 
-/*small tablet to big tablet  */
-@media screen and (min-width: 480px) and (max-width: 991px) {
-    html {
-        font-size: 17px;
-    }
+/*small tablet to big tablet: from 480 to 767px  */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    /* General */
 
-    #navbar h3 {
-        padding-top: 25px;
-        font-size: 15px;
-    }
+    /* NavBar */
 
-    .icon {
-        height: 28px;
-        width: 28px;
-        margin-top: 5px;
-        margin-left: -5px;
-    }
+    /* About */
 
-    .bio img {
-        height: 245px;
-        width: 245px;
-        margin-top: 20px;
-        margin-left: 10px;
-    }
+    /* Education */
 
-    .bio:last-child p {
-        font-size: 17px;
-        margin-right: -80px;
-    }
+    /* Skills */
 
-    .titles img {
-        height: 45%;
-        width: 45%;
-        padding-bottom: 20px;
-    }
+    /* Projects */
 
-    .titles p {
-        margin-bottom: 80px;
-    }
-
-    .bio img {
-        padding-right: 10px;
-    }
-
-    .fancy span {
-        margin-bottom: 20px;
-    }
-
-    .fancy span:before,
-    span:after {
-        display: none;
-    }
-
-    #education img {
-        height: 45%;
-        width: 35%;
-    }
-
-    #education p,
-    #education h5 {
-        font-size: 85%;
-    }
-
-    #skills h5 {
-        font-size: 20px;
-    }
-
-    #skills img {
-        height: 40%;
-        width: 40%;
-    }
-
-    .skills-list li img {
-        height: 30%;
-        width: 30%;
-    }
-
-    .main-nav {
-        display: none;
-    }
-
-    .up-btn button {
-        height: 50px;
-        width: 50px;
-        font-size: 20px;
-    }
-
-    #projects {
-        font-size: 13px;
-    }
-
-    #projects h4,
-    #projects h5,
-    #projects h6 {
-        font-size: 130%;
-    }
-
-    #projects img {
-        height: 120px;
-        width: 132px;
-    }
-
-    footer {
-        font-size: 15px;
-    }
-
-    footer p {
-        margin-right: 50px;
-    }
-
-    footer img {
-        height: 50px;
-        width: 50px;
-        margin-right: 50px;
-    }
+    /* Footer */
 }
 
-/*big tablet to 1276x   */
-@media screen and (min-width: 992px) and (max-width: 1276px) {
-    .row {
-        padding: 0 2%;
-    }
+/* small tablet to big tablet: from 767 to 1023px  */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    /* General */
 
-    #navbar h3 {
-        padding-top: 32px;
-        font-size: 15px;
-    }
+    /* NavBar */
 
-    .main-nav li {
-        margin-top: 15px;
-        padding-top: 10px;
-    }
+    /* About */
 
-    .bio img {
-        height: 70%;
-        width: 70%;
-        margin-top: 20px;
-        margin-left: 60px;
-    }
+    /* Education */
 
-    .skills-list img {
-        height: 40%;
-        width: 40%;
-    }
+    /* Skills */
 
-    .main-nav li {
-        font-size: 14px;
-    }
+    /* Projects */
 
-    .icon {
-        margin-top: 10px;
-        height: 28px;
-        width: 28px;
-    }
+    /* Footer */
+}
 
-    #skills h5 {
-        font-size: 20px;
-    }
+/* big tablet to small laptop: from 1023 to 1200px */
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    /* General */
 
-    #skills img {
-        height: 45%;
-        width: 45%;
-    }
+    /* NavBar */
 
-    footer {
-        font-size: 16px;
-    }
+    /* About */
+
+    /* Education */
+
+    /* Skills */
+
+    /* Projects */
+
+    /* Footer */
 }

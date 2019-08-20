@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 import './../About/About.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 export default function Skills() {
@@ -46,7 +46,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -66,7 +67,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -95,7 +97,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -115,7 +118,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -136,7 +140,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -156,7 +161,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -176,7 +182,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -205,7 +212,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -225,7 +233,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -245,7 +254,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -265,7 +275,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -285,7 +296,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -307,7 +319,8 @@ export default function Skills() {
                                                 fill: 'darkorange'
                                             },
                                             text: {
-                                                fill: '#fff'
+                                                fill: '#fff',
+                                                fontSize: '12px'
                                             },
                                             path: {
                                                 stroke: '#fff'
@@ -327,7 +340,8 @@ export default function Skills() {
                                                 fill: 'darkorange'
                                             },
                                             text: {
-                                                fill: '#fff'
+                                                fill: '#fff',
+                                                fontSize: '12px'
                                             },
                                             path: {
                                                 stroke: '#fff'
@@ -347,7 +361,8 @@ export default function Skills() {
                                                 fill: 'darkorange'
                                             },
                                             text: {
-                                                fill: '#fff'
+                                                fill: '#fff',
+                                                fontSize: '12px'
                                             },
                                             path: {
                                                 stroke: '#fff'
@@ -367,7 +382,8 @@ export default function Skills() {
                                                 fill: 'darkorange'
                                             },
                                             text: {
-                                                fill: '#fff'
+                                                fill: '#fff',
+                                                fontSize: '12px'
                                             },
                                             path: {
                                                 stroke: '#fff'
@@ -398,7 +414,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -427,7 +444,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -447,7 +465,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -467,7 +486,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -487,7 +507,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -507,7 +528,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -527,7 +549,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -547,7 +570,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -576,7 +600,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -596,7 +621,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -637,7 +663,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -666,7 +693,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'
@@ -686,7 +714,8 @@ export default function Skills() {
                                         fill: 'darkorange'
                                     },
                                     text: {
-                                        fill: '#fff'
+                                        fill: '#fff',
+                                        fontSize: '12px'
                                     },
                                     path: {
                                         stroke: '#fff'

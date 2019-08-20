@@ -3,6 +3,7 @@ import './Skills.css';
 import './../About/About.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 export default function Skills() {
     return (
@@ -15,29 +16,53 @@ export default function Skills() {
                     <ul className="skills-list">
                         <li>
                             <CircularProgressbar
-                                value={80}
+                                value={50}
                                 strokeWidth={50}
+                                text="HTML5"
+                                background={true}
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    // Rotation of path and trail, in number of turns (0-1)
+                                    rotation: 0.25,
+
+                                    // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+                                    strokeLinecap: 'butt',
+
+                                    // Text size
+                                    textSize: '16px',
+
+                                    // How long animation takes to go from one percentage to another, in seconds
+                                    pathTransitionDuration: 0.5,
+
+                                    // Can specify path transition in more detail, or remove it entirely
+                                    // pathTransition: 'none',
+
+                                    // Colors
+                                    pathColor: `rgba(62, 152, 199, ${80 / 100})`,
+                                    textColor: '#f88',
+                                    trailColor: '#d6d6d6',
+                                    backgroundColor: '#3e98c7'
                                 })}
-                                s
                             />
                         </li>
                         <li>
                             <CircularProgressbar
-                                percentage={80}
+                                value={0}
                                 strokeWidth={50}
+                                text="CSS3"
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
                                 })}
                             />
                         </li>
                         <li>
                             <CircularProgressbar
-                                value={80}
+                                value={0}
+                                text="Markdown"
                                 strokeWidth={50}
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
                                 })}
                             />
                         </li>
@@ -52,47 +77,57 @@ export default function Skills() {
                     <ul className="skills-list">
                         <li>
                             <CircularProgressbar
-                                value={80}
+                                value={0}
+                                text="C++"
                                 strokeWidth={50}
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
                                 })}
                             />
                         </li>
                         <li>
                             <CircularProgressbar
-                                value={80}
+                                text="JavaScript"
+                                value={0}
                                 strokeWidth={50}
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
                                 })}
                             />
                         </li>
 
                         <li>
                             <CircularProgressbar
-                                value={80}
+                                text="TypeScript"
+                                value={0}
                                 strokeWidth={50}
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
                                 })}
                             />
                         </li>
                         <li>
                             <CircularProgressbar
-                                value={80}
+                                text="C#"
+                                value={0}
                                 strokeWidth={50}
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
                                 })}
                             />
                         </li>
                         <li>
                             <CircularProgressbar
-                                value={80}
+                                text="Python"
+                                value={0}
                                 strokeWidth={50}
                                 styles={buildStyles({
-                                    strokeLinecap: 'butt'
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
                                 })}
                             />
                         </li>
@@ -105,36 +140,106 @@ export default function Skills() {
                 </div>
                 <div className="row">
                     <ul className="skills-list">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+                            <CircularProgressbar
+                                value={0}
+                                text="React"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
+                        </li>
+                        <li>
+                            <CircularProgressbar
+                                value={0}
+                                text="Redux"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
+                        </li>
+                        <li>
+                            <CircularProgressbar
+                                value={0}
+                                text="Angluar"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
+                        </li>
+                        <li>
+                            <CircularProgressbar
+                                value={0}
+                                text="Bootstrap"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
+                        </li>
+                        <li>
+                            <CircularProgressbar
+                                value={0}
+                                text="GatsbyJS"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
+                        </li>
                         <div className="row">
                             <ul className="skills-list">
                                 <li>
-                                    <img
-                                        src={require('../../images/skills/nodejs-512.png')}
-                                        alt="node"
-                                    ></img>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="NodeJS"
+                                        strokeWidth={50}
+                                        styles={buildStyles({
+                                            strokeLinecap: 'butt',
+                                            textSize: '10px'
+                                        })}
+                                    />
                                 </li>
                                 <li>
-                                    <img
-                                        src={require('../../images/skills/express-logo.png')}
-                                        alt="express"
-                                    ></img>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="Express"
+                                        strokeWidth={50}
+                                        styles={buildStyles({
+                                            strokeLinecap: 'butt',
+                                            textSize: '10px'
+                                        })}
+                                    />
                                 </li>
                                 <li>
-                                    <img
-                                        src={require('../../images/skills/jest-logo.png')}
-                                        alt="jest"
-                                    ></img>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="Jest"
+                                        strokeWidth={50}
+                                        styles={buildStyles({
+                                            strokeLinecap: 'butt',
+                                            textSize: '10px'
+                                        })}
+                                    />
                                 </li>
                                 <li>
-                                    <img
-                                        src={require('../../images/skills/Asp-net-logo.jpg')}
-                                        alt="asp.NET"
-                                    ></img>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="ASP.NET"
+                                        strokeWidth={50}
+                                        styles={buildStyles({
+                                            strokeLinecap: 'butt',
+                                            textSize: '10px'
+                                        })}
+                                    />
                                 </li>
                             </ul>
                         </div>
@@ -148,10 +253,15 @@ export default function Skills() {
                 <div className="row">
                     <ul className="skills-list db">
                         <li>
-                            <img
-                                src={require('../../images/skills/pq-logo.png')}
-                                alt="postgresql"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="PostreSQL"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                     </ul>
                 </div>
@@ -163,40 +273,81 @@ export default function Skills() {
                 <div className="row">
                     <ul className="skills-list other">
                         <li>
-                            <img src={require('../../images/skills/git-logo.png')} alt="git"></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="Git"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/cmake-logo.jpg')}
-                                alt="cmake"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="CMake"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/airtable-logo.png')}
-                                alt="AirTable"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="AirTable"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/monkeylearn-logo.png')}
-                                alt="MonkeyLearn"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="MonkeyLearn"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/office-logo.png')}
-                                alt="office"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="Microsoft Office"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img src={require('../../images/skills/vim-logo.png')} alt="vim"></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="Vim"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/emacs-logo.png')}
-                                alt="emacs"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="Emacs"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                     </ul>
                 </div>
@@ -207,26 +358,49 @@ export default function Skills() {
                 </div>
                 <div className="row">
                     <ul className="skills-list">
-                        <li className="image-script">
-                            <img
-                                src={require('../../images/skills/ubuntu-logo.png')}
-                                alt="ubuntu"
-                            ></img>
+                        <li>
+                            <CircularProgressbar
+                                value={0}
+                                text="Ubuntu"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/arch-logo.jpg')}
-                                alt="arch-linux"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="Arch"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img src={require('../../images/skills/mac-logo.png')} alt="Mac"></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="Windows 10"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/windows-logo.png')}
-                                alt="Windows"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="MacOS"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                     </ul>
                 </div>
@@ -237,17 +411,27 @@ export default function Skills() {
                 </div>
                 <div className="row">
                     <ul className="skills-list">
-                        <li className="image-script">
-                            <img
-                                src={require('../../images/skills/heroku-logo.png')}
-                                alt="heroku"
-                            ></img>
+                        <li>
+                            <CircularProgressbar
+                                value={0}
+                                text="Heroku"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                         <li>
-                            <img
-                                src={require('../../images/skills/netlify-logo.jpg')}
-                                alt="netlify"
-                            ></img>
+                            <CircularProgressbar
+                                value={0}
+                                text="Netlify"
+                                strokeWidth={50}
+                                styles={buildStyles({
+                                    strokeLinecap: 'butt',
+                                    textSize: '10px'
+                                })}
+                            />
                         </li>
                     </ul>
                 </div>

@@ -15,7 +15,7 @@ import Education from '../components/Eduction/Education';
 
 // Utility & Packages
 import { Button } from 'reactstrap';
-import { fadeIn, tada, bounce } from 'react-animations';
+import { fadeIn, tada, bounce, slideInUp } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 import Scrollchor from 'react-scrollchor';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -32,6 +32,10 @@ const styles = {
     bounce: {
         animation: 'x 1s',
         animationName: Radium.keyframes(bounce, 'bounce')
+    },
+    slideUp: {
+        animation: 'x 2s',
+        animationName: Radium.keyframes(slideInUp, 'slideInUp')
     }
 };
 
@@ -45,7 +49,7 @@ export default function IndexPage() {
                 Marin P. Marinov
             </div>
             <StyleRoot>
-                <div style={styles.tada}>
+                <div style={styles.slideUp}>
                     <About />
                 </div>
             </StyleRoot>

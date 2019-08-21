@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default function Education() {
     return (
         <div id="education" className="container-fluid">
-            <ScrollAnimation animateIn="fadeInDown" animateOnce="true">
+            <ScrollAnimation animateIn="fadeInDown" animateOnce="true" duration="2">
                 <h3 className="education-title">Education</h3>
                 <div className="row titles">
                     <div className="col-sm college">

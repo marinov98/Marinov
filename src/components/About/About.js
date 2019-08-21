@@ -9,7 +9,7 @@ export default function About() {
                 <span style={{ marginTop: '20px' }}>About Me</span>
             </h3>
             <div className="row bio">
-                <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="2.5">
+                <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="3">
                     <div className="col">
                         <img
                             src={require('../../images/self/ProfilePic2.png')}
@@ -18,7 +18,7 @@ export default function About() {
                     </div>
                 </ScrollAnimation>
                 <div className="col">
-                    <ScrollAnimation animateIn="fadeInRight" animateOnce="true" duration="2.5">
+                    <ScrollAnimation animateIn="fadeInRight" animateOnce="true" duration="3">
                         <p>
                             {' '}
                             Hello and Welcome to my website! My name is Marin and I am originally

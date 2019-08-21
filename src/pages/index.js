@@ -4,7 +4,6 @@ import './index.css';
 import './queries.css';
 import 'animate.css/animate.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-circular-progressbar/dist/styles.css';
 
 // Components
 import Header from './header';
@@ -16,14 +15,14 @@ import Education from '../components/Eduction/Education';
 
 // Utility & Packages
 import { Button } from 'reactstrap';
-import { fadeIn, tada, bounce } from 'react-animations';
+import { fadeIn, tada, bounce, slideInUp, slideInDown } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 import Scrollchor from 'react-scrollchor';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = {
     fadeIn: {
-        animation: 'x 1s',
+        animation: 'x 3s',
         animationName: Radium.keyframes(fadeIn, 'fadeIn')
     },
     tada: {
@@ -33,6 +32,14 @@ const styles = {
     bounce: {
         animation: 'x 1s',
         animationName: Radium.keyframes(bounce, 'bounce')
+    },
+    slideUp: {
+        animation: 'x 2s',
+        animationName: Radium.keyframes(slideInUp, 'slideInUp')
+    },
+    slideDown: {
+        animation: 'x 5s',
+        animationName: Radium.keyframes(slideInDown, 'slideInDown')
     }
 };
 
@@ -41,12 +48,16 @@ export default function IndexPage() {
         // NAVBAR
         <div id="index" className="container-fluid">
             <Header />
-            <NavBar />
+            <StyleRoot>
+                <div style={styles.fadeIn}>
+                    <NavBar />
+                </div>
+            </StyleRoot>
             <div id="about-hidden" style={{ marginTop: '12px', visibility: 'hidden' }}>
                 Marin P. Marinov
             </div>
             <StyleRoot>
-                <div style={styles.tada}>
+                <div style={styles.slideUp}>
                     <About />
                 </div>
             </StyleRoot>

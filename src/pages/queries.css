@@ -184,33 +184,16 @@
     }
 }
 
-/* small tablet to big tablet: from 767 to 1023px  */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
-    #about div {
-        margin-top: 10px;
-        width: 100%;
-    }
-}
-
 /* Weird about me borders */
-@media screen and (min-width: 940px) and (max-width: 1223px) {
+@media screen and (min-width: 767px) and (max-width: 1223px) {
     #about div {
         margin-top: 10px;
         width: 100%;
-    }
-}
-
-/* Big Tablets and small laptops */
-@media screen and (min-width: 1000px) and (max-width: 1023px) {
-    .icon {
-        height: 32px;
-        width: 32px;
-        margin-left: -5px;
     }
 }
 
 /* big tablet to small laptop: from 1023 to 1200px */
-@media screen and (min-width: 1023px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
     .icon {
         height: 32px;
         width: 32px;

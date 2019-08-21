@@ -182,7 +182,7 @@ export default function Skills() {
                                         fill: '#306998'
                                     },
                                     text: {
-                                        fill: '#FFE873',
+                                        fill: '#FFD43B',
                                         fontSize: '12px'
                                     },
                                     path: {
@@ -462,10 +462,10 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#5BA581'
                                     },
                                     text: {
-                                        fill: '#fff',
+                                        fill: 'red',
                                         fontSize: '12px'
                                     },
                                     path: {
@@ -483,10 +483,10 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#009792'
                                     },
                                     text: {
-                                        fill: '#fff',
+                                        fill: '#FFC50D',
                                         fontSize: '12px'
                                     },
                                     path: {
@@ -504,7 +504,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#008DDD'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -525,7 +525,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#DC3E15'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -546,7 +546,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#228B22'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -567,7 +567,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#BA65ED'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -597,7 +597,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#DD4814'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -618,7 +618,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#0E88D3'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -639,7 +639,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#00BCF2'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -660,10 +660,10 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: 'lightgrey'
                                     },
                                     text: {
-                                        fill: '#fff',
+                                        fill: 'black',
                                         fontSize: '12px'
                                     },
                                     path: {
@@ -690,7 +690,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#6762A6'
                                     },
                                     text: {
                                         fill: '#fff',
@@ -711,7 +711,7 @@ export default function Skills() {
                                 background
                                 styles={{
                                     background: {
-                                        fill: 'darkorange'
+                                        fill: '#4DC6BD'
                                     },
                                     text: {
                                         fill: '#fff',

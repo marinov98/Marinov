@@ -38,10 +38,10 @@
 .skills-list svg {
     height: 200px;
     width: 200px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-.skills-list img {
+/* .skills-list img {
     height: 55%;
     width: 55%;
     padding-bottom: 20px;
@@ -52,7 +52,7 @@
     height: 200px;
     width: 200px;
     margin-left: 10px;
-}
+} */
 
 .gradient {
     border-bottom: 1px solid #880c0c;

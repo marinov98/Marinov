@@ -15,7 +15,7 @@ export default function Skills() {
                         <div className="row skill-row markup">
                             <h5>Markup Languages:</h5>
                         </div>
-                        <div className="row skill-row">
+                        <div className="row">
                             <ul className="skills-list">
                                 <li>
                                     <CircularProgressbar

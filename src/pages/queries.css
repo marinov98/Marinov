@@ -22,9 +22,6 @@
     }
 
     /* About */
-    #about div {
-        width: 100%;
-    }
 
     .bio img {
         height: 180px;
@@ -125,7 +122,6 @@
     /* About */
     #about div {
         margin-top: 10px;
-        width: 100%;
     }
 
     .bio img {
@@ -174,25 +170,27 @@
     }
 }
 
-/* Weird about me borders */
-@media screen and (min-width: 767px) and (max-width: 1223px) {
-    #about div {
-        margin-top: 10px;
-        width: 100%;
-    }
-
+@media screen and (min-width: 767px) and (max-width: 1200px) {
     .icon {
-        height: 30px;
-        width: 30px;
+        height: 28px;
+        width: 28px;
         margin-right: -5px;
     }
 }
 
-/* big tablet to small laptop: from 1023 to 1200px */
-@media screen and (min-width: 1000px) and (max-width: 1200px) {
+/* big tablet to small laptop: from 1023 to 1323px */
+@media screen and (min-width: 1023px) and (max-width: 1323px) {
     .icon {
         height: 32px;
         width: 32px;
         margin-right: -5px;
+    }
+}
+
+/* Make image and paragraph on its own line when screen width is below 1323px */
+@media screen and (max-width: 1323px) {
+    #about div {
+        margin-top: 10px;
+        width: 100%;
     }
 }

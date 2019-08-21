@@ -1,13 +1,3 @@
-/* very small phones: 0px to 320px */
-@media screen and (max-width: 320px) {
-    .bio img {
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        margin-right: 25px;
-    }
-}
-
 /*small phones: up to 480px*/
 @media screen and (max-width: 480px) {
     /* General */
@@ -32,6 +22,9 @@
     }
 
     /* About */
+    #about div {
+        width: 100%;
+    }
 
     .bio img {
         height: 180px;
@@ -130,6 +123,10 @@
     }
 
     /* About */
+    #about div {
+        margin-top: 10px;
+        width: 100%;
+    }
 
     .bio img {
         height: 220px;
@@ -174,13 +171,6 @@
         height: 65px;
         width: 65px;
         font-size: 25px;
-    }
-}
-
-/* screens between 600px and 767px */
-@media screen and (min-width: 600px) and (max-width: 767px) {
-    .bio img {
-        margin-left: 25px;
     }
 }
 

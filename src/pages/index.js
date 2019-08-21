@@ -38,7 +38,7 @@ const styles = {
         animationName: Radium.keyframes(slideInUp, 'slideInUp')
     },
     slideDown: {
-        animation: 'x 5s',
+        animation: 'x 2s',
         animationName: Radium.keyframes(slideInDown, 'slideInDown')
     }
 };

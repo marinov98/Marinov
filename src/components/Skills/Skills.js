@@ -69,7 +69,7 @@ export default function Skills() {
             </ScrollAnimation>
             <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
                 <div className="row skill-row">
-                    <h5>Frameworks/Libraries/Runtime Environments:</h5>
+                    <h5>Technologies:</h5>
                 </div>
                 <div className="row">
                     <ul className="skills-list">
@@ -151,7 +151,7 @@ export default function Skills() {
             </ScrollAnimation>
             <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
                 <div className="row skill-row">
-                    <h5>Other Software:</h5>
+                    <h5>Software Tools:</h5>
                 </div>
                 <div className="row">
                     <ul className="skills-list other">

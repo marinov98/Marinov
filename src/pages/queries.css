@@ -57,9 +57,9 @@
         font-size: 16px;
     }
 
-    #skills img {
-        height: 50%;
-        width: 50%;
+    #skills svg {
+        height: 45%;
+        width: 45%;
     }
 
     /* Projects */

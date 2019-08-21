@@ -15,14 +15,14 @@ import Education from '../components/Eduction/Education';
 
 // Utility & Packages
 import { Button } from 'reactstrap';
-import { fadeIn, tada, bounce, slideInUp } from 'react-animations';
+import { fadeIn, tada, bounce, slideInUp, slideInDown } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 import Scrollchor from 'react-scrollchor';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const styles = {
     fadeIn: {
-        animation: 'x 1s',
+        animation: 'x 3s',
         animationName: Radium.keyframes(fadeIn, 'fadeIn')
     },
     tada: {
@@ -36,6 +36,10 @@ const styles = {
     slideUp: {
         animation: 'x 2s',
         animationName: Radium.keyframes(slideInUp, 'slideInUp')
+    },
+    slideDown: {
+        animation: 'x 5s',
+        animationName: Radium.keyframes(slideInDown, 'slideInDown')
     }
 };
 
@@ -44,7 +48,11 @@ export default function IndexPage() {
         // NAVBAR
         <div id="index" className="container-fluid">
             <Header />
-            <NavBar />
+            <StyleRoot>
+                <div style={styles.fadeIn}>
+                    <NavBar />
+                </div>
+            </StyleRoot>
             <div id="about-hidden" style={{ marginTop: '12px', visibility: 'hidden' }}>
                 Marin P. Marinov
             </div>

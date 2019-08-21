@@ -6,11 +6,15 @@
 }
 
 .tech-heading {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .title {
     padding-top: 50px;
+}
+
+.col-begin {
+    padding-top: 20px;
 }
 
 .skill-row h5 {
@@ -39,9 +43,8 @@
 }
 
 .skills-list svg {
-    height: 180px;
-    width: 180px;
-    margin-right: 20px;
+    height: 160px;
+    width: 160px;
 }
 
 /* .skills-list img {

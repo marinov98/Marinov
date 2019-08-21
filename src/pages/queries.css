@@ -50,6 +50,11 @@
     }
 
     /* Skills */
+
+    #skills h3 {
+        font-size: 18px;
+    }
+
     #skills h5 {
         font-size: 16px;
     }
@@ -146,6 +151,10 @@
         font-size: 20px;
     }
 
+    #skills h3 {
+        font-size: 22px;
+    }
+
     /* Projects */
 
     /* Footer */
@@ -176,6 +185,29 @@
         width: 28px;
         margin-right: -5px;
     }
+
+    #skills h3 {
+        font-size: 24px;
+    }
+
+    #skills h5 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1171px) {
+    #skills h3 {
+        font-size: 24px;
+    }
+
+    #skills h5 {
+        font-size: 22px;
+    }
+
+    #skills svg {
+        height: 95px;
+        width: 95px;
+    }
 }
 
 /* big tablet to small laptop: from 1023 to 1323px */
@@ -184,6 +216,13 @@
         height: 32px;
         width: 32px;
         margin-right: -5px;
+    }
+}
+
+@media screen and (min-width: 1071px) and (max-width: 1323px) {
+    #skills svg {
+        height: 140px;
+        width: 140px;
     }
 }
 

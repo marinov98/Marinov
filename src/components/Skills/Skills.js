@@ -8,11 +8,11 @@ import 'react-circular-progressbar/dist/styles.css';
 export default function Skills() {
     return (
         <div id="skills" className="container-fluid gradient">
-            <div className="row">
-                <div className="col">
+            <div className="row summary">
+                <div className="col application-col">
                     <h3 className="tech-heading">Application Stack</h3>
                     <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
-                        <div className="row skill-row markup">
+                        <div className="row skill-row col-begin">
                             <h5>Markup Languages:</h5>
                         </div>
                         <div className="row">
@@ -439,10 +439,10 @@ export default function Skills() {
                         </div>
                     </ScrollAnimation>
                 </div>
-                <div className="col">
+                <div className="col software-col">
                     <h3 className="tech-heading">Software</h3>
-                    <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
-                        <div className="row skill-row markup">
+                    <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
+                        <div className="row skill-row col-begin">
                             <h5>Software Tools:</h5>
                         </div>
                         <div className="row">
@@ -579,7 +579,6 @@ export default function Skills() {
                                 </li>
                             </ul>
                         </div>
-
                         <div className="row">
                             <ul className="skills-list">
                                 <li>
@@ -648,7 +647,7 @@ export default function Skills() {
                             </ul>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
                         <div className="row skill-row">
                             <h5>Operating Systems:</h5>
                         </div>
@@ -745,7 +744,7 @@ export default function Skills() {
                             </ul>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
                         <div className="row skill-row">
                             <h5>Cloud:</h5>
                         </div>

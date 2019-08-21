@@ -5,6 +5,10 @@
     padding-left: 40px;
 }
 
+.tech-heading {
+    margin-top: 50px;
+}
+
 .title {
     padding-top: 50px;
 }
@@ -23,21 +27,20 @@
 }
 
 .skills-list {
-    float: left;
     list-style: none;
     margin: 5px;
-    align-items: center;
 }
 
 .skills-list li {
     padding-right: 5px;
+    padding-left: 20px;
     display: inline-block;
     margin-top: 10px;
 }
 
 .skills-list svg {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     margin-right: 20px;
 }
 

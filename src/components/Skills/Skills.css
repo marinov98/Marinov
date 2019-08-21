@@ -57,20 +57,3 @@
 .gradient {
     border-bottom: 1px solid #880c0c;
 }
-
-/* CIRCLES */
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
-    fill: #183d52;
-}
-
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
-    fill: rgb(146, 24, 24);
-}
-
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
-    stroke: rgb(80, 46, 46);
-}
-
-.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
-    stroke: transparent;
-}

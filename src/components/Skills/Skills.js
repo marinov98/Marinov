@@ -379,7 +379,7 @@ export default function Skills() {
                                         background
                                         styles={{
                                             background: {
-                                                fill: 'lightgrey'
+                                                fill: '#FFFAFA'
                                             },
                                             text: {
                                                 fill: '#0000FF',

@@ -1,35 +1,186 @@
-/*small phones: from 0 to 480px*/
+/* very small phones: 0px to 320px */
+@media screen and (max-width: 320px) {
+    .bio img {
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        margin-right: 25px;
+    }
+}
+
+/*small phones: up to 480px*/
 @media screen and (max-width: 480px) {
     /* General */
+    html {
+        font-size: 16px;
+    }
 
     /* NavBar */
 
+    #navbar h3 {
+        font-size: 14px;
+    }
+
+    .connect-icons {
+        margin-left: -20px;
+    }
+
+    .icon {
+        height: 20px;
+        width: 20px;
+        margin-right: -5px;
+    }
+
     /* About */
 
+    .bio img {
+        height: 180px;
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .fancy span {
+        margin-bottom: 20px;
+    }
+
+    .fancy span:before,
+    span:after {
+        display: none;
+    }
+
     /* Education */
+    #education img {
+        height: 55%;
+        width: 45%;
+    }
+
+    #education p,
+    #education h5 {
+        font-size: 95%;
+    }
 
     /* Skills */
+    #skills h5 {
+        font-size: 16px;
+    }
+
+    #skills svg {
+        height: 40%;
+        width: 40%;
+    }
 
     /* Projects */
+    #projects {
+        font-size: 14px;
+    }
+
+    #projects h4,
+    #projects h5,
+    #projects h6 {
+        font-size: 130%;
+    }
+
+    #projects img {
+        height: 140px;
+        width: 152px;
+    }
 
     /* Footer */
+    footer {
+        font-size: 14px;
+    }
+
+    footer img {
+        height: 50px;
+        width: 50px;
+        margin-right: 50px;
+    }
+
+    footer p {
+        margin-right: 50px;
+    }
+
+    .up-btn button {
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+    }
 }
 
 /*small tablet to big tablet: from 480 to 767px  */
 @media screen and (min-width: 480px) and (max-width: 767px) {
     /* General */
+    html {
+        font-size: 16px;
+    }
 
     /* NavBar */
+    #navbar h3 {
+        font-size: 16px;
+    }
+
+    .connect-icons {
+        margin-left: -20px;
+    }
+
+    .icon {
+        height: 24px;
+        width: 24px;
+        margin-right: -5px;
+    }
 
     /* About */
+    .bio img {
+        height: 220px;
+        width: 220px;
+        margin-top: 20px;
+    }
+
+    .fancy span {
+        margin-bottom: 20px;
+    }
+
+    .fancy span:before,
+    span:after {
+        display: none;
+    }
 
     /* Education */
 
     /* Skills */
+    #skills h5 {
+        font-size: 20px;
+    }
 
     /* Projects */
 
     /* Footer */
+    footer {
+        font-size: 16px;
+    }
+
+    footer p {
+        margin-right: 50px;
+    }
+
+    footer img {
+        height: 70px;
+        width: 70px;
+        margin-right: 50px;
+    }
+
+    .up-btn button {
+        height: 65px;
+        width: 65px;
+        font-size: 25px;
+    }
+}
+
+/* screens between 600px and 767px */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .bio img {
+        margin-left: 25px;
+    }
 }
 
 /* small tablet to big tablet: from 767 to 1023px  */

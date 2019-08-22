@@ -11,14 +11,21 @@
         font-size: 14px;
     }
 
+    #navbar div {
+        display: block;
+    }
+
+    #navbar li {
+        display: none;
+    }
+
     .connect-icons {
         margin-left: -20px;
     }
 
     .icon {
-        height: 16px;
-        width: 16px;
-        margin-right: -5px;
+        height: 28px;
+        width: 28px;
     }
 
     /* About */
@@ -111,7 +118,15 @@
 
     /* NavBar */
     #navbar h3 {
-        font-size: 16px;
+        font-size: 18px;
+    }
+
+    #navbar div {
+        display: block;
+    }
+
+    #navbar li {
+        display: none;
     }
 
     .connect-icons {
@@ -119,9 +134,8 @@
     }
 
     .icon {
-        height: 24px;
-        width: 24px;
-        margin-right: -5px;
+        height: 32px;
+        width: 32px;
     }
 
     /* About */

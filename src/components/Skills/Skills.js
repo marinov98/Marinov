@@ -10,10 +10,10 @@ export default function Skills() {
         <div id="skills" className="container-fluid gradient">
             <div className="row summary">
                 <div className="col application-col">
-                    <h3 className="tech-heading">Application Stack</h3>
+                    <h3 className="tech-heading">Skills</h3>
                     <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
                         <div className="row skill-row col-begin">
-                            <h5>Markup Languages:</h5>
+                            <h5>Markup/Style:</h5>
                         </div>
                         <div className="row">
                             <ul className="skills-list">
@@ -443,7 +443,7 @@ export default function Skills() {
                     <h3 className="tech-heading">Software</h3>
                     <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
                         <div className="row skill-row col-begin">
-                            <h5>Software Tools:</h5>
+                            <h5>Tools:</h5>
                         </div>
                         <div className="row">
                             <ul className="skills-list other">

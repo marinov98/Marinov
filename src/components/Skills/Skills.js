@@ -443,7 +443,7 @@ export default function Skills() {
                     <h3 className="tech-heading">Software</h3>
                     <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
                         <div className="row skill-row col-begin">
-                            <h5>Software Tools:</h5>
+                            <h5>Tools:</h5>
                         </div>
                         <div className="row">
                             <ul className="skills-list other">

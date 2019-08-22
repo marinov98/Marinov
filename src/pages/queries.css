@@ -161,6 +161,11 @@
         font-size: 22px;
     }
 
+    #skills svg {
+        height: 60%;
+        width: 60%;
+    }
+
     /* Projects */
 
     /* Footer */
@@ -199,6 +204,11 @@
     #skills h5 {
         font-size: 22px;
     }
+
+    #skills svg {
+        height: 88px;
+        width: 88px;
+    }
 }
 
 @media screen and (min-width: 820px) and (max-width: 1171px) {
@@ -223,6 +233,11 @@
         width: 32px;
         margin-right: -5px;
     }
+
+    #skills svg {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 @media screen and (min-width: 1071px) and (max-width: 1323px) {
@@ -244,14 +259,14 @@
 
 @media screen and (min-width: 1740px) {
     #skills svg {
-        height: 230px;
-        width: 230px;
+        height: 80%;
+        width: 80%;
     }
 }
 
 @media screen and (min-width: 2120px) {
     #skills svg {
-        height: 250px;
-        width: 250px;
+        height: 85%;
+        width: 85%;
     }
 }

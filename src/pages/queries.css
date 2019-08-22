@@ -150,8 +150,6 @@
         display: none;
     }
 
-    /* Education */
-
     /* Skills */
     #skills h5 {
         font-size: 20px;
@@ -165,8 +163,6 @@
         height: 60%;
         width: 60%;
     }
-
-    /* Projects */
 
     /* Footer */
     footer {
@@ -265,8 +261,62 @@
 }
 
 @media screen and (min-width: 2120px) {
+    /* General */
+    html {
+        font-size: 27px;
+    }
+
+    /* NAVBAR */
+    #navbar h3 {
+        font-size: 30px;
+    }
+
+    .icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    /* ABOUT */
+
+    #about img {
+        height: 110%;
+        width: 110%;
+    }
+
+    #about p {
+        font-size: 25px;
+    }
+
+    /* SKILLS */
     #skills svg {
         height: 70%;
         width: 70%;
+    }
+
+    /* PROJECTS */
+    #projects h4,
+    #projects h5,
+    #projects h6 {
+        font-size: 130%;
+    }
+
+    #projects img {
+        height: 220px;
+        width: 232px;
+    }
+
+    /* FOOTER */
+    footer {
+        font-size: 26px;
+    }
+
+    footer img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .up-btn button {
+        height: 90px;
+        width: 90px;
     }
 }

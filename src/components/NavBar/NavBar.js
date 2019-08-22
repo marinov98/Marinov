@@ -55,7 +55,7 @@ export default function NavBar() {
                     <a href="https://www.linkedin.com/in/marin-p-marinov/">
                         <LogoLinkedin className="icon" color="white" fontSize="40px" />
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100009602178957">
+                    <a href="https://fb.me/mmarinov505">
                         <LogoFacebook className="icon" color="white" fontSize="40px" />
                     </a>
                     <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">

@@ -29,10 +29,10 @@ export default function About() {
                             <br />
                             <span>
                                 I have worked as a math tutor for 5 years, tutoring high school
-                                algebra and geometry to multi-variable calculus . Now I am hoping to
+                                algebra and geometry to multi-variable calculus . Now, I am hoping to
                                 dive into being a software developer. I have worked on both personal
                                 and group coding projects. I have also had the honor to intern as a
-                                software engineer in WeWork Labs.
+                                software engineer at WeWork Labs.
                             </span>
                         </p>
                     </ScrollAnimation>

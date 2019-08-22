@@ -8,17 +8,20 @@
     /* NavBar */
 
     #navbar h3 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    .connect-icons {
-        margin-left: -20px;
+    #navbar div {
+        display: block;
+    }
+
+    #navbar li {
+        display: none;
     }
 
     .icon {
-        height: 16px;
-        width: 16px;
-        margin-right: -5px;
+        height: 30px;
+        width: 30px;
     }
 
     /* About */
@@ -50,13 +53,18 @@
     }
 
     /* Skills */
+
+    #skills h3 {
+        font-size: 18px;
+    }
+
     #skills h5 {
         font-size: 16px;
     }
 
-    #skills img {
-        height: 50%;
-        width: 50%;
+    #skills svg {
+        height: 70%;
+        width: 70%;
     }
 
     /* Projects */
@@ -106,17 +114,20 @@
 
     /* NavBar */
     #navbar h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
-    .connect-icons {
-        margin-left: -20px;
+    #navbar div {
+        display: block;
+    }
+
+    #navbar li {
+        display: none;
     }
 
     .icon {
-        height: 24px;
-        width: 24px;
-        margin-right: -5px;
+        height: 34px;
+        width: 34px;
     }
 
     /* About */
@@ -139,14 +150,19 @@
         display: none;
     }
 
-    /* Education */
-
     /* Skills */
     #skills h5 {
         font-size: 20px;
     }
 
-    /* Projects */
+    #skills h3 {
+        font-size: 22px;
+    }
+
+    #skills svg {
+        height: 60%;
+        width: 60%;
+    }
 
     /* Footer */
     footer {
@@ -176,6 +192,34 @@
         width: 28px;
         margin-right: -5px;
     }
+
+    #skills h3 {
+        font-size: 24px;
+    }
+
+    #skills h5 {
+        font-size: 22px;
+    }
+
+    #skills svg {
+        height: 88px;
+        width: 88px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1171px) {
+    #skills h3 {
+        font-size: 24px;
+    }
+
+    #skills h5 {
+        font-size: 22px;
+    }
+
+    #skills svg {
+        height: 98px;
+        width: 98px;
+    }
 }
 
 /* big tablet to small laptop: from 1023 to 1323px */
@@ -185,6 +229,18 @@
         width: 32px;
         margin-right: -5px;
     }
+
+    #skills svg {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+@media screen and (min-width: 1071px) and (max-width: 1323px) {
+    #skills svg {
+        height: 140px;
+        width: 140px;
+    }
 }
 
 /* Make image and paragraph on its own line when screen width is below 1323px */
@@ -192,5 +248,75 @@
     #about div {
         margin-top: 10px;
         width: 100%;
+    }
+}
+
+/* Big widescreens */
+
+@media screen and (min-width: 1740px) {
+    #skills svg {
+        height: 160px;
+        width: 160px;
+    }
+}
+
+@media screen and (min-width: 2120px) {
+    /* General */
+    html {
+        font-size: 27px;
+    }
+
+    /* NAVBAR */
+    #navbar h3 {
+        font-size: 30px;
+    }
+
+    .icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    /* ABOUT */
+
+    #about img {
+        height: 110%;
+        width: 110%;
+    }
+
+    #about p {
+        font-size: 25px;
+    }
+
+    /* SKILLS */
+    #skills svg {
+        height: 70%;
+        width: 70%;
+    }
+
+    /* PROJECTS */
+    #projects h4,
+    #projects h5,
+    #projects h6 {
+        font-size: 130%;
+    }
+
+    #projects img {
+        height: 220px;
+        width: 232px;
+    }
+
+    /* FOOTER */
+    footer {
+        font-size: 26px;
+    }
+
+    footer img {
+        height: 110px;
+        width: 110px;
+    }
+
+    .up-btn button {
+        height: 90px;
+        width: 90px;
     }
 }

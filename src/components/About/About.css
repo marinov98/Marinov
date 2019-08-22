@@ -12,6 +12,8 @@
 }
 
 .bio img {
+    border: 5px solid rgb(241, 241, 241);
+    box-shadow: rgb(153, 153, 153) 0px 0px 2px 1px;
     border-radius: 70%;
     margin-bottom: 20px;
 }

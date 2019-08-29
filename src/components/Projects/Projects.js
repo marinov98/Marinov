@@ -43,19 +43,18 @@ export default function Projects() {
                 <div className="row all-projects">
                     <div className="divineFoods-project col project">
                         <h4>Divine Foods</h4>
-                        <a href="https://marinov98.github.io/">
+                        <a href="https://github.com/marinov98/divine-and-healthy-foods">
                             <img
                                 src={require('../../images/projects/divineFoods-logo.png')}
                                 alt="Divine Foods"
                             ></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>HTML5, CSS3, jQuery</p>
+                        <p>HTML5, CSS3, jQuery, Express</p>
                         <h6>Description:</h6>
                         <p>
-                            Website for a pseudo premium food delivery service. Aims to deliver
-                            healthy food fast. Contains its own plans and sign up forms and is
-                            optimized for various screen sizes.
+                            Responsive website for a pseudo premium food delivery service. Aims to
+                            deliver healthy food fast. Contains its own plans and sign up forms.
                         </p>
                     </div>
                     <div className="col dotfiles project">

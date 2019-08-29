@@ -10,7 +10,7 @@ export default function Education() {
                 <div className="row titles">
                     <div className="col-sm college">
                         <img src={require('../../images/education/hunter-logo.png')}></img>
-                        <h5>CUNY Hunter College</h5>
+                        <h5>Hunter College</h5>
                         <p>
                             {' '}
                             BA Computer Science 2017-2021
@@ -21,7 +21,7 @@ export default function Education() {
                     </div>
                     <div className="col-sm awards macaulay">
                         <img src={require('../../images/education/macaulay-logo.png')}></img>
-                        <h5>Macaulay Honors College</h5>
+                        <h5>Macaulay Honors</h5>
                         <p>
                             William E. Macaulay Honors College Scholarship, full tuition merit
                             scholarship
@@ -29,7 +29,7 @@ export default function Education() {
                     </div>
                     <div className="col-sm awards daedalus">
                         <img src={require('../../images/education/daedalus.png')}></img>
-                        <h5>Hunter College Computer Science Honors</h5>
+                        <h5>Hunter College CS Honors</h5>
                         <p>Daedalus Honors Computer Science Scholar</p>
                     </div>
                 </div>

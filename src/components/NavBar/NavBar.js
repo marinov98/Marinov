@@ -46,19 +46,25 @@ export default function NavBar() {
                     </ul>
                 </div>
                 <div className="col connect-icons">
-                    <a href="https://github.com/marinov98/Resume/blob/master/resume.pdf">
+                    <a
+                        href="https://github.com/marinov98/Resume/blob/master/resume.pdf"
+                        target="_blank"
+                    >
                         <IosPaper className="icon" color="white" fontSize="35px" />
                     </a>
-                    <a href="https://github.com/marinov98">
+                    <a href="https://github.com/marinov98" target="_blank">
                         <LogoGithub className="icon" color="white" fontSize="40px" />
                     </a>
-                    <a href="https://www.linkedin.com/in/marin-p-marinov/">
+                    <a href="https://www.linkedin.com/in/marin-p-marinov/" target="_blank">
                         <LogoLinkedin className="icon" color="white" fontSize="40px" />
                     </a>
-                    <a href="https://fb.me/mmarinov505">
+                    <a href="https://fb.me/mmarinov505" target="_blank">
                         <LogoFacebook className="icon" color="white" fontSize="40px" />
                     </a>
-                    <a href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message">
+                    <a
+                        href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message"
+                        target="_blank"
+                    >
                         <MdMail className="icon" color="white" fontSize="40px" />
                     </a>
                 </div>

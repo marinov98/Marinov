@@ -9,7 +9,10 @@ export default function Projects() {
                 <div className="row all-projects">
                     <div className="calculator-project col project">
                         <h4>Statistical Calculator</h4>
-                        <a href="https://github.com/marinov98/Statistical_Calculator">
+                        <a
+                            href="https://github.com/marinov98/Statistical_Calculator"
+                            target="_blank"
+                        >
                             <img
                                 src={require('../../images/projects/stat-logo.jpeg')}
                                 alt="stat calculator"
@@ -26,7 +29,7 @@ export default function Projects() {
                     </div>
                     <div className="instaPet-project col project">
                         <h4>InstaPet</h4>
-                        <a href="https://github.com/angelalim1010/InstaPet">
+                        <a href="https://github.com/angelalim1010/InstaPet" target="_blank">
                             <img
                                 src={require('../../images/projects/instapet.png')}
                                 alt="InstaPet"
@@ -43,7 +46,10 @@ export default function Projects() {
                 <div className="row all-projects">
                     <div className="divineFoods-project col project">
                         <h4>Divine Foods</h4>
-                        <a href="https://github.com/marinov98/divine-and-healthy-foods">
+                        <a
+                            href="https://github.com/marinov98/divine-and-healthy-foods"
+                            target="_blank"
+                        >
                             <img
                                 src={require('../../images/projects/divineFoods-logo.png')}
                                 alt="Divine Foods"
@@ -59,7 +65,7 @@ export default function Projects() {
                     </div>
                     <div className="col dotfiles project">
                         <h4>Dotfiles</h4>
-                        <a href="https://github.com/marinov98/dotfiles">
+                        <a href="https://github.com/marinov98/dotfiles" target="_blank">
                             <img
                                 src={require('../../images/projects/dotfiles.png')}
                                 alt="Dot files"

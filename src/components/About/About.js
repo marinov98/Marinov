@@ -11,10 +11,7 @@ export default function About() {
             <div className="row bio">
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="3">
                     <div className="col">
-                        <img
-                            src={require('../../images/self/ProfilePic2.png')}
-                            alt="Marin Marinov"
-                        />
+                        <img src={require('../../images/self/headShot.png')} alt="Marin Marinov" />
                     </div>
                 </ScrollAnimation>
                 <div className="col">
@@ -29,10 +26,10 @@ export default function About() {
                             <br />
                             <span>
                                 I have worked as a math tutor for 5 years, tutoring high school
-                                algebra and geometry to multi-variable calculus . Now, I am hoping to
-                                dive into being a software developer. I have worked on both personal
-                                and group coding projects. I have also had the honor to intern as a
-                                software engineer at WeWork Labs.
+                                algebra and geometry to multi-variable calculus . Now, I am hoping
+                                to dive into being a software developer. I have worked on both
+                                personal and group coding projects. I have also had the honor to
+                                intern as a software engineer at WeWork Labs.
                             </span>
                         </p>
                     </ScrollAnimation>

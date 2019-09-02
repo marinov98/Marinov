@@ -50,7 +50,7 @@ export default function NavBar() {
                         href="https://github.com/marinov98/Resume/blob/master/resume.pdf"
                         target="_blank"
                     >
-                        <IosPaper className="icon" color="white" fontSize="35px" />
+                        <IosPaper className="icon" color="white" fontSize="40px" />
                     </a>
                     <a href="https://github.com/marinov98" target="_blank">
                         <LogoGithub className="icon" color="white" fontSize="40px" />

@@ -6,7 +6,7 @@ export default function Header() {
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Marin Marinov || Aspiring Software Developer</title>
+                <title>Marin Marinov || Software Developer</title>
                 <link rel="canonical" href="https://mmarinov.netlify.com/" />
             </Helmet>
         </div>

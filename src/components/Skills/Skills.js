@@ -253,7 +253,7 @@ export default function Skills() {
                                 <li>
                                     <CircularProgressbar
                                         value={0}
-                                        text="AngluarJS"
+                                        text="AngularJS"
                                         strokeWidth={50}
                                         background
                                         styles={{

@@ -36,7 +36,7 @@ export default function Projects() {
                             ></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>API, React, Redux, Node, Express, PostreSQL</p>
+                        <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, Json Web Tokens</p>
                         <h6>Description:</h6>
                         <p>Group project aimed to build an app like Instagram... but for pets.</p>
                     </div>
@@ -45,24 +45,26 @@ export default function Projects() {
             <ScrollAnimation animateIn="bounceInDown" animateOnce="true">
                 <div className="row all-projects">
                     <div className="col clusterDuck project">
-                        <h4>Dotfiles</h4>
+                        <h4>ClusterDuck</h4>
                         <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
                             <img
-                                src={require('../../images/projects/dotfiles.png')}
+                                src={require('../../images/projects/clusterduck.png')}
                                 alt="Cluster Duck"
                             ></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>MongoDB, React.js, Node.js, Express.js, Docker, Json Web tokens</p>
+                        <p>
+                            MongoDB, React.js, Node.js, Express.js, Docker, Json Web tokens, Google
+                            Login API
+                        </p>
                         <h6>Description:</h6>
                         <p>
-                            A combination of '.' configuaration files and shell scripts. Contains my
-                            configurations for{' '}
-                            <b>Vim, Emacs, Ranger, i3wn, Bash, Powerline-Shell, Compton and Tmux</b>
-                            . The shell scripts transfer the configuration files to the User's home
-                            directory and also install essential packages for programming and
-                            development. Contains package install scripts compatible with Debian and
-                            Arch-based Linux Distributions, Windows and MacOS.
+                            {' '}
+                            A social media app aimed at creating community in Hunter College ( maybe
+                            other colleges in the future) by allowing students to post
+                            questions/advice about computer science and tag their post with a
+                            specific class if they so wish. Students can reply to one another, like
+                            each others post and view each other's profiles
                         </p>
                     </div>
                     <div className="col dotfiles project">
@@ -105,29 +107,27 @@ export default function Projects() {
                         <p>HTML5, CSS3, jQuery, Express</p>
                         <h6>Description:</h6>
                         <p>
-                            Responsive website for a pseudo premium food delivery service. Aims to
-                            deliver healthy food fast. Contains its own plans and sign up forms.
+                            Responsive food ordering and delivery website for premium healthy food.
+                            Aims to deliver healthy food fast. Contains its own plans and sign up
+                            forms.
                         </p>
                     </div>
-                    <div className="col Pixelate project">
-                        <h4>Dotfiles</h4>
+                    <div className="col weather-guardian project">
+                        <h4>Weather Guardian</h4>
                         <a href="https://github.com/marinov98/big-red-hacks2019" target="_blank">
                             <img
-                                src={require('../../images/projects/dotfiles.png')}
+                                src={require('../../images/projects/weatherGuardian.svg')}
                                 alt="Cluster Duck"
                             ></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>MongoDB, React.js, Node.js, Express.js, Docker, Json Web tokens</p>
+                        <p>React.js, Node.js, Express.js, IBM weather API</p>
                         <h6>Description:</h6>
                         <p>
-                            A combination of '.' configuaration files and shell scripts. Contains my
-                            configurations for{' '}
-                            <b>Vim, Emacs, Ranger, i3wn, Bash, Powerline-Shell, Compton and Tmux</b>
-                            . The shell scripts transfer the configuration files to the User's home
-                            directory and also install essential packages for programming and
-                            development. Contains package install scripts compatible with Debian and
-                            Arch-based Linux Distributions, Windows and MacOS.
+                            App created to warn users if there has been a fire nearby and the wind
+                            is blowing towards their direction. This knowledge is crucial if the
+                            user or their family has asthma or live in an area that is susceptible
+                            to fire.{' '}
                         </p>
                     </div>
                 </div>

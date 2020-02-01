@@ -363,6 +363,7 @@ export default function Skills() {
                                         }}
                                     />
                                 </li>
+
                                 <li>
                                     <CircularProgressbar
                                         value={0}
@@ -407,10 +408,35 @@ export default function Skills() {
                                 </li>
                             </ul>
                         </div>
+                        <div className="row">
+                            <ul className="skills-list">
+                                <li>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="Docker"
+                                        strokeWidth={50}
+                                        background
+                                        styles={{
+                                            background: {
+                                                fill: '#0db7ed'
+                                            },
+                                            text: {
+                                                fill: '#384d54',
+                                                fontSize: '13px'
+                                            },
+                                            path: {
+                                                stroke: '#fff'
+                                            },
+                                            trail: { stroke: 'transparent' }
+                                        }}
+                                    />
+                                </li>
+                            </ul>
+                        </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
                         <div className="row skill-row">
-                            <h5>Database(s):</h5>
+                            <h5>Database Management Systems:</h5>
                         </div>
                         <div className="row">
                             <ul className="skills-list db">
@@ -426,6 +452,27 @@ export default function Skills() {
                                             },
                                             text: {
                                                 fill: '#2B588E',
+                                                fontSize: '13px'
+                                            },
+                                            path: {
+                                                stroke: '#fff'
+                                            },
+                                            trail: { stroke: 'transparent' }
+                                        }}
+                                    />
+                                </li>
+                                <li>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="MongoDB"
+                                        strokeWidth={50}
+                                        background
+                                        styles={{
+                                            background: {
+                                                fill: 'green'
+                                            },
+                                            text: {
+                                                fill: 'black',
                                                 fontSize: '13px'
                                             },
                                             path: {

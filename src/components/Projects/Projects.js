@@ -86,6 +86,52 @@ export default function Projects() {
                     </div>
                 </div>
             </ScrollAnimation>
+            <ScrollAnimation animateIn="bounceInDown" animateOnce="true">
+                <div className="row all-projects">
+                    <div className="col clusterDuck project">
+                        <h4>Dotfiles</h4>
+                        <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
+                            <img
+                                src={require('../../images/projects/dotfiles.png')}
+                                alt="Cluster Duck"
+                            ></img>
+                        </a>
+                        <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
+                        <p>MongoDB, React.js, Node.js, Express.js, Docker, Json Web tokens</p>
+                        <h6>Description:</h6>
+                        <p>
+                            A combination of '.' configuaration files and shell scripts. Contains my
+                            configurations for{' '}
+                            <b>Vim, Emacs, Ranger, i3wn, Bash, Powerline-Shell, Compton and Tmux</b>
+                            . The shell scripts transfer the configuration files to the User's home
+                            directory and also install essential packages for programming and
+                            development. Contains package install scripts compatible with Debian and
+                            Arch-based Linux Distributions, Windows and MacOS.
+                        </p>
+                    </div>
+                    <div className="col Pixelate project">
+                        <h4>Dotfiles</h4>
+                        <a href="https://github.com/marinov98/Pixelate" target="_blank">
+                            <img
+                                src={require('../../images/projects/dotfiles.png')}
+                                alt="Cluster Duck"
+                            ></img>
+                        </a>
+                        <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
+                        <p>MongoDB, React.js, Node.js, Express.js, Docker, Json Web tokens</p>
+                        <h6>Description:</h6>
+                        <p>
+                            A combination of '.' configuaration files and shell scripts. Contains my
+                            configurations for{' '}
+                            <b>Vim, Emacs, Ranger, i3wn, Bash, Powerline-Shell, Compton and Tmux</b>
+                            . The shell scripts transfer the configuration files to the User's home
+                            directory and also install essential packages for programming and
+                            development. Contains package install scripts compatible with Debian and
+                            Arch-based Linux Distributions, Windows and MacOS.
+                        </p>
+                    </div>
+                </div>
+            </ScrollAnimation>
         </div>
     );
 }

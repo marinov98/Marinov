@@ -469,10 +469,10 @@ export default function Skills() {
                                         background
                                         styles={{
                                             background: {
-                                                fill: 'green'
+                                                fill: '#3FA037'
                                             },
                                             text: {
-                                                fill: 'black',
+                                                fill: '#E8E7D5',
                                                 fontSize: '13px'
                                             },
                                             path: {

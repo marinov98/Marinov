@@ -18,18 +18,14 @@ export default function About() {
                     <ScrollAnimation animateIn="fadeInRight" animateOnce="true" duration="3">
                         <p>
                             {' '}
-                            Hello and Welcome to my website! My name is Marin and I am originally
-                            from Sofia, Bulgaria. I am currently a student at Macaulay Honors
-                            College @Hunter College. I am pursuing a Computer Science major along
-                            with minors in Mathematics and Psychology.
+                            Hello and Welcome to my website! My name is Marin. I graduated Magna Cum Laude with a Bachelors in Computer Science and Minors in Mathematics and Psychology. 
                             <br />
                             <br />
                             <span>
-                                I have worked as a math tutor for 5 years, tutoring high school
-                                algebra and geometry to multi-variable calculus . Now, I am hoping
-                                to dive into being a software developer. I have worked on both
-                                personal and group coding projects. I have also had the honor to
-                                intern as a software engineer at WeWork Labs.
+                                I have worked as a math tutor, tutoring high school
+                                algebra and geometry to multi-variable calculus . Now, I am building my career
+                                as a software developer, having interned at WeWork Labs and currently working full-time at Vanguard. I am 
+                                very detail-oriented and committed to producing high-quality software to move the industry forward. 
                             </span>
                         </p>
                     </ScrollAnimation>

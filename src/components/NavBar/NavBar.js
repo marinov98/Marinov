@@ -12,7 +12,7 @@ export default function NavBar() {
         <div id="navbar">
             <nav className="navbar navbar-expand-lg navbar-dark main-nav sticky">
                 <div className="nav-name col">
-                    <h3 className="navbar-brand">Marin Pavlinov Marinov</h3>
+                    <h3 className="navbar-brand">Marin Marinov</h3>
                 </div>
                 <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav mr-auto col">

@@ -199,6 +199,27 @@ export default function Skills() {
                                         }}
                                     />
                                 </li>
+                                <li>
+                                    <CircularProgressbar
+                                        text="Java"
+                                        value={0}
+                                        strokeWidth={50}
+                                        background
+                                        styles={{
+                                            background: {
+                                                fill: '#f89820'
+                                            },
+                                            text: {
+                                                fill: '#5382a1',
+                                                fontSize: '13px'
+                                            },
+                                            path: {
+                                                stroke: '#fff'
+                                            },
+                                            trail: { stroke: 'transparent' }
+                                        }}
+                                    />
+                                </li>
                             </ul>
                         </div>
                     </ScrollAnimation>
@@ -431,6 +452,27 @@ export default function Skills() {
                                         }}
                                     />
                                 </li>
+                                <li>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="Spring Boot"
+                                        strokeWidth={50}
+                                        background
+                                        styles={{
+                                            background: {
+                                                fill: '#90EE90'
+                                            },
+                                            text: {
+                                                fill: '#384d54',
+                                                fontSize: '13px'
+                                            },
+                                            path: {
+                                                stroke: '#fff'
+                                            },
+                                            trail: { stroke: 'transparent' }
+                                        }}
+                                    />
+                                </li>
                             </ul>
                         </div>
                     </ScrollAnimation>
@@ -473,6 +515,27 @@ export default function Skills() {
                                             },
                                             text: {
                                                 fill: '#E8E7D5',
+                                                fontSize: '13px'
+                                            },
+                                            path: {
+                                                stroke: '#fff'
+                                            },
+                                            trail: { stroke: 'transparent' }
+                                        }}
+                                    />
+                                </li>
+                                <li>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="MySQL"
+                                        strokeWidth={50}
+                                        background
+                                        styles={{
+                                            background: {
+                                                fill: '#00758F'
+                                            },
+                                            text: {
+                                                fill: '#F29111',
                                                 fontSize: '13px'
                                             },
                                             path: {
@@ -827,6 +890,27 @@ export default function Skills() {
                                         styles={{
                                             background: {
                                                 fill: '#4DC6BD'
+                                            },
+                                            text: {
+                                                fill: '#fff',
+                                                fontSize: '13px'
+                                            },
+                                            path: {
+                                                stroke: '#fff'
+                                            },
+                                            trail: { stroke: 'transparent' }
+                                        }}
+                                    />
+                                </li>
+                                <li>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="AWS"
+                                        strokeWidth={50}
+                                        background
+                                        styles={{
+                                            background: {
+                                                fill: '#FF9900'
                                             },
                                             text: {
                                                 fill: '#fff',

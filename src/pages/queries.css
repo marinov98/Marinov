@@ -278,11 +278,6 @@
 
     /* ABOUT */
 
-    #about img {
-        height: 110%;
-        width: 110%;
-    }
-
     #about p {
         font-size: 25px;
     }

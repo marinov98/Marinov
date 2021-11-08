@@ -12,7 +12,7 @@ import WeatherGuardianProject from '../../images/projects/weatherGuardian.svg';
 export default function Projects() {
     return (
         <div id="projects">
-            <ScrollAnimation animateIn="bounceInDown" animateOnce="true">
+            <ScrollAnimation animateIn="bounceInDown" animateOnce={true}>
                 <div className="row all-projects">
                     <div className="col clusterDuck project">
                         <h4>ClusterDuck</h4>
@@ -72,7 +72,7 @@ export default function Projects() {
                     </div>
                 </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="bounceInDown" animateOnce="true">
+            <ScrollAnimation animateIn="bounceInDown" animateOnce={true}>
                 <div className="row all-projects">
                     <div className="calculator-project col project">
                         <h4>Statistical Calculator</h4>
@@ -117,7 +117,7 @@ export default function Projects() {
                     </div>
                 </div>
             </ScrollAnimation>
-            <ScrollAnimation animateIn="bounceInDown" animateOnce="true">
+            <ScrollAnimation animateIn="bounceInDown" animateOnce={true}>
                 <div className="row all-projects">
                     <div className="divineFoods-project col project">
                         <h4>Divine Foods</h4>

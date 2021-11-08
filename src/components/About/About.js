@@ -6,17 +6,17 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default function About() {
     return (
         <div id="about" className="about-me container-fluid">
-            <h3 class="subtitle fancy">
+            <h3 className="subtitle fancy">
                 <span style={{ marginTop: '20px' }}>About Me</span>
             </h3>
             <div className="row bio">
-                <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="3">
+                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} duration={3}>
                     <div className="col">
                         <img src={headshot} alt="Marin Marinov" />
                     </div>
                 </ScrollAnimation>
                 <div className="col">
-                    <ScrollAnimation animateIn="fadeInRight" animateOnce="true" duration="3">
+                    <ScrollAnimation animateIn="fadeInRight" animateOnce={true} duration={3}>
                         <p>
                             {' '}
                             Hello and Welcome to my website! My name is Marin. I graduated Magna Cum Laude with a Bachelors in Computer Science and Minors in Mathematics and Psychology. 

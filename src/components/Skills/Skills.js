@@ -11,7 +11,7 @@ export default function Skills() {
             <div className="row summary">
                 <div className="col application-col">
                     <h3 className="tech-heading">Skills</h3>
-                    <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInLeft" animateOnce={true}>
                         <div className="row skill-row col-begin">
                             <h5>Markup/Style:</h5>
                         </div>
@@ -83,7 +83,7 @@ export default function Skills() {
                             </ul>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInLeft" animateOnce={true}>
                         <div className="row skill-row">
                             <h5> Programming Languages:</h5>
                         </div>
@@ -223,7 +223,7 @@ export default function Skills() {
                             </ul>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInLeft" animateOnce={true}>
                         <div className="row skill-row">
                             <h5>Technologies:</h5>
                         </div>
@@ -476,7 +476,7 @@ export default function Skills() {
                             </ul>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="bounceInLeft" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInLeft" animateOnce={true}>
                         <div className="row skill-row">
                             <h5>Database Management Systems:</h5>
                         </div>
@@ -551,7 +551,7 @@ export default function Skills() {
                 </div>
                 <div className="col software-col">
                     <h3 className="tech-heading">Software</h3>
-                    <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInRight" animateOnce={true}>
                         <div className="row skill-row col-begin">
                             <h5>Tools:</h5>
                         </div>
@@ -757,7 +757,7 @@ export default function Skills() {
                             </ul>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInRight" animateOnce={true}>
                         <div className="row skill-row">
                             <h5>Operating Systems:</h5>
                         </div>
@@ -854,7 +854,7 @@ export default function Skills() {
                             </ul>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="bounceInRight" animateOnce="true">
+                    <ScrollAnimation animateIn="bounceInRight" animateOnce={true}>
                         <div className="row skill-row">
                             <h5>Cloud:</h5>
                         </div>

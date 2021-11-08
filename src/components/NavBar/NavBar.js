@@ -1,11 +1,7 @@
 import React from 'react';
 import './NavBar.css';
-import Scrollchor from 'react-scrollchor';
-import LogoLinkedin from 'react-ionicons/lib/LogoLinkedin';
-import LogoGithub from 'react-ionicons/lib/LogoGithub';
-import LogoFacebook from 'react-ionicons/lib/LogoFacebook';
-import IosPaper from 'react-ionicons/lib/IosPaper';
-import MdMail from 'react-ionicons/lib/MdMail';
+import { Scrollchor } from 'react-scrollchor';
+import { NewspaperOutline, MailOutline, LogoGithub, LogoLinkedin } from 'react-ionicons';
 
 export default function NavBar() {
     return (
@@ -50,22 +46,19 @@ export default function NavBar() {
                         href="https://github.com/marinov98/Resume/blob/master/resume.pdf"
                         target="_blank"
                     >
-                        <IosPaper className="icon" color="white" fontSize="40px" />
+                        <NewspaperOutline className="icon" color="white" height="40px" width="40px" />
                     </a>
                     <a href="https://github.com/marinov98" target="_blank">
-                        <LogoGithub className="icon" color="white" fontSize="40px" />
+                        <LogoGithub className="icon" color="white" height="40px" width="40px" />
                     </a>
                     <a href="https://www.linkedin.com/in/marin-p-marinov/" target="_blank">
-                        <LogoLinkedin className="icon" color="white" fontSize="40px" />
-                    </a>
-                    <a href="https://fb.me/mmarinov505" target="_blank">
-                        <LogoFacebook className="icon" color="white" fontSize="40px" />
+                        <LogoLinkedin className="icon" color="white" height="40px" width="40px" />
                     </a>
                     <a
                         href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message"
                         target="_blank"
                     >
-                        <MdMail className="icon" color="white" fontSize="40px" />
+                        <MailOutline className="icon" color="white" height="40px" width="40px" />
                     </a>
                 </div>
             </nav>

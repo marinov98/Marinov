@@ -2,6 +2,12 @@ import React from 'react';
 import './Projects.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { Button } from 'reactstrap';
+import ClusterDuckProject from '../../images/projects/clusterduck.png';
+import InstaPetProject from '../../images/projects/instapet.png';
+import StatCalcProject from '../../images/projects/stat-logo.jpeg';
+import DotFiles from '../../images/projects/dotfiles.png';
+import DivineFoodsProject from '../../images/projects/divineFoods-logo.png';
+import WeatherGuardianProject from '../../images/projects/weatherGuardian.svg';
 
 export default function Projects() {
     return (
@@ -12,7 +18,7 @@ export default function Projects() {
                         <h4>ClusterDuck</h4>
                         <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
                             <img
-                                src={require('../../images/projects/clusterduck.png')}
+                                src={ClusterDuckProject}
                                 alt="Cluster Duck"
                             ></img>
                         </a>
@@ -45,7 +51,7 @@ export default function Projects() {
                         <h4>InstaPet</h4>
                         <a href="https://github.com/angelalim1010/InstaPet" target="_blank">
                             <img
-                                src={require('../../images/projects/instapet.png')}
+                                src={InstaPetProject}
                                 alt="InstaPet"
                             ></img>
                         </a>
@@ -75,7 +81,7 @@ export default function Projects() {
                             target="_blank"
                         >
                             <img
-                                src={require('../../images/projects/stat-logo.jpeg')}
+                                src={StatCalcProject}
                                 alt="stat calculator"
                             ></img>
                         </a>
@@ -92,7 +98,7 @@ export default function Projects() {
                         <h4>Dotfiles</h4>
                         <a href="https://github.com/marinov98/dotfiles" target="_blank">
                             <img
-                                src={require('../../images/projects/dotfiles.png')}
+                                src={DotFiles}
                                 alt="Dot files"
                             ></img>
                         </a>
@@ -120,7 +126,7 @@ export default function Projects() {
                             target="_blank"
                         >
                             <img
-                                src={require('../../images/projects/divineFoods-logo.png')}
+                                src={DivineFoodsProject}
                                 alt="Divine Foods"
                             ></img>
                         </a>
@@ -150,8 +156,8 @@ export default function Projects() {
                         <h4>Weather Guardian</h4>
                         <a href="https://github.com/marinov98/big-red-hacks2019" target="_blank">
                             <img
-                                src={require('../../images/projects/weatherGuardian.svg')}
-                                alt="Cluster Duck"
+                                src={WeatherGuardianProject}
+                                alt="Weather Guardian"
                             ></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>

@@ -17,8 +17,9 @@ import Education from '../components/Eduction/Education';
 import { Button } from 'reactstrap';
 import { fadeIn, tada, bounce, slideInUp, slideInDown } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
-import Scrollchor from 'react-scrollchor';
+import { Scrollchor } from 'react-scrollchor';
 import ScrollAnimation from 'react-animate-on-scroll';
+import NetlifyFooter from '../images/skills/netlify-footer.png'
 
 const styles = {
     fadeIn: {
@@ -85,7 +86,7 @@ export default function IndexPage() {
                         <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
                         <p>Powered By :</p>
                         <a href="https://www.netlify.com/">
-                            <img src={require('../images/skills/netlify-footer.png')}></img>
+                            <img src={NetlifyFooter}></img>
                         </a>
                     </div>
                 </div>

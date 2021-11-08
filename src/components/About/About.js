@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import headshot from "../../images/self/headShot.png";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function About() {
@@ -11,7 +12,7 @@ export default function About() {
             <div className="row bio">
                 <ScrollAnimation animateIn="fadeInLeft" animateOnce="true" duration="3">
                     <div className="col">
-                        <img src={require('../../images/self/headShot.png')} alt="Marin Marinov" />
+                        <img src={headshot} alt="Marin Marinov" />
                     </div>
                 </ScrollAnimation>
                 <div className="col">

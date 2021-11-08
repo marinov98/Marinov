@@ -32,7 +32,8 @@
         "react-ionicons": "^4.2.0",
         "react-scrollchor": "^7.0.1",
         "reactstrap": "^9.0.0",
-        "serialize-javascript": "^6.0.0"
+        "serialize-javascript": "^6.0.0",
+        "styled-components": "^5.3.3"
     },
     "devDependencies": {
         "eslint-config-react-app": "^6.0.0",

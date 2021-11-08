@@ -15,52 +15,22 @@ import Education from '../components/Eduction/Education';
 
 // Utility & Packages
 import { Button } from 'reactstrap';
-import { fadeIn, tada, bounce, slideInUp, slideInDown } from 'react-animations';
-import Radium, { StyleRoot } from 'radium';
-import Scrollchor from 'react-scrollchor';
-import ScrollAnimation from 'react-animate-on-scroll';
-
-const styles = {
-    fadeIn: {
-        animation: 'x 3s',
-        animationName: Radium.keyframes(fadeIn, 'fadeIn')
-    },
-    tada: {
-        animation: 'x 1s',
-        animationName: Radium.keyframes(tada, 'tada')
-    },
-    bounce: {
-        animation: 'x 1s',
-        animationName: Radium.keyframes(bounce, 'bounce')
-    },
-    slideUp: {
-        animation: 'x 2s',
-        animationName: Radium.keyframes(slideInUp, 'slideInUp')
-    },
-    slideDown: {
-        animation: 'x 5s',
-        animationName: Radium.keyframes(slideInDown, 'slideInDown')
-    }
-};
+import { Scrollchor } from 'react-scrollchor';
+import NetlifyFooter from '../images/skills/netlify-footer.png';
 
 export default function IndexPage() {
     return (
-        // NAVBAR
         <div id="index" className="container-fluid">
             <Header />
-            <StyleRoot>
-                <div style={styles.fadeIn}>
-                    <NavBar />
-                </div>
-            </StyleRoot>
+            <div data-sal="flip-up" data-sal-duration="600">
+                <NavBar />
+            </div>
             <div id="about-hidden" style={{ marginTop: '12px', visibility: 'hidden' }}>
                 Marin P. Marinov
             </div>
-            <StyleRoot>
-                <div style={styles.slideUp}>
-                    <About />
-                </div>
-            </StyleRoot>
+            <div data-sal="slide-up" data-sal-duration="600">
+                <About />
+            </div>
             <Education />
             <div id="go-to-skills" className="row-fluid skills-separator">
                 <h5>Technical Summary</h5>
@@ -72,20 +42,18 @@ export default function IndexPage() {
             <Projects />
             <footer id="fter" className="row-fluid">
                 <div className="row">
-                    <div className="up-btn">
-                        <Scrollchor to="#index" animate={{ offset: 20, duration: 800 }}>
-                            <ScrollAnimation animateIn="fadeIn" animateOut="fadeIn">
-                                <Button color="secondary" size="lg">
-                                    ⇧
-                                </Button>
-                            </ScrollAnimation>
+                    <div className="up-btn col-sm-1" data-sal="fade">
+                        <Scrollchor to="#index" animate={{ offset: 5, duration: 600 }}>
+                            <Button color="secondary" size="lg">
+                                ⇧
+                            </Button>
                         </Scrollchor>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-10">
                         <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
                         <p>Powered By :</p>
                         <a href="https://www.netlify.com/">
-                            <img src={require('../images/skills/netlify-footer.png')}></img>
+                            <img src={NetlifyFooter}></img>
                         </a>
                     </div>
                 </div>

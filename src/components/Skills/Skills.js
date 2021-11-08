@@ -473,6 +473,27 @@ export default function Skills() {
                                         }}
                                     />
                                 </li>
+                                <li>
+                                    <CircularProgressbar
+                                        value={0}
+                                        text="Flask"
+                                        strokeWidth={50}
+                                        background
+                                        styles={{
+                                            background: {
+                                                fill: '#000'
+                                            },
+                                            text: {
+                                                fill: '#fff',
+                                                fontSize: '13px'
+                                            },
+                                            path: {
+                                                stroke: '#fff'
+                                            },
+                                            trail: { stroke: 'transparent' }
+                                        }}
+                                    />
+                                </li>
                             </ul>
                         </div>
                     </ScrollAnimation>

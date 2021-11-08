@@ -18,7 +18,6 @@ import { Button } from 'reactstrap';
 import { fadeIn, tada, bounce, slideInUp, slideInDown } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 import { Scrollchor } from 'react-scrollchor';
-import ScrollAnimation from 'react-animate-on-scroll';
 import NetlifyFooter from '../images/skills/netlify-footer.png';
 
 const styles = {
@@ -73,13 +72,11 @@ export default function IndexPage() {
             <Projects />
             <footer id="fter" className="row-fluid">
                 <div className="row">
-                    <div className="up-btn col-sm-1">
+                    <div className="up-btn col-sm-1" data-sal="fade">
                         <Scrollchor to="#index" animate={{ offset: 5, duration: 600 }}>
-                            <ScrollAnimation animateIn="fadeIn" animateOut="fadeIn">
-                                <Button color="secondary" size="lg">
-                                    ⇧
-                                </Button>
-                            </ScrollAnimation>
+                            <Button color="secondary" size="lg">
+                                ⇧
+                            </Button>
                         </Scrollchor>
                     </div>
                     <div className="col-lg-10">

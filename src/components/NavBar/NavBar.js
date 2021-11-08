@@ -16,7 +16,7 @@ export default function NavBar() {
                             <Scrollchor
                                 className="nav-link"
                                 to="#about-hidden"
-                                animate={{ offset: 20, duration: 800 }}
+                                animate={{ offset: 5, duration: 600 }}
                             >
                                 About
                             </Scrollchor>
@@ -25,7 +25,7 @@ export default function NavBar() {
                             <Scrollchor
                                 className="nav-link"
                                 to="#go-to-skills"
-                                animate={{ offset: 20, duration: 800 }}
+                                animate={{ offset: 5, duration: 600 }}
                             >
                                 Skills
                             </Scrollchor>
@@ -34,7 +34,7 @@ export default function NavBar() {
                             <Scrollchor
                                 className="nav-link"
                                 to="#go-to-projects"
-                                animate={{ offset: 20, duration: 800 }}
+                                animate={{ offset: 5, duration: 600 }}
                             >
                                 Projects
                             </Scrollchor>

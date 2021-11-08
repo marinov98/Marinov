@@ -17,10 +17,7 @@ export default function Projects() {
                     <div className="col clusterDuck project">
                         <h4>ClusterDuck</h4>
                         <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
-                            <img
-                                src={ClusterDuckProject}
-                                alt="Cluster Duck"
-                            ></img>
+                            <img src={ClusterDuckProject} alt="Cluster Duck"></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
                         <p>
@@ -50,10 +47,7 @@ export default function Projects() {
                     <div className="instaPet-project col project">
                         <h4>InstaPet</h4>
                         <a href="https://github.com/angelalim1010/InstaPet" target="_blank">
-                            <img
-                                src={InstaPetProject}
-                                alt="InstaPet"
-                            ></img>
+                            <img src={InstaPetProject} alt="InstaPet"></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
                         <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, Json Web Tokens</p>
@@ -80,10 +74,7 @@ export default function Projects() {
                             href="https://github.com/marinov98/Statistical_Calculator"
                             target="_blank"
                         >
-                            <img
-                                src={StatCalcProject}
-                                alt="stat calculator"
-                            ></img>
+                            <img src={StatCalcProject} alt="stat calculator"></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
                         <p>C++, GNU Make/Cmake</p>
@@ -97,10 +88,7 @@ export default function Projects() {
                     <div className="col dotfiles project">
                         <h4>Dotfiles</h4>
                         <a href="https://github.com/marinov98/dotfiles" target="_blank">
-                            <img
-                                src={DotFiles}
-                                alt="Dot files"
-                            ></img>
+                            <img src={DotFiles} alt="Dot files"></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
                         <p>Shell script, Vim script, Python, Emacs-lisp</p>
@@ -125,10 +113,7 @@ export default function Projects() {
                             href="https://github.com/marinov98/divine-and-healthy-foods"
                             target="_blank"
                         >
-                            <img
-                                src={DivineFoodsProject}
-                                alt="Divine Foods"
-                            ></img>
+                            <img src={DivineFoodsProject} alt="Divine Foods"></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
                         <p>HTML5, CSS3, jQuery, Express</p>
@@ -155,10 +140,7 @@ export default function Projects() {
                     <div className="col weather-guardian project">
                         <h4>Weather Guardian</h4>
                         <a href="https://github.com/marinov98/big-red-hacks2019" target="_blank">
-                            <img
-                                src={WeatherGuardianProject}
-                                alt="Weather Guardian"
-                            ></img>
+                            <img src={WeatherGuardianProject} alt="Weather Guardian"></img>
                         </a>
                         <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
                         <p>Yarn, React.js, Node.js, Express.js, IBM weather API</p>

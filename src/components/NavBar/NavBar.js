@@ -46,7 +46,12 @@ export default function NavBar() {
                         href="https://github.com/marinov98/Resume/blob/master/resume.pdf"
                         target="_blank"
                     >
-                        <NewspaperOutline className="icon" color="white" height="40px" width="40px" />
+                        <NewspaperOutline
+                            className="icon"
+                            color="white"
+                            height="40px"
+                            width="40px"
+                        />
                     </a>
                     <a href="https://github.com/marinov98" target="_blank">
                         <LogoGithub className="icon" color="white" height="40px" width="40px" />

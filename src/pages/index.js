@@ -3,7 +3,7 @@ import React from 'react';
 import './index.css';
 import './queries.css';
 import 'animate.css/animate.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import Header from './header';
@@ -19,7 +19,7 @@ import { fadeIn, tada, bounce, slideInUp, slideInDown } from 'react-animations';
 import Radium, { StyleRoot } from 'radium';
 import { Scrollchor } from 'react-scrollchor';
 import ScrollAnimation from 'react-animate-on-scroll';
-import NetlifyFooter from '../images/skills/netlify-footer.png'
+import NetlifyFooter from '../images/skills/netlify-footer.png';
 
 const styles = {
     fadeIn: {
@@ -73,8 +73,8 @@ export default function IndexPage() {
             <Projects />
             <footer id="fter" className="row-fluid">
                 <div className="row">
-                    <div className="up-btn">
-                        <Scrollchor to="#index" animate={{ offset: 20, duration: 800 }}>
+                    <div className="up-btn col-sm-1">
+                        <Scrollchor to="#index" animate={{ offset: 5, duration: 600 }}>
                             <ScrollAnimation animateIn="fadeIn" animateOut="fadeIn">
                                 <Button color="secondary" size="lg">
                                     ⇧
@@ -82,7 +82,7 @@ export default function IndexPage() {
                             </ScrollAnimation>
                         </Scrollchor>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-10">
                         <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
                         <p>Powered By :</p>
                         <a href="https://www.netlify.com/">

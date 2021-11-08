@@ -12,7 +12,7 @@ export default function About() {
                 <div className="col">
                     <img src={headshot} alt="Marin Marinov" />
                 </div>
-                <div className="col" data-sal="slide-right" data-sal-duration="600">
+                <div className="row" data-sal="slide-right" data-sal-duration="600">
                     <p>
                         {' '}
                         Hello and Welcome to my website! My name is Marin. I graduated Magna Cum

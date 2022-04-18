@@ -23,7 +23,7 @@ export default function About() {
                         <span>
                             I have worked as a math tutor, tutoring high school algebra and geometry
                             to multi-variable calculus . Now, I am building my career as a software
-                            developer, . I am very detail-oriented and committed to producing
+                            developer. I am very detail-oriented and committed to producing
                             high-quality software to move the industry forward.
                         </span>
                     </p>

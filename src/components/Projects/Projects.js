@@ -68,47 +68,39 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="row all-projects">
-                    <div className="bountHouse-project col project" data-sal="zoom-out">
-                        <h4>Bounty House</h4>
-                        <a href="https://github.com/marinov98/bounty-house" target="_blank">
-                            <img src={BountyHouseProject} alt="Bounty-House"></img>
+            </div>
+            <div className="row all-projects">
+                <div className="bountyHouse col project" data-sal="zoom-out">
+                    <h4>Bounty House</h4>
+                    <a href="https://github.com/marinov98/bounty-house" target="_blank">
+                        <img src={BountyHouseProject} alt="Bounty-House"></img>
+                    </a>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
+                    <p>React.js, Node.js, NestJS, GraphQL, PostgreSQL, Json Web Tokens, Cookies</p>
+                    <h6>Description:</h6>
+                    <p>
+                        (In development!) App where users can join organizations and fulfill
+                        contracts others users put up to get points and be recognized
+                    </p>
+                </div>
+                <div className="instaPet col project" data-sal="zoom-out">
+                    <h4>InstaPet</h4>
+                    <a href="https://github.com/angelalim1010/InstaPet" target="_blank">
+                        <img src={InstaPetProject} alt="InstaPet"></img>
+                    </a>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
+                    <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, Json Web Tokens</p>
+                    <h6>Description:</h6>
+                    <p>Group project aimed to build an app like Instagram... but for pets.</p>
+                    <div
+                        style={{
+                            textAlign: 'center',
+                            marginBottom: '3px'
+                        }}
+                    >
+                        <a href="https://ttp-instapet.herokuapp.com/" target="_blank">
+                            <Button color="secondary">Demo</Button>
                         </a>
-                        <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>
-                            React.js, Node.js, NestJS, GraphQL, PostgreSQL, Json Web Tokens, Cookies
-                        </p>
-                        <h6>Description:</h6>
-                        <p>
-                            (In development!) App where users can join organizations and fulfill
-                            contracts others users put up to get points and be recognized
-                        </p>
-                        <div
-                            style={{
-                                textAlign: 'center',
-                                marginBottom: '3px'
-                            }}
-                        ></div>
-                    </div>
-                    <div className="instaPet-project col project" data-sal="zoom-out">
-                        <h4>InstaPet</h4>
-                        <a href="https://github.com/angelalim1010/InstaPet" target="_blank">
-                            <img src={InstaPetProject} alt="InstaPet"></img>
-                        </a>
-                        <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                        <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, Json Web Tokens</p>
-                        <h6>Description:</h6>
-                        <p>Group project aimed to build an app like Instagram... but for pets.</p>
-                        <div
-                            style={{
-                                textAlign: 'center',
-                                marginBottom: '3px'
-                            }}
-                        >
-                            <a href="https://ttp-instapet.herokuapp.com/" target="_blank">
-                                <Button color="secondary">Demo</Button>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>

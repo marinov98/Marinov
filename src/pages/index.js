@@ -1,22 +1,20 @@
+import 'animate.css/animate.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import { Scrollchor } from 'react-scrollchor';
+// Utility & Packages
+import { Button } from 'reactstrap';
+import Education from '../components/Eduction/Education';
+import NetlifyFooter from '../images/skills/netlify-footer.png';
+import About from './../components/About/About';
+import NavBar from './../components/NavBar/NavBar';
+import Projects from './../components/Projects/Projects';
+import Skills from './../components/Skills/Skills';
+// Components
+import Header from './header';
 // CSS
 import './index.css';
 import './queries.css';
-import 'animate.css/animate.min.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-// Components
-import Header from './header';
-import NavBar from './../components/NavBar/NavBar';
-import About from './../components/About/About';
-import Skills from './../components/Skills/Skills';
-import Projects from './../components/Projects/Projects';
-import Education from '../components/Eduction/Education';
-
-// Utility & Packages
-import { Button } from 'reactstrap';
-import { Scrollchor } from 'react-scrollchor';
-import NetlifyFooter from '../images/skills/netlify-footer.png';
 
 export default function IndexPage() {
     return (

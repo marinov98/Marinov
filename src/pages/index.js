@@ -39,21 +39,19 @@ export default function IndexPage() {
             </div>
             <Projects />
             <footer id="fter" className="row-fluid">
-                <div className="row">
-                    <div className="up-btn col-sm-1" data-sal="fade">
-                        <Scrollchor to="#index" animate={{ offset: 5, duration: 600 }}>
-                            <Button color="secondary" size="lg">
-                                ⇧
-                            </Button>
-                        </Scrollchor>
-                    </div>
-                    <div className="col-lg-10">
-                        <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
-                        <p>Powered By :</p>
-                        <a href="https://www.netlify.com/">
-                            <img src={NetlifyFooter}></img>
-                        </a>
-                    </div>
+                <div className="row-fluid copyright-netlify">
+                    <p>Copyright &copy; 2019 by Marin Marinov. All rights reserved</p>
+                    <p>Powered By :</p>
+                    <a href="https://www.netlify.com/">
+                        <img src={NetlifyFooter}></img>
+                    </a>
+                </div>
+                <div className="up-btn row-fluid" data-sal="fade">
+                    <Scrollchor to="#index" animate={{ offset: 5, duration: 600 }}>
+                        <Button color="secondary" size="lg">
+                            ⇧
+                        </Button>
+                    </Scrollchor>
                 </div>
             </footer>
         </div>

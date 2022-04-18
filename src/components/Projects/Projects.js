@@ -36,11 +36,11 @@ export default function Projects() {
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '3px'
+                            marginBottom: '7px'
                         }}
                     >
                         <a href="https://cluster-duck.herokuapp.com/login" target="_blank">
-                            <Button color="secondary">Demo</Button>
+                            <Button color="success">Demo</Button>
                         </a>
                     </div>
                 </div>
@@ -60,11 +60,11 @@ export default function Projects() {
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '3px'
+                            marginBottom: '7px'
                         }}
                     >
                         <a href="https://info-hawk.herokuapp.com/" target="_blank">
-                            <Button color="secondary">Demo</Button>
+                            <Button color="success">Demo</Button>
                         </a>
                     </div>
                 </div>
@@ -95,11 +95,11 @@ export default function Projects() {
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '3px'
+                            marginBottom: '7px'
                         }}
                     >
                         <a href="https://ttp-instapet.herokuapp.com/" target="_blank">
-                            <Button color="secondary">Demo</Button>
+                            <Button color="success">Demo</Button>
                         </a>
                     </div>
                 </div>
@@ -154,11 +154,11 @@ export default function Projects() {
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '3px'
+                            marginBottom: '7px'
                         }}
                     >
                         <a href="https://divine-and-healthy-foods.herokuapp.com/" target="_blank">
-                            <Button color="secondary">Demo</Button>
+                            <Button color="success">Demo</Button>
                         </a>
                     </div>
                 </div>
@@ -178,11 +178,11 @@ export default function Projects() {
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '3px'
+                            marginBottom: '7px'
                         }}
                     >
                         <a href="https://weather-guardian.herokuapp.com/" target="_blank">
-                            <Button color="secondary">Demo</Button>
+                            <Button color="success">Demo</Button>
                         </a>
                     </div>
                 </div>

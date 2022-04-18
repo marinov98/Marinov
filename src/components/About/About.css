@@ -1,4 +1,6 @@
 #about {
+    background-color: #282c34;
+    color: #ffff;
     margin-top: 70px;
 }
 
@@ -28,7 +30,7 @@
     background-color: rgba(255, 255, 255, 0.98);
     position: relative;
     color: #333;
-    border-bottom: 1px solid rgba(148, 147, 147, 0.98);
+    border-bottom: 1px solid #323741;
 }
 
 /* FANCY LINES */
@@ -45,8 +47,8 @@
     content: '';
     position: absolute;
     height: 5px;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     top: 0;
     width: 200px;
 }

@@ -1,8 +1,9 @@
 #education {
-    background: white;
-    color: #333;
+    opacity: 95%;
+    background-color: #282c34;
+    color: #ffff;
     padding-top: 55px;
-    border-bottom: 1px solid rgb(169, 169, 169);
+    border-bottom: 1px solid rgb(16, 33, 71);
 }
 
 .titles {
@@ -12,7 +13,7 @@
 .titles h5 {
     box-sizing: border-box;
     margin: 8px;
-    border-bottom: 1px solid rgb(66, 64, 64);
+    border-bottom: 1px solid rgb(188, 188, 188);
 }
 
 .education-title {

@@ -1,7 +1,6 @@
 /* ALL PROJECTS */
 #projects {
-    opacity: 95%;
-    background-color: rgb(255, 255, 255);
+    background-color: #282c34;
     color: #333;
 }
 
@@ -12,9 +11,10 @@
 
 .project {
     border-radius: 3%;
-    border: 5px solid rgb(248, 245, 245);
-    box-shadow: rgb(175, 175, 175) 0px 0px 2px 1px;
-    background-color: rgb(252, 250, 250);
+    border: 5px solid rgb(42, 47, 55);
+    box-shadow: rgb(24, 25, 30) 0px 0px 2px 1px;
+    background-color: #353a44;
+    color: white;
     margin: 5px;
 }
 

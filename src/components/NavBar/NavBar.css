@@ -1,6 +1,6 @@
 /*  Main - nav*/
 .nav-name h3 {
-    color: rgb(192, 50, 50);
+    color: rgb(48, 33, 33);
     font-size: 20px;
     padding-top: 22px;
     font-weight: 700;
@@ -19,7 +19,7 @@
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 6px 0;
-    color: #fff;
+    color: rgb(230, 230, 230);
     text-decoration: none;
     text-transform: uppercase;
     font-size: 80%;
@@ -37,8 +37,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(192, 50, 50);
-    box-shadow: 0 2px 2px #971b1b;
+    background-color: #223032;
+    box-shadow: 0 2px 2px #32363d;
     z-index: 9999;
 }
 
@@ -54,7 +54,7 @@
 
 .sticky .main-nav li a:active,
 .sticky .main-nav li a:hover {
-    color: #75131b;
+    color: #332b2c;
 }
 
 /* ICONS */

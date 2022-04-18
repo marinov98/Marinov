@@ -1,6 +1,6 @@
 import React from 'react';
+import headshot from '../../images/self/Cartoonify.png';
 import './About.css';
-import headshot from '../../images/self/headShot.png';
 
 export default function About() {
     return (
@@ -23,9 +23,8 @@ export default function About() {
                         <span>
                             I have worked as a math tutor, tutoring high school algebra and geometry
                             to multi-variable calculus . Now, I am building my career as a software
-                            developer, having interned at WeWork Labs and currently working
-                            full-time at Vanguard. I am very detail-oriented and committed to
-                            producing high-quality software to move the industry forward.
+                            developer, . I am very detail-oriented and committed to producing
+                            high-quality software to move the industry forward.
                         </span>
                     </p>
                 </div>

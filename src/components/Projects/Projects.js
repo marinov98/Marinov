@@ -19,12 +19,6 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
                         <img src={ClusterDuckProject} alt="Cluster Duck"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>
-                        MongoDB, React.js, Node.js, Express.js, Docker, Json Web tokens, Google
-                        Login API
-                    </p>
-                    <h6>Description:</h6>
                     <p>
                         {' '}
                         A social media app aimed at creating community in Hunter College ( maybe
@@ -33,6 +27,8 @@ export default function Projects() {
                         wish. Students can reply to one another, like each others post and view each
                         other's profiles
                     </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>MongoDB, React.js, Node.js, Express.js, Docker, JWT, Google Login API</p>
                     <div
                         style={{
                             textAlign: 'center',
@@ -49,14 +45,13 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/Info-Hawk" target="_blank">
                         <img src={InfoHawkProject} alt="Info-Hawk"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>MongoDB, EJS, Node.js, Express.js, Redis, Json Web tokens, Cookies</p>
-                    <h6>Description:</h6>
                     <p>
                         A Questionaire creator full-stack app aimed at reducing the time needed to
                         get information from one person to another. Users can create forms for
                         others to complete by either sending them an email or a copied link.{' '}
                     </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>MongoDB, EJS, Typescript, Node.js, Express.js, Redis, JWT, Auth Cookies</p>
                     <div
                         style={{
                             textAlign: 'center',
@@ -75,23 +70,32 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/bounty-house" target="_blank">
                         <img src={BountyHouseProject} alt="Bounty-House"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>React.js, Node.js, NestJS, GraphQL, PostgreSQL, Json Web Tokens, Cookies</p>
-                    <h6>Description:</h6>
                     <p>
                         (In development!) App where users can join organizations and fulfill
                         contracts others users put up to get points and be recognized
                     </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>React.js, Node.js, NestJS, GraphQL, PostgreSQL, JWT, Cookies</p>
+                    <div
+                        style={{
+                            textAlign: 'center',
+                            marginBottom: '7px'
+                        }}
+                    >
+                        <Button color="info">In Progress</Button>
+                    </div>
                 </div>
                 <div className="instaPet col project" data-sal="zoom-out">
                     <h4>InstaPet</h4>
                     <a href="https://github.com/angelalim1010/InstaPet" target="_blank">
                         <img src={InstaPetProject} alt="InstaPet"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, Json Web Tokens</p>
-                    <h6>Description:</h6>
-                    <p>Group project aimed to build an app like Instagram... but for pets.</p>
+                    <p>
+                        Group project aimed to build an app like Instagram... but for pets. Share
+                        your pictures and like other people's posts.
+                    </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, JWT</p>
                     <div
                         style={{
                             textAlign: 'center',
@@ -110,23 +114,32 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/Statistical_Calculator" target="_blank">
                         <img src={StatCalcProject} alt="stat calculator"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>C++, GNU Make/Cmake</p>
-                    <h6>Description:</h6>
                     <p>
                         Simple Terminal-based calculator that can calculate 1 & 2 variable
                         statistics confidence intervals,conduct hypothesis testing, and find
                         correlation coefficients.
                     </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>C++, GNU Make/Cmake</p>
+                    <div
+                        style={{
+                            textAlign: 'center',
+                            marginBottom: '7px'
+                        }}
+                    >
+                        <a
+                            href="https://github.com/marinov98/Statistical_Calculator"
+                            target="_blank"
+                        >
+                            <Button color="primary">Download</Button>
+                        </a>
+                    </div>
                 </div>
                 <div className="col dotfiles project" data-sal="zoom-out">
                     <h4>Dotfiles</h4>
                     <a href="https://github.com/marinov98/dotfiles" target="_blank">
                         <img src={DotFiles} alt="Dot files"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>Shell script, Vim script, Python, Emacs-lisp</p>
-                    <h6>Description:</h6>
                     <p>
                         A combination of '.' configuaration files and shell scripts. Contains my
                         configurations for{' '}
@@ -136,6 +149,18 @@ export default function Projects() {
                         development. Contains package install scripts compatible with Debian and
                         Arch-based Linux Distributions, Windows and MacOS.
                     </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>Shell script, Vim script, Python, Emacs-lisp</p>
+                    <div
+                        style={{
+                            textAlign: 'center',
+                            marginBottom: '7px'
+                        }}
+                    >
+                        <a href="https://github.com/marinov98/dotfiles" target="_blank">
+                            <Button color="primary">Download</Button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="row all-projects">
@@ -144,13 +169,12 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/divine-and-healthy-foods" target="_blank">
                         <img src={DivineFoodsProject} alt="Divine Foods"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>HTML5, CSS3, jQuery, Express</p>
-                    <h6>Description:</h6>
                     <p>
                         Responsive food ordering and delivery website for premium healthy food. Aims
                         to deliver healthy food fast. Contains its own plans and sign up forms.
                     </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>HTML5, CSS3, jQuery, Express</p>
                     <div
                         style={{
                             textAlign: 'center',
@@ -167,14 +191,13 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/big-red-hacks2019" target="_blank">
                         <img src={WeatherGuardianProject} alt="Weather Guardian"></img>
                     </a>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack:</h5>
-                    <p>Yarn, React.js, Node.js, Express.js, IBM weather API</p>
-                    <h6>Description:</h6>
                     <p>
                         App created to warn users if there has been a fire nearby and the wind is
                         blowing towards their direction. This knowledge is crucial if the user or
                         their family has asthma or live in an area that is susceptible to fire.{' '}
                     </p>
+                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
+                    <p>Yarn, React.js, Node.js, Express.js, IBM weather API</p>
                     <div
                         style={{
                             textAlign: 'center',

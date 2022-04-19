@@ -187,6 +187,49 @@ export default function Projects() {
                     </div>
                 </div>
             </div>
+            <div className="row all-projects">
+                <div class="col project card">
+                    <img class="card-img-top" src={ClusterDuckProject} alt="ClusterDuck" />
+                    <div class="card-body">
+                        <h4 class="card-title">ClusterDuck</h4>
+                        <p class="card-text">
+                            A social media app aimed at creating community in Hunter College ( maybe
+                            other colleges in the future) by allowing students to post
+                            questions/advice about computer science and tag their post with a
+                            specific class if they so wish. Students can reply to one another, like
+                            each others post and view each other's profiles
+                        </p>
+                        <h5 className="card-subtitle">Tech Stack</h5>
+                        <p>
+                            MongoDB, React.js, Node.js, Express.js, Docker, Json Web tokens, Google
+                            Login API
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://cluster-duck.herokuapp.com/login" target="_blank">
+                            <Button color="success">Demo</Button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col project card">
+                    <img class="card-img-top" src={InfoHawkProject} alt="Info-Hawk" />
+                    <div class="card-body">
+                        <h4 class="card-title">Info Hawk</h4>
+                        <p class="card-text">
+                            A Questionaire creator full-stack app aimed at reducing the time needed
+                            to get information from one person to another. Users can create forms
+                            for others to complete by either sending them an email or a copied link.{' '}
+                        </p>
+                        <h5 className="card-subtitle">Tech Stack</h5>
+                        <p>MongoDB, EJS, Node.js, Express.js, Redis, Json Web tokens, Cookies</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://cluster-duck.herokuapp.com/login" target="_blank">
+                            <Button color="success">Demo</Button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }

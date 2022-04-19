@@ -6,8 +6,8 @@ import DivineFoodsProject from '../../images/projects/divineFoods-logo.png';
 import DotFiles from '../../images/projects/dotfiles.png';
 import InfoHawkProject from '../../images/projects/info-hawk.jpg';
 import InstaPetProject from '../../images/projects/instapet.png';
+import SignLangTutorProject from '../../images/projects/sign-lang.jpg';
 import StatCalcProject from '../../images/projects/stat-logo.jpeg';
-import WeatherGuardianProject from '../../images/projects/weatherGuardian.svg';
 import './Projects.css';
 
 export default function Projects() {
@@ -65,24 +65,26 @@ export default function Projects() {
                 </div>
             </div>
             <div className="row all-projects">
-                <div className="bountyHouse col project" data-sal="zoom-out">
-                    <h4>Bounty House</h4>
-                    <a href="https://github.com/marinov98/bounty-house" target="_blank">
-                        <img src={BountyHouseProject} alt="Bounty-House"></img>
+                <div className="col sign-lang-tutor project" data-sal="zoom-out">
+                    <h4>Sign Language Tutor</h4>
+                    <a href="https://github.com/marinov98/Sign-Lang-Tutor" target="_blank">
+                        <img src={SignLangTutorProject} alt="Sign Language Tutor"></img>
                     </a>
                     <p>
-                        (In development!) App where users can join organizations and fulfill
-                        contracts others users put up to get points and be recognized
+                        A sign language education app aimed at teaching users the alphabet in sign
+                        language. Gain stars as you progress through each letter.{' '}
                     </p>
                     <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>React.js, Node.js, NestJS, GraphQL, PostgreSQL, JWT, Cookies</p>
+                    <p>Flask, Pytorch, React, MongoDB , Auth Cookies</p>
                     <div
                         style={{
                             textAlign: 'center',
                             marginBottom: '7px'
                         }}
                     >
-                        <Button color="info">In Progress</Button>
+                        <a href="https://sign-lang-tutor.herokuapp.com/" target="_blank">
+                            <Button color="success">Demo</Button>
+                        </a>
                     </div>
                 </div>
                 <div className="instaPet col project" data-sal="zoom-out">
@@ -186,27 +188,24 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="col weather-guardian project" data-sal="zoom-out">
-                    <h4>Weather Guardian</h4>
-                    <a href="https://github.com/marinov98/big-red-hacks2019" target="_blank">
-                        <img src={WeatherGuardianProject} alt="Weather Guardian"></img>
+                <div className="bountyHouse col project" data-sal="zoom-out">
+                    <h4>Bounty House</h4>
+                    <a href="https://github.com/marinov98/bounty-house" target="_blank">
+                        <img src={BountyHouseProject} alt="Bounty-House"></img>
                     </a>
                     <p>
-                        App created to warn users if there has been a fire nearby and the wind is
-                        blowing towards their direction. This knowledge is crucial if the user or
-                        their family has asthma or live in an area that is susceptible to fire.{' '}
+                        (In development!) App where users can join organizations and fulfill
+                        contracts others users put up to get points and be recognized
                     </p>
                     <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>Yarn, React.js, Node.js, Express.js, IBM weather API</p>
+                    <p>React.js, Node.js, NestJS, GraphQL, PostgreSQL, JWT, Cookies</p>
                     <div
                         style={{
                             textAlign: 'center',
                             marginBottom: '7px'
                         }}
                     >
-                        <a href="https://weather-guardian.herokuapp.com/" target="_blank">
-                            <Button color="success">Demo</Button>
-                        </a>
+                        <Button color="info">In Progress</Button>
                     </div>
                 </div>
             </div>

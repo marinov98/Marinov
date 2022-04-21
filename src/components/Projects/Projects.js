@@ -4,7 +4,7 @@ import BountyHouseProject from '../../images/projects/bounty-house.jpg';
 import ClusterDuckProject from '../../images/projects/clusterduck.png';
 import DivineFoodsProject from '../../images/projects/divineFoods-logo.png';
 import DotFiles from '../../images/projects/dotfiles.png';
-import InfoHawkProject from '../../images/projects/info-hawk.jpg';
+import InfoHawkProject from '../../images/projects/info-hawk.png';
 import InstaPetProject from '../../images/projects/instapet.png';
 import SignLangTutorProject from '../../images/projects/sign-lang.jpg';
 import StatCalcProject from '../../images/projects/stat-logo.jpeg';

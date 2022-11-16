@@ -497,7 +497,7 @@ export default function Skills() {
                             <li>
                                 <CircularProgressbar
                                     value={0}
-                                    text="PostreSQL"
+                                    text="PostgreSQL"
                                     strokeWidth={50}
                                     background
                                     styles={{

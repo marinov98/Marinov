@@ -14,7 +14,7 @@ export default function Projects() {
     return (
         <div id="projects">
             <div className="row all-projects">
-                <div className="col clusterDuck project left-side" data-sal="zoom-out">
+                <div className="col clusterDuck project" data-sal="zoom-out">
                     <h4>ClusterDuck</h4>
                     <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
                         <img src={ClusterDuckProject} alt="Cluster Duck"></img>

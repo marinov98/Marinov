@@ -5,7 +5,8 @@
 }
 
 .all-projects {
-    padding: 2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
     padding-top: 3rem;
 }
 
@@ -23,6 +24,10 @@
     padding-bottom: 2rem;
     font-size: 3rem;
     font-weight: 600;
+}
+
+.project p {
+    padding: 2rem;
 }
 
 .project h5 {

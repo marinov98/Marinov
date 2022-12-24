@@ -2,7 +2,9 @@
     opacity: 95%;
     background-color: #282c34;
     color: #ffff;
-    padding-top: 55px;
+    padding-top: 2.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     border-bottom: 1px solid rgb(16, 33, 71);
 }
 

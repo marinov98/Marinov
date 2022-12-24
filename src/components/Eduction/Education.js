@@ -1,15 +1,15 @@
 import React from 'react';
-import './Education.css';
+import daedalusLogo from '../../images/education/daedalus.png';
 import hunterLogo from '../../images/education/hunter-logo.png';
 import macaulayLogo from '../../images/education/macaulay-logo.png';
-import daedalusLogo from '../../images/education/daedalus.png';
+import './Education.css';
 
 export default function Education() {
     return (
         <div id="education" className="container-fluid">
             <h3 className="education-title">Education</h3>
             <div className="row titles">
-                <div className="col-sm college" data-sal="zoom-in">
+                <div className="col-sm awards college" data-sal="zoom-in">
                     <img src={hunterLogo}></img>
                     <h5>Hunter College</h5>
                     <p>

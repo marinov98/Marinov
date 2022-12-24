@@ -1,8 +1,8 @@
 /*  Main - nav*/
 .nav-name h3 {
-    color: rgb(48, 33, 33);
-    font-size: 20px;
-    padding-top: 22px;
+    color: rgb(230, 230, 230);
+    font-size: 1.5rem;
+    padding-top: 1rem;
     font-weight: 700;
 }
 
@@ -13,7 +13,7 @@
 
 .main-nav li {
     display: inline-block;
-    margin-top: 9px;
+    margin-top: 0.8rem;
 }
 
 .main-nav li a:link,
@@ -22,13 +22,13 @@
     color: rgb(230, 230, 230);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 85%;
     transition: border-bottom 0.8s, color 0.5s, font-size 0.5s;
 }
 
 .main-nav li a:active,
 .main-nav li a:hover {
-    font-size: 85%;
+    font-size: 95%;
 }
 
 /* Sticky navi */
@@ -59,9 +59,9 @@
 
 /* ICONS */
 .connect-icons {
-    margin-top: 5px;
+    margin-top: 0.85rem;
 }
 
 .connect-icons a {
-    margin-left: 10px;
+    margin-left: 0.65rem;
 }

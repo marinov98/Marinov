@@ -1,14 +1,9 @@
-/*small phones: up to 480px*/
 @media screen and (max-width: 480px) {
     /* General */
-    html {
-        font-size: 16px;
-    }
-
     /* NavBar */
 
     #navbar h3 {
-        font-size: 16px;
+        font-size: 1.2rem;
     }
 
     #navbar div {
@@ -20,26 +15,11 @@
     }
 
     .icon {
-        height: 30px;
-        width: 30px;
+        height: 2rem;
+        width: 2rem;
     }
 
     /* About */
-
-    .bio img {
-        height: 180px;
-        width: 180px;
-        margin-top: 20px;
-    }
-
-    .fancy span {
-        margin-bottom: 20px;
-    }
-
-    .fancy span:before,
-    span:after {
-        display: none;
-    }
 
     /* Education */
     #education img {
@@ -55,11 +35,11 @@
     /* Skills */
 
     #skills h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     #skills h5 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     #skills svg {
@@ -69,7 +49,7 @@
 
     /* Projects */
     #projects {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     #projects h4,
@@ -85,223 +65,63 @@
 
     /* Footer */
     footer {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     footer img {
-        height: 50px;
-        width: 50px;
+        height: 3.2rem;
+        width: 3.2rem;
     }
 
     .up-btn button {
-        height: 50px;
-        width: 50px;
-        font-size: 20px;
+        height: 3.1rem;
+        width: 3.1rem;
+        font-size: 1.25rem;
     }
 }
 
-/*small tablet to big tablet: from 480 to 767px  */
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    /* General */
+@media screen and (max-width: 820px) {
     html {
-        font-size: 16px;
+        font-size: 1rem;
+    }
+    .connect-icons a {
+        margin-left: 0.3rem;
     }
 
-    /* NavBar */
-    #navbar h3 {
-        font-size: 18px;
-    }
-
-    #navbar div {
-        display: block;
-    }
-
-    #navbar li {
-        display: none;
-    }
-
-    .icon {
-        height: 34px;
-        width: 34px;
-    }
-
-    /* About */
-    #about div {
-        margin-top: 10px;
+    .bio p {
+        font-size: 0.9rem;
     }
 
     .bio img {
-        height: 220px;
-        width: 220px;
-        margin-top: 20px;
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .awards img {
+        height: 10rem;
+        width: 10rem;
     }
 
     .fancy span {
-        margin-bottom: 20px;
+        margin-bottom: 1rem;
     }
 
     .fancy span:before,
     span:after {
         display: none;
     }
+}
 
-    /* Skills */
-    #skills h5 {
-        font-size: 20px;
-    }
-
-    #skills h3 {
-        font-size: 22px;
-    }
-
+@media screen and (min-width: 480px) and (max-width: 1021px) {
     #skills svg {
-        height: 60%;
-        width: 60%;
-    }
-
-    /* Footer */
-    footer {
-        font-size: 16px;
-    }
-
-    footer img {
-        height: 70px;
-        width: 70px;
-    }
-
-    .up-btn button {
-        height: 65px;
-        width: 65px;
-        font-size: 25px;
+        height: 10rem;
+        width: 10rem;
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1200px) {
-    .icon {
-        height: 28px;
-        width: 28px;
-        margin-right: -5px;
-    }
-
-    #skills h3 {
-        font-size: 24px;
-    }
-
-    #skills h5 {
-        font-size: 22px;
-    }
-
-    #skills svg {
-        height: 88px;
-        width: 88px;
-    }
-}
-
-@media screen and (min-width: 820px) and (max-width: 1171px) {
-    #skills h3 {
-        font-size: 24px;
-    }
-
-    #skills h5 {
-        font-size: 22px;
-    }
-
-    #skills svg {
-        height: 98px;
-        width: 98px;
-    }
-}
-
-/* big tablet to small laptop: from 1023 to 1323px */
-@media screen and (min-width: 1023px) and (max-width: 1323px) {
-    .icon {
-        height: 32px;
-        width: 32px;
-        margin-right: -5px;
-    }
-
-    #skills svg {
-        height: 120px;
-        width: 120px;
-    }
-}
-
-@media screen and (min-width: 1071px) and (max-width: 1323px) {
-    #skills svg {
-        height: 140px;
-        width: 140px;
-    }
-}
-
-/* Make image and paragraph on its own line when screen width is below 1323px */
-@media screen and (max-width: 1323px) {
-    #about div {
-        margin-top: 10px;
-        width: 100%;
-    }
-}
-
-/* Big widescreens */
-
-@media screen and (min-width: 1740px) {
-    #skills svg {
-        height: 160px;
-        width: 160px;
-    }
-}
-
-@media screen and (min-width: 2120px) {
-    /* General */
-    html {
-        font-size: 27px;
-    }
-
-    /* NAVBAR */
-    #navbar h3 {
-        font-size: 30px;
-    }
-
-    .icon {
-        height: 50px;
-        width: 50px;
-    }
-
-    /* ABOUT */
-
-    #about p {
-        font-size: 25px;
-    }
-
-    /* SKILLS */
+@media screen and (min-width: 1022px) and (max-width: 1323px) {
     #skills svg {
         height: 70%;
         width: 70%;
-    }
-
-    /* PROJECTS */
-    #projects h4,
-    #projects h5,
-    #projects h6 {
-        font-size: 130%;
-    }
-
-    #projects img {
-        height: 220px;
-        width: 232px;
-    }
-
-    /* FOOTER */
-    footer {
-        font-size: 26px;
-    }
-
-    footer img {
-        height: 110px;
-        width: 110px;
-    }
-
-    .up-btn button {
-        height: 90px;
-        width: 90px;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import './NavBar.css';
+import { LogoGithub, LogoLinkedin, MailOutline, NewspaperOutline } from 'react-ionicons';
 import { Scrollchor } from 'react-scrollchor';
-import { NewspaperOutline, MailOutline, LogoGithub, LogoLinkedin } from 'react-ionicons';
+import './NavBar.css';
 
 export default function NavBar() {
     return (
@@ -49,21 +49,31 @@ export default function NavBar() {
                         <NewspaperOutline
                             className="icon"
                             color="white"
-                            height="40px"
-                            width="40px"
+                            height="2.5rem"
+                            width="2.5rem"
                         />
                     </a>
                     <a href="https://github.com/marinov98" target="_blank">
-                        <LogoGithub className="icon" color="white" height="40px" width="40px" />
+                        <LogoGithub className="icon" color="white" height="2.5rem" width="2.5rem" />
                     </a>
                     <a href="https://www.linkedin.com/in/marin-p-marinov/" target="_blank">
-                        <LogoLinkedin className="icon" color="white" height="40px" width="40px" />
+                        <LogoLinkedin
+                            className="icon"
+                            color="white"
+                            height="2.5rem"
+                            width="2.5rem"
+                        />
                     </a>
                     <a
                         href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message"
                         target="_blank"
                     >
-                        <MailOutline className="icon" color="white" height="40px" width="40px" />
+                        <MailOutline
+                            className="icon"
+                            color="white"
+                            height="2.5rem"
+                            width="2.5rem"
+                        />
                     </a>
                 </div>
             </nav>

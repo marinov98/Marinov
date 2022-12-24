@@ -48,9 +48,7 @@ export default function IndexPage() {
                 </div>
                 <div className="up-btn row-fluid" data-sal="fade">
                     <Scrollchor to="#index" animate={{ offset: 5, duration: 600 }}>
-                        <Button color="secondary" size="lg">
-                            ⇧
-                        </Button>
+                        <Button color="secondary">⇧</Button>
                     </Scrollchor>
                 </div>
             </footer>

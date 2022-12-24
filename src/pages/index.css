@@ -41,22 +41,25 @@ h3 {
 
 footer {
     background-color: rgb(31, 34, 42);
-    padding: 10px;
+    padding: 1rem;
 }
 
 footer img {
-    height: 8vw;
-    width: 8vw;
+    height: 6rem;
+    width: 6rem;
 }
 
 .up-btn {
     border-radius: 20%;
     text-align: left;
-    margin: 5px;
+    margin: 0.5rem;
 }
 
 .up-btn button {
     background-color: rgb(45, 51, 63);
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
     transition: background-color 0.8s, color 0.5s;
 }
 

@@ -46,34 +46,19 @@ export default function NavBar() {
                         href="https://github.com/marinov98/Resume/blob/master/resume.pdf"
                         target="_blank"
                     >
-                        <NewspaperOutline
-                            className="icon"
-                            color="white"
-                            height="2.5rem"
-                            width="2.5rem"
-                        />
+                        <NewspaperOutline className="icon" color="white" />
                     </a>
                     <a href="https://github.com/marinov98" target="_blank">
-                        <LogoGithub className="icon" color="white" height="2.5rem" width="2.5rem" />
+                        <LogoGithub className="icon" color="white" />
                     </a>
                     <a href="https://www.linkedin.com/in/marin-p-marinov/" target="_blank">
-                        <LogoLinkedin
-                            className="icon"
-                            color="white"
-                            height="2.5rem"
-                            width="2.5rem"
-                        />
+                        <LogoLinkedin className="icon" color="white" />
                     </a>
                     <a
                         href="mailto:marin.marinov@macaulay.cuny.edu?subject = Feedback&body = Message"
                         target="_blank"
                     >
-                        <MailOutline
-                            className="icon"
-                            color="white"
-                            height="2.5rem"
-                            width="2.5rem"
-                        />
+                        <MailOutline className="icon" color="white" />
                     </a>
                 </div>
             </nav>

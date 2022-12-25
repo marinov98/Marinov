@@ -14,7 +14,7 @@ export default function Projects() {
     return (
         <div id="projects">
             <div className="row all-projects">
-                <div className="col clusterDuck project" data-sal="zoom-out">
+                <div className="clusterDuck col project" data-sal="zoom-out">
                     <h4>ClusterDuck</h4>
                     <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
                         <img src={ClusterDuckProject} alt="Cluster Duck"></img>
@@ -40,7 +40,7 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="col infoHawk project right-side" data-sal="zoom-out">
+                <div className="infoHawk col project" data-sal="zoom-out">
                     <h4>Info-Hawk</h4>
                     <a href="https://github.com/marinov98/Info-Hawk" target="_blank">
                         <img src={InfoHawkProject} alt="Info-Hawk"></img>

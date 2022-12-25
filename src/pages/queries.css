@@ -4,6 +4,7 @@
         margin-top: 1.5rem;
     }
 }
+
 @media screen and (max-width: 480px) {
     /* General */
     /* NavBar */
@@ -139,7 +140,6 @@
     .all-projects {
         padding-left: 3rem;
         padding-right: 3rem;
-        padding-top: 3rem;
     }
 }
 
@@ -147,5 +147,21 @@
     #skills svg {
         height: 70%;
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .all-projects {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .project p {
+        padding: 1rem;
+    }
+
+    #index {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }

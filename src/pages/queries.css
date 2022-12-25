@@ -150,6 +150,17 @@
     }
 }
 
+@media screen and (min-width: 990px) and (max-width: 1323px) {
+    #navbar h3 {
+        font-size: 1.1rem;
+    }
+
+    .icon svg {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+
 @media screen and (max-width: 1580px) {
     .all-projects {
         padding-left: 1rem;

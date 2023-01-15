@@ -1,5 +1,5 @@
 import React from 'react';
-import headshot from '../../images/self/Cartoonify.png';
+import headshot from '../../images/self/ai_self.jpg';
 import './About.css';
 
 export default function About() {

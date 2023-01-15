@@ -29,6 +29,10 @@
         width: 45%;
     }
 
+    .awards {
+        margin-bottom: 3rem;
+    }
+
     #education p,
     #education h5 {
         font-size: 95%;
@@ -46,7 +50,7 @@
 
     #skills svg {
         height: 70%;
-        width: 70%;
+        width: 60%;
     }
 
     /* Projects */

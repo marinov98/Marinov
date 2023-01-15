@@ -19,16 +19,6 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/Cluster-Duck" target="_blank">
                         <img src={ClusterDuckProject} alt="Cluster Duck"></img>
                     </a>
-                    <p>
-                        {' '}
-                        A social media app aimed at creating community in Hunter College ( maybe
-                        other colleges in the future) by allowing students to post questions/advice
-                        about computer science and tag their post with a specific class if they so
-                        wish. Students can reply to one another, like each others post and view each
-                        other's profiles
-                    </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>MongoDB, React.js, Node.js, Express.js, Docker, JWT, Google Login API</p>
                     <div
                         style={{
                             textAlign: 'center',
@@ -39,19 +29,22 @@ export default function Projects() {
                             <Button color="success">Demo</Button>
                         </a>
                     </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>MongoDB, React.js, Node.js, Express.js, Docker, JWT, Google Login API</p>
+                    <p>
+                        {' '}
+                        A social media app aimed at creating community in Hunter College ( maybe
+                        other colleges in the future) by allowing students to post questions/advice
+                        about computer science and tag their post with a specific class if they so
+                        wish. Students can reply to one another, like each others post and view each
+                        other's profiles
+                    </p>
                 </div>
                 <div className="infoHawk col project" data-sal="zoom-out">
                     <h4>Info-Hawk</h4>
                     <a href="https://github.com/marinov98/Info-Hawk" target="_blank">
                         <img src={InfoHawkProject} alt="Info-Hawk"></img>
                     </a>
-                    <p>
-                        A Questionaire creator full-stack app aimed at reducing the time needed to
-                        get information from one person to another. Users can create forms for
-                        others to complete by either sending them an email or a copied link.{' '}
-                    </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>MongoDB, EJS, Typescript, Node.js, Express.js, Redis, JWT, Auth Cookies</p>
                     <div
                         style={{
                             textAlign: 'center',
@@ -62,6 +55,13 @@ export default function Projects() {
                             <Button color="success">Demo</Button>
                         </a>
                     </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>MongoDB, EJS, Typescript, Node.js, Express.js, Redis, JWT, Auth Cookies</p>
+                    <p>
+                        A Questionaire creator full-stack app aimed at reducing the time needed to
+                        get information from one person to another. Users can create forms for
+                        others to complete by either sending them an email or a copied link.{' '}
+                    </p>
                 </div>
             </div>
             <div className="row all-projects">
@@ -70,44 +70,44 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/Sign-Lang-Tutor" target="_blank">
                         <img src={SignLangTutorProject} alt="Sign Language Tutor"></img>
                     </a>
-                    <p>
-                        A sign language education app aimed at teaching users the alphabet in sign
-                        language. Gain stars as you progress through each letter.{' '}
-                    </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>Flask, Pytorch, React, MongoDB , Auth Cookies</p>
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '7px'
+                            marginBottom: '0.1rem'
                         }}
                     >
                         <a href="https://sign-lang-tutor.herokuapp.com/" target="_blank">
                             <Button color="success">Demo</Button>
                         </a>
                     </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>Flask, Pytorch, React, MongoDB , Auth Cookies</p>
+                    <p>
+                        A sign language education app aimed at teaching users the alphabet in sign
+                        language. Gain stars as you progress through each letter.{' '}
+                    </p>
                 </div>
                 <div className="instaPet col project" data-sal="zoom-out">
                     <h4>InstaPet</h4>
                     <a href="https://github.com/angelalim1010/InstaPet" target="_blank">
                         <img src={InstaPetProject} alt="InstaPet"></img>
                     </a>
-                    <p>
-                        Group project aimed to build an app like Instagram... but for pets. Share
-                        your pictures and like other people's posts.
-                    </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, JWT</p>
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '7px'
+                            marginBottom: '0.1rem'
                         }}
                     >
                         <a href="https://ttp-instapet.herokuapp.com/" target="_blank">
                             <Button color="success">Demo</Button>
                         </a>
                     </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>React.js, Redux.js, Node.js, Express.js, PostreSQL, JWT</p>
+                    <p>
+                        Group project aimed to build an app like Instagram... but for pets. Share
+                        your pictures and like other people's posts.
+                    </p>
                 </div>
             </div>
             <div className="row all-projects">
@@ -116,17 +116,10 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/Statistical_Calculator" target="_blank">
                         <img src={StatCalcProject} alt="stat calculator"></img>
                     </a>
-                    <p>
-                        Simple Terminal-based calculator that can calculate 1 & 2 variable
-                        statistics confidence intervals,conduct hypothesis testing, and find
-                        correlation coefficients.
-                    </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>C++, GNU Make/Cmake</p>
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '7px'
+                            marginBottom: '0.1rem'
                         }}
                     >
                         <a
@@ -136,12 +129,31 @@ export default function Projects() {
                             <Button color="primary">Download</Button>
                         </a>
                     </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>C++, GNU Make/Cmake</p>
+                    <p>
+                        Simple Terminal-based calculator that can calculate 1 & 2 variable
+                        statistics confidence intervals,conduct hypothesis testing, and find
+                        correlation coefficients.
+                    </p>
                 </div>
                 <div className="col dotfiles project" data-sal="zoom-out">
                     <h4>Dotfiles</h4>
                     <a href="https://github.com/marinov98/dotfiles" target="_blank">
                         <img src={DotFiles} alt="Dot files"></img>
                     </a>
+                    <div
+                        style={{
+                            textAlign: 'center',
+                            marginBottom: '0.1rem'
+                        }}
+                    >
+                        <a href="https://github.com/marinov98/dotfiles" target="_blank">
+                            <Button color="primary">Download</Button>
+                        </a>
+                    </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>Shell script, Vim script, Python, Emacs-lisp</p>
                     <p>
                         A combination of '.' configuaration files and shell scripts. Contains my
                         configurations for{' '}
@@ -151,18 +163,6 @@ export default function Projects() {
                         development. Contains package install scripts compatible with Debian and
                         Arch-based Linux Distributions, Windows and MacOS.
                     </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>Shell script, Vim script, Python, Emacs-lisp</p>
-                    <div
-                        style={{
-                            textAlign: 'center',
-                            marginBottom: '7px'
-                        }}
-                    >
-                        <a href="https://github.com/marinov98/dotfiles" target="_blank">
-                            <Button color="primary">Download</Button>
-                        </a>
-                    </div>
                 </div>
             </div>
             <div className="row all-projects">
@@ -171,42 +171,42 @@ export default function Projects() {
                     <a href="https://github.com/marinov98/divine-and-healthy-foods" target="_blank">
                         <img src={DivineFoodsProject} alt="Divine Foods"></img>
                     </a>
-                    <p>
-                        Responsive food ordering and delivery website for premium healthy food. Aims
-                        to deliver healthy food fast. Contains its own plans and sign up forms.
-                    </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>HTML5, CSS3, jQuery, Express</p>
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '7px'
+                            marginBottom: '0.1rem'
                         }}
                     >
                         <a href="https://divine-and-healthy-foods.herokuapp.com/" target="_blank">
                             <Button color="success">Demo</Button>
                         </a>
                     </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>HTML5, CSS3, jQuery, Express</p>
+                    <p>
+                        Responsive food ordering and delivery website for premium healthy food. Aims
+                        to deliver healthy food fast. Contains its own plans and sign up forms.
+                    </p>
                 </div>
                 <div className="bountyHouse col project" data-sal="zoom-out">
                     <h4>Bounty House</h4>
                     <a href="https://github.com/marinov98/bounty-house" target="_blank">
                         <img src={BountyHouseProject} alt="Bounty-House"></img>
                     </a>
-                    <p>
-                        (In development!) App where users can join organizations and fulfill
-                        contracts others users put up to get points and be recognized
-                    </p>
-                    <h5 style={{ marginTop: '7px' }}>Tech Stack</h5>
-                    <p>React.js, Node.js, NestJS, GraphQL, PostgreSQL, JWT, Cookies</p>
                     <div
                         style={{
                             textAlign: 'center',
-                            marginBottom: '7px'
+                            marginBottom: '0.1rem'
                         }}
                     >
                         <Button color="info">In Progress</Button>
                     </div>
+                    <h5 style={{ marginTop: '0.1rem' }}>Tech Stack</h5>
+                    <p>React.js, Node.js, NestJS, GraphQL, PostgreSQL, JWT, Cookies</p>
+                    <p>
+                        (In development!) App where users can join organizations and fulfill
+                        contracts others users put up to get points and be recognized
+                    </p>
                 </div>
             </div>
         </div>
